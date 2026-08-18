@@ -1,9 +1,0 @@
-# Kelulusan dan Wisuda
-
-<!-- {{< include _a_admission.qmd >}} -->
-
-{{< include _b_post_defend.qmd >}}
-
-{{< include _c_graduation.qmd >}}
-
-{{< include _d_correspondence.qmd >}}

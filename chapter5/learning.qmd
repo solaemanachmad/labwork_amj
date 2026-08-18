@@ -1,9 +1,0 @@
-# Pembelajaran {#sec-learning}
-
-<!-- {{< include _a_system.qmd >}} -->
-
-<!-- {{< include _b_credit.qmd >}} -->
-
-<!-- {{< include _c_evaluation.qmd >}} -->
-
-<!-- {{< include _d_student_eval.qmd >}} -->

@@ -1,105 +1,11 @@
 {
   "index.qmd": {
-    "index.html": "94e48948",
-    "index.tex": "74bb7bf3"
-  },
-  "front/a_editor.qmd": {
-    "a_editor.html": "c2d9be2c"
-  },
-  "front/b_preface.qmd": {
-    "b_preface.html": "d8aa17b4"
-  },
-  "front/c_glossary.qmd": {
-    "c_glossary.html": "f54cad7b"
-  },
-  "chapter1/introduction.qmd": {
-    "introduction.html": "f68cbe26"
-  },
-  "chapter2/curricula.qmd": {
-    "curricula.html": "3f994d65"
-  },
-  "chapter4/thesis.qmd": {
-    "thesis.html": "42959ba4"
-  },
-  "chapter6/sop.qmd": {
-    "sop.html": "760a7ee9"
-  },
-  "chapter7/services.qmd": {
-    "services.html": "c770911a"
-  },
-  "appendix/a_cooperation.qmd": {
-    "a_cooperation.html": "406439ac"
-  },
-  "appendix/b_lecturers.qmd": {
-    "b_lecturers.html": "7b9dac54"
-  },
-  "appendix/c_ewmp.qmd": {
-    "c_ewmp.html": "3e409bab"
-  },
-  "appendix/d_tendik.qmd": {
-    "d_tendik.html": "693ef2dd"
-  },
-  "appendix/e_facilities.qmd": {
-    "e_facilities.html": "b2819c4d"
-  },
-  "appendix/f_org.qmd": {
-    "f_org.html": "ed049ce5"
-  },
-  "appendix/h_kbk.qmd": {
-    "h_kbk.html": "2a65b857"
-  },
-  "404.qmd": {
-    "404.html": "7e9be254"
-  },
-  "chapter7/correspondence/absence/index.qmd": {
-    "index.html": "783b80c3"
-  },
-  "appendix/g_finance.qmd": {
-    "g_finance.html": "a88a0bc0"
-  },
-  "chapter3/transition.qmd": {
-    "transition.html": "defc335b"
-  },
-  "chapter5/learning.qmd": {
-    "learning.html": "b3d7a99e"
-  },
-  "chapter7/correspondence/gap/index.qmd": {
-    "index.html": "ad121b93"
-  },
-  "chapter8/conclusion.qmd": {
-    "conclusion.html": "05aa1b79"
-  },
-  "chapter7/correspondence/attendance/index.qmd": {
-    "index.html": "7fd10697"
-  },
-  "chapter7/correspondence/completion_letter/index.qmd": {
-    "index.html": "7fbf5699"
-  },
-  "chapter7/correspondence/judicium_letter/index.qmd": {
-    "index.html": "74715db3"
-  },
-  "chapter7/correspondence/makeup_exam/index.qmd": {
-    "index.html": "3f38851f"
-  },
-  "chapter7/correspondence/thesis_amanment/index.qmd": {
-    "index.html": "2a4d3e69"
-  },
-  "chapter7/correspondence/study_extend/index.qmd": {
-    "index.html": "3e72bf73"
-  },
-  "chapter7/correspondence/ethic_clearance/index.qmd": {
-    "index.html": "dd205303"
-  },
-  "chapter7/correspondence/graduation_doc/index.qmd": {
-    "index.html": "e35444d9"
-  },
-  "chapter7/correspondence/skpi/index.qmd": {
-    "index.html": "ce5859cf"
-  },
-  "chapter7/correspondence/recomendation_letter/index.qmd": {
-    "index.html": "f446a6fc"
+    "index.html": "75b0d6d7"
   },
   "chapter1/ubuntuserver_installation.qmd": {
-    "ubuntuserver_installation.html": "e28bbf5c"
+    "ubuntuserver_installation.html": "b28b936d"
+  },
+  "404.qmd": {
+    "404.html": "8656c68e"
   }
 }

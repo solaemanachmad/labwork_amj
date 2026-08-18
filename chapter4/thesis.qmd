@@ -1,9 +1,0 @@
-# Pengusulan, Pelaksanaan, dan Ujian Tesis {#sec-thesis}
-
-<!-- {{< include _a_proposal.qmd >}} -->
-
-<!-- {{< include _b_writing.qmd >}} -->
-
-{{< include _c_supervisor.qmd >}}
-
-{{< include _d_defend.qmd >}}
