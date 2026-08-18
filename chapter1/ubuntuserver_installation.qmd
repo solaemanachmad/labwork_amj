@@ -126,7 +126,7 @@ Power off the Ubuntu Server VM you just installed before changing its network se
 The IP address obtained on the `enp0s8` adapter (e.g. `192.168.56.104`) will be used to access this Ubuntu Server instance in later steps of the practicum. Write it down before continuing.
 :::
 
-### Exercise
+## Exercise !!!
 
 Try the commands listed in @tbl-linuxcommand, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.
 
