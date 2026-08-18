@@ -34,6 +34,44 @@ $footer-fg:     #f2f2f2;
 
 /*-- scss:rules --*/
 
+/* Samakan warna tautan yang sudah dibuka (":visited") dengan identitas
+   navy/emas, alih-alih ungu bawaan browser (~#551A8B). */
+a,
+a:link {
+  color: $ugm-navy;
+}
+
+a:visited {
+  color: $ugm-navy-600;
+}
+
+a:hover,
+a:focus {
+  color: $ugm-gold-600;
+}
+
+/* ===== Judul buku & navigasi sidebar =====
+   Aturan "a { color: navy }" di atas membuat SEMUA tautan sidebar
+   (judul buku, "Preface", tiap bab) berwarna sama persis, sehingga
+   halaman yang sedang aktif tidak kelihatan bedanya dengan yang lain.
+   Di sini judul & item sidebar dinetralkan ke warna teks biasa, lalu
+   hanya bab/bagian yang sedang aktif diberi warna emas + tebal supaya
+   posisi baca jelas terlihat — konsisten dengan perlakuan di tema
+   gelap (themedark.scss). */
+.sidebar-title,
+.sidebar-title a,
+#quarto-sidebar a {
+  color: $ugm-ink !important;
+}
+
+#quarto-sidebar a:hover {
+  color: $ugm-navy !important;
+}
+
+#quarto-sidebar a.active {
+  color: $ugm-gold-600 !important;
+}
+
 /* ===== Kotak instruksi Git (render-commit-push & pull) ===== */
 .render-commit-push,
 .pull {

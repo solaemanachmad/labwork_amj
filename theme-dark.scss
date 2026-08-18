@@ -31,7 +31,12 @@ $footer-bg: $ugm-navy-panel;
 $navbar-bg: $ugm-navy-panel;
 $sidebar-bg: $ugm-navy-panel;
 
-// Code blocks
+// Code blocks & inline code (`like this`)
+// Default Bootstrap/cosmo dark code color is a low-contrast purple
+// (#7d12ba) that all but disappears on our navy background — swap it
+// for gold so inline commands stay legible.
+$code-color: $ugm-gold;
+$code-bg: $ugm-navy-input;
 $code-block-bg-alpha: -.8;
 
 // Bootstrap popovers
@@ -55,6 +60,64 @@ $form-control-border-color: $light;
 
 .layout-example {
   background: $gray-700;
+}
+
+/* ===== Perbaikan warna ungu bawaan browser & syntax highlighting ====
+   Browser secara default mewarnai tautan yang sudah pernah dibuka
+   (":visited") dengan ungu tua (~#551A8B) — hampir tidak terlihat di
+   atas latar navy gelap. Begitu juga beberapa token kode ("pp"/"wa")
+   pada tema highlighting bawaan Quarto memakai lavender pucat. Semua
+   diseragamkan ke emas/oranye atau putih agar tetap terbaca. */
+a,
+a:link {
+  color: $ugm-gold;
+}
+
+a:visited {
+  color: $ugm-gold-600;
+}
+
+a:hover,
+a:focus {
+  color: #ffffff;
+}
+
+:root {
+  --quarto-hl-pp-color: #{$ugm-gold};
+  --quarto-hl-wa-color: #{$ugm-gold};
+  --bs-code-color: #{$ugm-gold};
+}
+
+/* Safety net: force inline `code` spans (outside fenced code blocks)
+   to gold-on-navy-tint, in case the bslib $code-color variable above
+   doesn't fully propagate to every derived rule. */
+p code,
+li code,
+td code,
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code,
+.callout code,
+blockquote code {
+  color: $ugm-gold !important;
+  background-color: $ugm-navy-input !important;
+}
+
+/* ===== Judul buku & navigasi sidebar: kembali ke putih =====
+   Aturan "a { color: gold }" di atas ikut mewarnai judul buku dan
+   seluruh tautan di sidebar kiri (padahal itu navigasi, bukan tautan
+   isi). Dikembalikan ke putih/abu terang; hanya bab/bagian yang
+   sedang aktif tetap ditandai emas supaya posisi masih terlihat. */
+.sidebar-title,
+.sidebar-title a,
+#quarto-sidebar a {
+  color: #ffffff !important;
+}
+
+#quarto-sidebar a:hover {
+  color: $ugm-gold !important;
+}
+
+#quarto-sidebar a.active {
+  color: $ugm-gold !important;
 }
 
 /* ===== Kotak instruksi Git (render-commit-push & pull) ===== */
@@ -157,6 +220,24 @@ table thead th {
 
 .form-select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+}
+
+/* ===== Table of Contents kanan (doc-toc) — kontras mode gelap ===== */
+nav[role="doc-toc"] a,
+#quarto-toc a {
+  color: #b0c4de !important; /* biru-abu terang, cukup kontras di latar navy */
+}
+
+nav[role="doc-toc"] a:hover,
+#quarto-toc a:hover {
+  color: $ugm-gold !important;
+}
+
+nav[role="doc-toc"] a.active,
+#quarto-toc a.active {
+  color: $ugm-gold !important;
+  border-left: 2px solid $ugm-gold;
+  padding-left: 0.4em;
 }
 
 /* ===== Language Toggle (ID | EN) — capsule, mode gelap ===== */
