@@ -4,27 +4,52 @@
 
 $font-family: "Atkinson Hyperlegible", sans-serif;
 
-// Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #75AADB;
+// ================================================================
+// PALET WARNA (mode gelap) — Identitas Program Studi Teknologi
+// Rekayasa Internet (TRI), Sekolah Vokasi UGM.
+//
+// Mengikuti warna resmi UGM (biru navy / UGM Blue & emas / UGM
+// Gold), disesuaikan agar tetap kontras & nyaman dibaca di latar
+// gelap. Ganti dengan kode HEX resmi UGM apabila tersedia.
+// ================================================================
+$ugm-navy-bg:    #0C1524; // latar utama — hampir hitam, bernuansa navy
+$ugm-navy-panel: #14213D; // navbar, sidebar, footer
+$ugm-navy-input: #16213E; // input, popover
+$ugm-gold:       #E3B54F; // emas — aksen & link (kontras tinggi di gelap)
+$ugm-gold-600:   #C99A2E; // emas lebih gelap (hover/border)
+$ugm-gold-100:   rgba(227, 181, 79, 0.16); // tint emas transparan
 
-$light: #525252;
+// Base document colors
+$body-bg: $ugm-navy-bg;
+$body-color: #EDEDED;
+$link-color: $ugm-gold;
+
+$light: #3A4B66;
 
 // Navigation element colors
-$footer-bg: #181818;
-$navbar-bg: #303030;
-$sidebar-bg: #303030;
+$footer-bg: $ugm-navy-panel;
+$navbar-bg: $ugm-navy-panel;
+$sidebar-bg: $ugm-navy-panel;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
 
 // Bootstrap popovers
-$popover-bg: #242424;
+$popover-bg: $ugm-navy-input;
 
 // Bootstrap inputs
-$input-bg: #242424;
+$input-bg: $ugm-navy-input;
 
+$input-group-addon-bg: $input-bg;
+$input-group-addon-color: $body-color;
+
+$form-select-bg: $input-bg;
+$form-select-color: $body-color;
+$form-select-indicator-color: $body-color;
+
+$form-control-bg: $input-bg;
+$form-control-color: $body-color;
+$form-control-border-color: $light;
 
 /*-- scss:rules --*/
 
@@ -32,28 +57,30 @@ $input-bg: #242424;
   background: $gray-700;
 }
 
-.render-commit-push {
-  padding: 0.5em 0.5em 0em 3em;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background: #181818 5px center/3em no-repeat;
-  border-top: 1px solid #adadad;
-  border-bottom: 1px solid #adadad;
-  background-image: url("images/render-commit-push.png");
-  background-size: 2em;
-  background-position: 0.5em 0.5em;
-}
-
+/* ===== Kotak instruksi Git (render-commit-push & pull) ===== */
+.render-commit-push,
 .pull {
   padding: 0.5em 0.5em 0em 3em;
   margin-top: 5px;
   margin-bottom: 5px;
-  background: #181818 5px center/3em no-repeat;
-  border-top: 1px solid #adadad;
-  border-bottom: 1px solid #adadad;
-  background-image: url("images/pull.png");
+  background-repeat: no-repeat;
   background-size: 2em;
   background-position: 0.5em 0.5em;
+  border-radius: 6px;
+}
+
+.render-commit-push {
+  background-color: $ugm-navy-input;
+  border-top: 1px solid $ugm-gold-600;
+  border-bottom: 1px solid $ugm-gold-600;
+  background-image: url("images/render-commit-push.png");
+}
+
+.pull {
+  background-color: $ugm-gold-100;
+  border-top: 1px solid $ugm-gold;
+  border-bottom: 1px solid $ugm-gold;
+  background-image: url("images/pull.png");
 }
 
 .quarto-dark img.sidebar-logo {
@@ -62,26 +89,91 @@ $input-bg: #242424;
 
 .table thead th,
 table thead th {
-  background-color: #2C3E50 !important;  
-  color: #ffffff !important;             
+  background-color: $ugm-navy-panel !important;
+  color: $ugm-gold !important;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #222222 !important;
+  background-color: #101a2c !important;
 }
 
-.nav-tabs .nav-link.active, 
+.tabel-staf-kbk tr:hover {
+  background-color: $ugm-gold-100 !important;
+}
+
+.nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #ffffff !important;
-  background-color: #303030 !important; 
-  border-color: #525252 #525252 #181818 !important;
+  background-color: $ugm-navy-panel !important;
+  border-color: $light $light $ugm-navy-bg !important;
 }
 
 .nav-tabs .nav-link:hover {
-  color: #ffffff !important;
-  border-color: #525252 #525252 transparent !important;
+  color: $ugm-gold !important;
+  border-color: $light $light transparent !important;
 }
 
 .nav-tabs .nav-link {
   color: #b0b0b0 !important;
+}
+
+.img-circle,
+.img-circle-staf {
+  border-color: $ugm-gold-600 !important;
+}
+
+.lab-card {
+  border-top-color: $ugm-gold-600 !important;
+
+  &:hover {
+    border-top-color: $ugm-gold !important;
+    box-shadow: 0 4px 14px rgba(227, 181, 79, 0.18) !important;
+  }
+
+  i.bi {
+    color: $ugm-gold !important;
+  }
+}
+
+// Fix ikon sort/filter pada listing grid (type: grid, sort-ui, filter-ui)
+.quarto-listing-filter .input-group-text,
+.quarto-listing-sort .input-group-text {
+  background-color: $input-bg !important;
+  color: $body-color !important;
+  border-color: $light !important;
+}
+
+.quarto-listing-filter .form-control,
+.quarto-listing-sort .form-select {
+  background-color: $input-bg !important;
+  color: $body-color !important;
+  border-color: $light !important;
+}
+
+.quarto-listing-filter .bi,
+.quarto-listing-sort .bi {
+  color: $body-color !important;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+}
+
+/* ===== Language Toggle (ID | EN) — capsule, mode gelap ===== */
+#lang-toggle {
+  background-color: $ugm-navy-input !important;
+  border: 1px solid $light !important;
+}
+
+#lang-toggle button {
+  color: #b0b0b0 !important;
+}
+
+#lang-toggle button:hover:not(.active) {
+  color: $ugm-gold !important;
+}
+
+#lang-toggle button.active {
+  background-color: $ugm-gold-600 !important;
+  color: $ugm-navy-bg !important;
 }

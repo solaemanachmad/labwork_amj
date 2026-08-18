@@ -10,88 +10,88 @@ project:
 
 
 language:
-  crossref-fig-title: "Gambar"
-  crossref-tbl-title: "Tabel"
-  crossref-fig-prefix: "Gambar"
-  crossref-tbl-prefix: "Tabel"
-  appendix-title: "Lampiran"
+  crossref-fig-title: "Figure"
+  crossref-tbl-title: "Table"
+  crossref-fig-prefix: "Figure"
+  crossref-tbl-prefix: "Table"
+  appendix-title: "Appendix"
   appendix-delim: "."
-  crossref-sec-prefix: "Bagian"
-  crossref-ch-prefix: "Bab"
-  section-title-appendices: "Lampiran"
-  appendix-prefix: "Lampiran"
+  crossref-sec-prefix: "Section"
+  crossref-ch-prefix: "Chapter"
+  section-title-appendices: "Appendices"
+  appendix-prefix: "Appendix"
 
 
 book:
-  title: "Buku Panduan Akademik"
-  language: id
-  author: "Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
-  date: "2026-02-16"
-  description: "Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada."
+  title: "Network Administration and Management Lab. Work"
+  language: en
+  author: "Achmad Solaeman, S.Tr.T., M.Eng."
+  date: "2026-08-16"
+  description: "Department of Electrical Engineering and Informatics, Universitas Gadjah Mada."
   repo-url: https://github.com/
   # repo-actions: [edit, issue]
-  
+
   sidebar:
     style: "docked"
     background: "#D9E3E4"
     logo: "images/logo.png"
     search: true
     collapse-level: 1
-    pinned: true 
+    pinned: true
     tools:
       # - icon: twitter
       #   href: https://twitter.com
       - icon: file-pdf
-        href: "Buku-Panduan-Akademik.pdf"
-        text: "Cetak / PDF"
+        href: "Network-Administration-and-Management-Lab.-Work.pdf"
+        text: "Print / PDF"
 
   chapters:
     - index.qmd
-    - front/a_editor.qmd
-    - front/b_preface.qmd
-    - front/c_glossary.qmd
-    - chapter1/introduction.qmd
-    - chapter2/curricula.qmd
+    # - front/a_editor.qmd
+    # - front/b_preface.qmd
+    # - front/c_glossary.qmd
+    - chapter1/ubuntuserver_installation.qmd
+    # - chapter2/curricula.qmd
     # - chapter3/transition.qmd
-    - chapter4/thesis.qmd
+    # - chapter4/thesis.qmd
     # - chapter5/learning.qmd
-    - chapter6/sop.qmd
+    # - chapter6/sop.qmd
     # - chapter7/services.qmd
     # - chapter8/conclusion.qmd
-    - part: chapter7/services.qmd
-      chapters:
-        - chapter7/correspondence/absence/index.qmd
-        - chapter7/correspondence/gap/index.qmd
-        - chapter7/correspondence/attendance/index.qmd
-        - chapter7/correspondence/completion_letter/index.qmd
-        - chapter7/correspondence/judicium_letter/index.qmd
-        - chapter7/correspondence/makeup_exam/index.qmd
-        - chapter7/correspondence/thesis_amanment/index.qmd
-        - chapter7/correspondence/study_extend/index.qmd
-        - chapter7/correspondence/ethic_clearance/index.qmd 
-        - chapter7/correspondence/graduation_doc/index.qmd
-        - chapter7/correspondence/skpi/index.qmd
-        - chapter7/correspondence/recomendation_letter/index.qmd
+    # - part: chapter7/services.qmd
+      # chapters:
+        # - chapter7/correspondence/absence/index.qmd
+        # - chapter7/correspondence/gap/index.qmd
+        # - chapter7/correspondence/attendance/index.qmd
+        # - chapter7/correspondence/completion_letter/index.qmd
+        # - chapter7/correspondence/judicium_letter/index.qmd
+        # - chapter7/correspondence/makeup_exam/index.qmd
+        # - chapter7/correspondence/thesis_amanment/index.qmd
+        # - chapter7/correspondence/study_extend/index.qmd
+        # - chapter7/correspondence/ethic_clearance/index.qmd
+        # - chapter7/correspondence/graduation_doc/index.qmd
+        # - chapter7/correspondence/skpi/index.qmd
+        # - chapter7/correspondence/recomendation_letter/index.qmd
 
-  appendices: 
-    - appendix/a_cooperation.qmd
-    - appendix/b_lecturers.qmd
-    - appendix/c_ewmp.qmd
-    - appendix/d_tendik.qmd
-    - appendix/e_facilities.qmd
-    - appendix/f_org.qmd
-    # - appendix/g_finance.qmd
-    - appendix/h_kbk.qmd
+  # appendices:
+    # - appendix/a_cooperation.qmd
+    # - appendix/b_lecturers.qmd
+    # - appendix/c_ewmp.qmd
+    # - appendix/d_tendik.qmd
+    # - appendix/e_facilities.qmd
+    # - appendix/f_org.qmd
+    # # - appendix/g_finance.qmd
+    # - appendix/h_kbk.qmd
 
 
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)."
-    left: "`&copy; <script>document.write(new Date().getFullYear());</script>, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada`{=html}"
+    left: "`&copy; <script>document.write(new Date().getFullYear());</script>, D4 Internet Engineering Technology, Universitas Gadjah Mada`{=html}"
     background: "#D9E3E4"
 
 format:
   html:
-    lang: id
+    lang: en
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
@@ -102,8 +102,8 @@ format:
     toc-depth: 3
     number-sections: true
     toc-expand: 2
-    number-depth: 3 
-    
+    number-depth: 3
+
   pdf:
     engine: xelatex
     latex-auto-install: false
@@ -115,11 +115,11 @@ format:
     toc: true
     toc-depth: 3
     number-depth: 3
-    toc-title: "Daftar Isi"
+    toc-title: "List of Contents"
     lof: true
     lot: true
-    lof-title: "Daftar Gambar"
-    lot-title: "Daftar Tabel"
+    lof-title: "List of Figures"
+    lot-title: "List of Tables"
 
     geometry:
       - a4paper
@@ -130,22 +130,22 @@ format:
 
     include-in-header:
       text: |
-        % ── Font ──────────────────────────────────────────────────────────
+        % ── Font ─────────────────────────────────────────────────────────
         \usepackage{fontspec}
 
 
-        % ── Bahasa ────────────────────────────────────────────────────────
-        \usepackage[indonesian]{babel}
-        \AtBeginDocument{\selectlanguage{indonesian}}{\let\maketitle\relax}
-        \addto\captionsindonesian{
-          \renewcommand{\contentsname}{Daftar Isi}
-          \renewcommand{\listfigurename}{Daftar Gambar}
-          \renewcommand{\listtablename}{Daftar Tabel}
-          \renewcommand{\chaptername}{BAB}
-          \renewcommand{\appendixname}{Lampiran}
+        % ── Language ─────────────────────────────────────────────────────
+        \usepackage[english]{babel}
+        \AtBeginDocument{\selectlanguage{english}}{\let\maketitle\relax}
+        \addto\captionsenglish{
+          \renewcommand{\contentsname}{List of Contents}
+          \renewcommand{\listfigurename}{List of Figures}
+          \renewcommand{\listtablename}{List of Tables}
+          \renewcommand{\chaptername}{Chapter}
+          \renewcommand{\appendixname}{Appendix}
         }
 
-        % ── Adding ────────────────────────────────────────────────
+        % ── Additional packages ──────────────────────────────────────────
         \usepackage[table]{xcolor}
         \usepackage{colortbl}
         \usepackage{pdflscape}
@@ -159,18 +159,18 @@ format:
         \usepackage{array}
         \usepackage{pdfpages}
 
-        % ── Counter ───────────────────────────────────────────────────────
+        % ── Counter ──────────────────────────────────────────────────────
         \setcounter{secnumdepth}{3}
         \setcounter{tocdepth}{3}
 
-        % ── Numbering ─────────────────────────────────────────────────────
+        % ── Numbering ────────────────────────────────────────────────────
         \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
         \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
         \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
         \renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
         \renewcommand{\thesubsubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 
-        % ── Title ──────────────────────────────────────
+        % ── Chapter / section title formatting ───────────────────────────
         \usepackage{titlesec}
         \usepackage{fancyhdr}
         \pagestyle{plain}
@@ -179,7 +179,7 @@ format:
 
         \titleformat{\chapter}
           {\normalfont\bfseries\centering\fontsize{12}{16}\selectfont}
-          {BAB \Roman{chapter}}{1em}{\MakeUppercase}
+          {CHAPTER \Roman{chapter}}{1em}{\MakeUppercase}
         \titlespacing*{\chapter}{0pt}{-10pt}{20pt}
 
         \titleformat{\section}
@@ -197,7 +197,7 @@ format:
           {\thesubsubsection}{1em}{}
         \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
 
-        % ── Appendix ──────────────────────────────────────────────────────────────────
+        % ── Appendix ─────────────────────────────────────────────────────
         \let\oldappendix\appendix
         \renewcommand{\appendix}{
           \oldappendix
@@ -205,7 +205,7 @@ format:
           \setcounter{chapter}{0}
           \titleformat{\chapter}
             {\normalfont\bfseries\centering\fontsize{12}{16}\selectfont}
-            {Lampiran \thechapter}{1em}{\MakeUppercase}
+            {Appendix \thechapter}{1em}{\MakeUppercase}
           \renewcommand{\thetable}{\thechapter.\arabic{table}}
           \renewcommand{\thefigure}{\thechapter.\arabic{figure}}
           \setcounter{table}{0}
@@ -214,13 +214,13 @@ format:
           \captionsetup[table]{list=no}
         }
 
-        % ── Spacing ───────────────────────────────────────────────────────────
+        % ── Spacing ──────────────────────────────────────────────────────
         \usepackage{setspace}
         \linespread{1.15}
         \setlength{\parindent}{0.95cm}
         \setlength{\parskip}{6pt}
 
-        % ── Landscape page number ─────────────────────────────────────────
+        % ── Landscape page number ────────────────────────────────────────
         \usepackage{everypage}
         \AddEverypageHook{%
           \ifdim\textwidth>\textheight
@@ -229,21 +229,19 @@ format:
           \fi
         }
 
-        % ── Hyphenation ───────────────────────────────────────────────────
+        % ── Hyphenation ──────────────────────────────────────────────────
         \usepackage[none]{hyphenat}
         \sloppy
 
         \AfterEndPreamble{
-          \renewcommand{\listfigurename}{Daftar Gambar}
-          \renewcommand{\listtablename}{Daftar Tabel}
-          \renewcommand{\contentsname}{Daftar Isi}
-          \renewcommand{\appendixname}{Lampiran}
-          \addto\captionsindonesian{\renewcommand{\appendixname}{Lampiran}}
+          \renewcommand{\listfigurename}{List of Figures}
+          \renewcommand{\listtablename}{List of Tables}
+          \renewcommand{\contentsname}{List of Contents}
+          \renewcommand{\appendixname}{Appendix}
         }
     include-before-body:
       - text: |
           \pagenumbering{gobble}
-          \includepdf[pages=1, fitpaper=false, scale=1, templatesize={210mm}{297mm}, pagecommand={\thispagestyle{empty}}]{files/cover.pdf}
           \newpage
           \pagenumbering{arabic}
           \setcounter{page}{1}

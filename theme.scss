@@ -1,23 +1,50 @@
 /*-- scss:defaults --*/
 
-
 @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
 
 $font-family: "Atkinson Hyperlegible", sans-serif;
 
+// ================================================================
+// PALET WARNA — Identitas Program Studi Teknologi Rekayasa Internet
+// (TRI), Sekolah Vokasi UGM.
+//
+// Biru navy & emas mengikuti warna resmi Universitas Gadjah Mada
+// (UGM Blue / Pantone P117-16C dan UGM Gold / Pantone P7-8C).
+// Nilai HEX di bawah adalah aproksimasi warna cetak resmi tersebut
+// untuk kebutuhan layar/web — ganti dengan kode HEX resmi dari tim
+// Humas/Brand UGM (brand.ugm.ac.id) apabila tersedia.
+// ================================================================
+$ugm-navy:      #0B2545; // biru navy utama — identitas UGM & TRI
+$ugm-navy-600:  #163A67; // navy sedikit lebih terang (hover, gradient)
+$ugm-navy-100:  #E7ECF3; // tint navy sangat muda (background lembut)
+$ugm-gold:      #C99A2E; // emas utama — aksen identitas UGM & TRI
+$ugm-gold-600:  #AD8324; // emas gelap (hover, border)
+$ugm-gold-100:  #F7EFDA; // tint emas sangat muda (background lembut)
+$ugm-ink:       #14213D; // navy-hitam, untuk teks/heading beraksen
+
+// Warp variabel Bootstrap/Quarto agar identitas warna konsisten
+// di seluruh elemen bawaan (navbar, sidebar, link, tombol, dst).
+$primary:       $ugm-navy;
+$link-color:    $ugm-navy;
+$navbar-bg:     $ugm-navy;
+$navbar-fg:     #ffffff;
+$sidebar-bg:    $ugm-navy-100;
+$footer-bg:     $ugm-navy;
+$footer-fg:     #f2f2f2;
+
 /*-- scss:rules --*/
 
-/* Base style untuk kedua class */
+/* ===== Kotak instruksi Git (render-commit-push & pull) ===== */
 .render-commit-push,
 .pull {
   padding: 0.5em 0.5em 0em 3.5em;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #f8f8f8;
   background-repeat: no-repeat;
   background-size: 2em;
   background-position: 0.5em 0.5em;
-  
+  border-radius: 6px;
+
   /* Responsif di layar kecil */
   @media (max-width: 576px) {
     padding: 0.5em 0.5em 0.5em 0.5em;
@@ -27,23 +54,26 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 .render-commit-push {
-  border-top: 1px solid #5B888C;
-  border-bottom: 1px solid #5B888C;
+  border-top: 1px solid $ugm-navy;
+  border-bottom: 1px solid $ugm-navy;
+  background-color: $ugm-navy-100;
   background-image: url("images/render-commit-push.png");
 }
 
 .pull {
-  border-top: 1px solid #E0A890;
-  border-bottom: 1px solid #E0A890;
+  border-top: 1px solid $ugm-gold-600;
+  border-bottom: 1px solid $ugm-gold-600;
+  background-color: $ugm-gold-100;
   background-image: url("images/pull.png");
   background-size: 1em;
   background-position: 1em 0.5em;
 }
 
+/* ===== Tabel ===== */
 table thead th,
 .table thead th {
-  background-color: #D9E3E4;
-  color: #000000;
+  background-color: $ugm-navy;
+  color: #ffffff;
 }
 
 .quarto-appendix-heading::before {
@@ -51,9 +81,43 @@ table thead th,
   content: "Lampiran " counter(appendix-counter) " ";
 }
 
+/* ===== Grid Menu / Kartu Lab ===== */
+.menu-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px;
+}
 
-/* ===== Responsive Layout ===== */
-/* ===== Container & Layout ===== */
+.grid-col-3 {
+  flex: 0 0 calc(33.333% - 7px) !important;
+  max-width: calc(33.333% - 7px) !important;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  .grid-col-3 {
+    flex: 0 0 calc(50% - 5px) !important;
+    max-width: calc(50% - 5px) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-col-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+a.lab-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -66,46 +130,51 @@ table thead th,
   box-sizing: border-box;
   margin-bottom: 10px;
 }
-/* Kolom Desktop (Bagi dua dengan perhitungan gap) */
+
+/* Kolom Desktop (dibagi dua, dengan perhitungan gap) */
 .responsive-col {
   flex: 0 0 calc(50% - 5px);
   max-width: calc(50% - 5px);
   box-sizing: border-box;
 }
 
-/* Item Tengah (Desktop) */
+/* Item tengah (desktop) */
 .responsive-center {
   width: calc(50% - 5px);
   margin: 1em auto;
   box-sizing: border-box;
 }
 
-
-/* ===== Card Style (SCSS Nesting) ===== */
+/* ===== Kartu (Lab Card) ===== */
 .lab-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--bs-border-color, #e0e0e0);
+  border-top: 3px solid $ugm-gold;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  background-color: #fff;
-  transition: all 0.2s ease;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   height: 100%;
   box-sizing: border-box;
 
-  /* Efek Hover Desktop */
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-top-color: $ugm-navy;
+    box-shadow: 0 4px 14px rgba(11, 37, 69, 0.18);
   }
 
-  /* Gambar Tunggal (Default) */
   img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     object-fit: cover;
   }
-  /* Teks Caption */
+
+  i.bi {
+    color: $ugm-navy;
+  }
+
   .card-caption {
     font-size: 0.9em;
     color: #555;
@@ -114,18 +183,17 @@ table thead th,
   }
 }
 
-
 /* ===== Mobile Responsive ===== */
 @media (max-width: 768px) {
-  /* Paksa kolom jadi 100% penuh menimpa bawaan Quarto */
-  .responsive-col, 
+  /* Paksa kolom jadi 100% penuh, menimpa bawaan Quarto */
+  .responsive-col,
   .responsive-center {
     flex: 0 0 100% !important;
     max-width: 100% !important;
     width: 100% !important;
     margin-bottom: 10px;
   }
-  
+
   /* Matikan efek hover di mobile (touch screen) */
   .lab-card:hover {
     transform: none;
@@ -133,162 +201,141 @@ table thead th,
   }
 }
 
-
-.img-circle {
-  width: 150px;      
-  height: 150px;      
-  border-radius: 50%; 
-  object-fit: cover;
-  object-position: center 30%;
-
-
-  
-  /* Styling Border */
-  border: 3px solid #5B888C; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+@media (prefers-reduced-motion: reduce) {
+  .lab-card {
+    transition: none;
+  }
 }
 
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+  border: 3px solid $ugm-navy;
+  box-shadow: 0 4px 8px rgba(11, 37, 69, 0.2);
+}
 
-
+/* ===== Tabel Staf KBK ===== */
 .tabel-staf-kbk {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-/* 2. Styling Sel (td) */
-.tabel-staf-kbk td {
-  padding: 15px 10px;
-  border-bottom: 1px solid #eee; /* Garis tipis antar baris */
-  vertical-align: middle; /* Teks rata tengah secara vertikal dibanding foto */
+.tabel-staf-kbk tr {
+  transition: background-color 0.15s ease;
 }
 
-/* 3. Pengaturan Lebar Kolom */
+.tabel-staf-kbk tr:hover {
+  background-color: $ugm-gold-100;
+}
 
-/* Kolom Foto (Kolom 1 dan 3) */
+.tabel-staf-kbk td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee; /* garis tipis antar baris */
+  vertical-align: middle;        /* teks rata tengah vs. foto */
+}
+
+/* Kolom foto */
 .tabel-staf-kbk td.kolom-foto {
-  width: 120px; /* Atur lebar kotak foto */
-  text-align: center; /* Foto rata tengah di dalam sel */
+  width: 120px;
+  text-align: center;
 }
 
 .tabel-staf-kbk td.kolom-nama {
-  
-  width: calc(50% - 120px); 
+  width: calc(50% - 120px);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
   line-height: 1.4;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
 
 .img-circle-staf {
-  width: 100px; 
-  height: 100px; 
-  border-radius: 50%; 
-  
-  border: 3px solid #5B888C; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-  
-  /* Cropping Pintar */
-  object-fit: cover; 
-  object-position: center top; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid $ugm-navy;
+  box-shadow: 0 4px 8px rgba(11, 37, 69, 0.2);
+  object-fit: cover;
+  object-position: center top;
 }
 
-/* 5. Utility Classes (untuk footer teks) */
+/* Utility classes (footer teks) */
 .border-top { border-top: 1px solid #eee; }
 .mar-t-20 { margin-top: 20px; }
 .pad-t-10 { padding-top: 10px; }
 .fs-italic { font-style: italic; }
 .co-grey { color: #777; }
 
-// @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+/* ===== Sidebar sticky (desktop) ===== */
+@media (min-width: 992px) {
+  #quarto-sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
 
-// $font-family: "Atkinson Hyperlegible", sans-serif;
+  #quarto-sidebar .sidebar-header {
+    flex-shrink: 0;
+  }
 
-// /*-- scss:rules --*/
+  #quarto-sidebar .sidebar-search {
+    flex-shrink: 0;
+    padding-bottom: .5rem;
+  }
 
-// .render-commit-push {
-//   padding: 0.5em 0.5em 0em 3em;
-//   margin-top: 5px;
-//   margin-bottom: 5px;
-//   background: #f8f8f8 5px center/3em no-repeat;
-//   border-top: 1px solid #5B888C;
-//   border-bottom: 1px solid #5B888C;
-//   background-image: url("images/render-commit-push.png");
-//   background-size: 2em;
-//   background-position: 0.5em 0.5em;
-// }
+  #quarto-sidebar .sidebar-menu-container {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+  }
 
-// .pull {
-//   padding: 0.5em 0.5em 0em 3em;
-//   margin-top: 5px;
-//   margin-bottom: 5px;
-//   background: #f8f8f8 5px center/3em no-repeat;
-//   border-top: 1px solid #E0A890;
-//   border-bottom: 1px solid #E0A890;
-//   background-image: url("images/pull.png");
-//   background-size: 1em;
-//   background-position: 1em 0.5em;
-// }
-
-@media (max-width: 768px) {
-  h2, h3 {
-    position: static;
+  #quarto-sidebar .sidebar-header,
+  #quarto-sidebar > div:nth-child(2) {
+    position: sticky;
+    top: 0;
+    z-index: 20;
   }
 }
 
-h2, h3 {
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
-  transition: top 0.1s ease;
+/* ===== Language Toggle (ID | EN) — capsule ===== */
+#lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  background-color: $ugm-navy-100;
+  border: 1px solid rgba(11, 37, 69, 0.25);
+  border-radius: 999px;
+  padding: 2px;
 }
 
-h2 {
-  top: 0;
-  z-index: 1001;
-  font-size: 1.15rem;
-  padding-top: 10px;
-  padding-bottom: 8px;
+#lang-toggle button {
+  all: unset;
+  font-family: $font-family;
+  font-size: 0.68rem;
+  line-height: 1;
+  color: $ugm-navy;
+  cursor: pointer;
+  padding: 3px 9px;
+  border-radius: 999px;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-h3 {
-  top: var(--h3-sticky-top, 42px); /* fallback sebelum JS jalan */
-  font-size: 1rem;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  border-top: 1px solid rgba(0,0,0,0.08);
+#lang-toggle button:hover:not(.active) {
+  color: $ugm-gold-600;
 }
 
-#quarto-sidebar {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+#lang-toggle button.active {
+  background-color: $ugm-navy;
+  color: #ffffff;
+  font-weight: 700;
 }
 
-/* Header (logo, judul, tools) */
-#quarto-sidebar .sidebar-header {
-  flex-shrink: 0;
-}
-
-/* Search */
-#quarto-sidebar .sidebar-search {
-  flex-shrink: 0;
-  padding-bottom: .5rem;
-}
-
-/* Hanya menu chapter yang discroll */
-#quarto-sidebar .sidebar-menu-container {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-}
-
-#quarto-sidebar .sidebar-header,
-#quarto-sidebar > div:nth-child(2) {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+#lang-toggle button.active:hover {
+  color: #ffffff;
 }

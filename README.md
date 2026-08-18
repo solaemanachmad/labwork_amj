@@ -1,4 +1,4 @@
-# PMPSTI
+# Network Administration and Management
 
 ## Tech Stack
 - Quarto
@@ -7,40 +7,13 @@
 
 ## Colors
 
-- website background: #D9E3E4
-- headings: #5B888C
+- website background: #0B2545
 
 ## Contents
 ```bash
 pmpsti/
-├── front/
-│   ├── editor.qmd
-│   └── preface.qmd
-│
 ├── chapter1/
-│   ├── introduction.qmd
-│   ├── images/
-│   └── data/
-│
-├── chapter2/
-│   ├── curricula.qmd
-│   ├── images/
-│   └── data/
-│
-├── chapter3/
-│   ├── transition.qmd
-│   ├── images/
-│   └── data/
-│
-├── chapter4/
-│   ├── conclusion.qmd
-│   ├── images/
-│   └── data/
-│
-├── appendix/
-│   ├── appendix1.qmd
-│   ├── appendix2.qmd
-│   ├── ...
+│   ├── ubuntuserver_installation.qmd
 │   ├── images/
 │   └── data/
 │
@@ -55,8 +28,8 @@ pmpsti/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/solaemanachmad/panduan_pmpsti.git
-cd panduan_pmpsti
+git clone https://github.com/solaemanachmad/labwork_amj.git
+cd labwork_amj
 ```
 
 ### 2. Restore R Environment
