@@ -345,8 +345,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#installing-ubuntu-server-in-virtualbox" id="toc-installing-ubuntu-server-in-virtualbox" class="nav-link" data-scroll-target="#installing-ubuntu-server-in-virtualbox"><span class="header-section-number">1.3.1</span> Installing Ubuntu Server in VirtualBox</a></li>
   <li><a href="#configuring-the-network-adapter-for-external-access" id="toc-configuring-the-network-adapter-for-external-access" class="nav-link" data-scroll-target="#configuring-the-network-adapter-for-external-access"><span class="header-section-number">1.3.2</span> Configuring the Network Adapter for External Access</a></li>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise"><span class="header-section-number">1.3.3</span> Exercise</a></li>
   </ul></li>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise"><span class="header-section-number">1.4</span> Exercise</a></li>
   </ul>
 </nav>
     </div>
@@ -385,16 +385,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Ubuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd.&nbsp;Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for server-related tasks.</p>
 <p>The following are some important points about Ubuntu Server:</p>
 <ol type="1">
-<li><p><strong>Open Source:</strong> Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.</p></li>
-<li><p><strong>Stability and Security:</strong> Ubuntu Server is supported by a large and active community and is reviewed by security experts. Stable versions are released regularly with Long-Term Support (LTS), providing security updates and bug fixes for an extended period, typically up to five years after release.</p></li>
-<li><p><strong>APT Package Management:</strong> Like other Linux operating systems, Ubuntu Server uses the Advanced Package Tool (APT) as its package management system. This allows administrators to easily install, remove, and manage software and additional packages required by the server system.</p></li>
-<li><p><strong>Command-Line Interface (CLI):</strong> Ubuntu Server operates through a Command-Line Interface (CLI), allowing administrators to manage the system remotely or through SSH (Secure Shell). The absence of a graphical interface helps reduce resource usage and improve security.</p></li>
-<li><p><strong>Cloud Support:</strong> Ubuntu Server is well known for its support for cloud computing environments. This server version is widely used by cloud service providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.</p></li>
-<li><p><strong>Virtualization Support:</strong> Ubuntu Server supports virtualization technologies such as KVM (Kernel-based Virtual Machine) and Docker containers. This allows users to create and manage virtual machines and containers easily and efficiently.</p></li>
-<li><p><strong>Access to Ubuntu Repositories:</strong> Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.</p></li>
-<li><p><strong>Documentation and Community Support:</strong> Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd.&nbsp;for business and enterprise users.</p></li>
+<li><p>Open Source: Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.</p></li>
+<li><p>Stability and Security: Ubuntu Server is supported by a large and active community and is reviewed by security experts. Stable versions are released regularly with Long-Term Support (LTS), providing security updates and bug fixes for an extended period, typically up to five years after release.</p></li>
+<li><p>APT Package Management: Like other Linux operating systems, Ubuntu Server uses the Advanced Package Tool (APT) as its package management system. This allows administrators to easily install, remove, and manage software and additional packages required by the server system.</p></li>
+<li><p>Command-Line Interface (CLI): Ubuntu Server operates through a CLI, allowing administrators to manage the system remotely or through Secure Shell (SSH). The absence of a graphical interface helps reduce resource usage and improve security.</p></li>
+<li><p>Cloud Support: Ubuntu Server is well known for its support for cloud computing environments. This server version is widely used by cloud service providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.</p></li>
+<li><p>Virtualization Support: Ubuntu Server supports virtualization technologies such as Kernel-based Virtual Machine (KVM) and Docker containers. This allows users to create and manage virtual machines and containers easily and efficiently.</p></li>
+<li><p>Access to Ubuntu Repositories: Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.</p></li>
+<li><p>Documentation and Community Support: Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd.&nbsp;for business and enterprise users.</p></li>
 </ol>
-<p>Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently.</p>
+<p>Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently. The hands-on steps for installing and configuring it are covered in <a href="#sec-steps" class="quarto-xref"><span>Section 1.3</span></a>.</p>
 </section>
 <section id="sec-steps" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="sec-steps"><span class="header-section-number">1.3</span> Ubuntu Server Practicum Steps</h2>
@@ -457,7 +457,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="configuring-the-network-adapter-for-external-access" class="level3" data-number="1.3.2">
 <h3 data-number="1.3.2" class="anchored" data-anchor-id="configuring-the-network-adapter-for-external-access"><span class="header-section-number">1.3.2</span> Configuring the Network Adapter for External Access</h3>
-<p>The default network adapter in VirtualBox is isolated from the outside world. Adding a second, host-only adapter lets you reach the Ubuntu Server VM from your host machine.</p>
+<p>The default network adapter in VirtualBox is isolated from the outside world. Adding a second, host-only adapter lets you reach the Ubuntu Server VM from your host machine, configured as shown in <a href="#fig-vmware_ii" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>.</p>
 <div id="fig-vmware_ii" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-vmware_ii-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -521,6 +521,7 @@ Figure&nbsp;1.1: Setting on VMWare via Adapter 2
 </blockquote>
 </div>
 </div>
+<p><a href="#fig-ubuntuserver" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> shows an example of this output in the Ubuntu Server terminal.</p>
 <div id="fig-ubuntuserver" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ubuntuserver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -547,16 +548,15 @@ Figure&nbsp;1.2: Ubuntu Server
 </div>
 </div>
 </section>
-</section>
-<section id="exercise" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="exercise"><span class="header-section-number">1.4</span> Exercise</h2>
-<p>Try the following Ubuntu commands, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.</p>
-<div id="tbl-linux" class="quarto-float quarto-figure quarto-figure-center anchored">
+<section id="exercise" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="exercise"><span class="header-section-number">1.3.3</span> Exercise</h3>
+<p>Try the commands listed in <a href="#tbl-linuxcommand" class="quarto-xref">Table&nbsp;<span>1.1</span></a>, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.</p>
+<div id="tbl-linuxcommand" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1.1: Linux syntax
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linuxcommand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1.1: Essential Linux Commands
 </figcaption>
-<div aria-describedby="tbl-linux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="tbl-linuxcommand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -788,6 +788,7 @@ Table&nbsp;1.1: Linux syntax
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

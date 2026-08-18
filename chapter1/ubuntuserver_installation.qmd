@@ -12,23 +12,23 @@ Ubuntu Server is a Linux-based server operating system based on the Ubuntu distr
 
 The following are some important points about Ubuntu Server:
 
-1.  **Open Source:** Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.
+1.  Open Source: Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.
 
-2.  **Stability and Security:** Ubuntu Server is supported by a large and active community and is reviewed by security experts. Stable versions are released regularly with Long-Term Support (LTS), providing security updates and bug fixes for an extended period, typically up to five years after release.
+2.  Stability and Security: Ubuntu Server is supported by a large and active community and is reviewed by security experts. Stable versions are released regularly with Long-Term Support (LTS), providing security updates and bug fixes for an extended period, typically up to five years after release.
 
-3.  **APT Package Management:** Like other Linux operating systems, Ubuntu Server uses the Advanced Package Tool (APT) as its package management system. This allows administrators to easily install, remove, and manage software and additional packages required by the server system.
+3.  APT Package Management: Like other Linux operating systems, Ubuntu Server uses the Advanced Package Tool (APT) as its package management system. This allows administrators to easily install, remove, and manage software and additional packages required by the server system.
 
-4.  **Command-Line Interface (CLI):** Ubuntu Server operates through a Command-Line Interface (CLI), allowing administrators to manage the system remotely or through SSH (Secure Shell). The absence of a graphical interface helps reduce resource usage and improve security.
+4.  Command-Line Interface (CLI): Ubuntu Server operates through a CLI, allowing administrators to manage the system remotely or through Secure Shell (SSH). The absence of a graphical interface helps reduce resource usage and improve security.
 
-5.  **Cloud Support:** Ubuntu Server is well known for its support for cloud computing environments. This server version is widely used by cloud service providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
+5.  Cloud Support: Ubuntu Server is well known for its support for cloud computing environments. This server version is widely used by cloud service providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
 
-6.  **Virtualization Support:** Ubuntu Server supports virtualization technologies such as KVM (Kernel-based Virtual Machine) and Docker containers. This allows users to create and manage virtual machines and containers easily and efficiently.
+6.  Virtualization Support: Ubuntu Server supports virtualization technologies such as Kernel-based Virtual Machine (KVM) and Docker containers. This allows users to create and manage virtual machines and containers easily and efficiently.
 
-7.  **Access to Ubuntu Repositories:** Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.
+7.  Access to Ubuntu Repositories: Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.
 
-8.  **Documentation and Community Support:** Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd. for business and enterprise users.
+8.  Documentation and Community Support: Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd. for business and enterprise users.
 
-Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently.
+Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently. The hands-on steps for installing and configuring it are covered in @sec-steps.
 
 ## Ubuntu Server Practicum Steps {#sec-steps}
 
@@ -58,7 +58,7 @@ An internet connection is required during installation, since packages are fetch
 
 ### Configuring the Network Adapter for External Access
 
-The default network adapter in VirtualBox is isolated from the outside world. Adding a second, host-only adapter lets you reach the Ubuntu Server VM from your host machine.
+The default network adapter in VirtualBox is isolated from the outside world. Adding a second, host-only adapter lets you reach the Ubuntu Server VM from your host machine, configured as shown in @fig-vmware_ii.
 
 ![Setting on VMWare via Adapter 2](images/vmware_adapter_ii.png){#fig-vmware_ii fig-align="center" width="80%"}
 
@@ -116,6 +116,8 @@ Power off the Ubuntu Server VM you just installed before changing its network se
     > **192.168.56.104**
     :::
 
+    @fig-ubuntuserver shows an example of this output in the Ubuntu Server terminal.
+
     ![Ubuntu Server](images/ubuntuserver.png){#fig-ubuntuserver fig-align="center" width="100%"}
 
 ------------------------------------------------------------------------
@@ -124,8 +126,9 @@ Power off the Ubuntu Server VM you just installed before changing its network se
 The IP address obtained on the `enp0s8` adapter (e.g. `192.168.56.104`) will be used to access this Ubuntu Server instance in later steps of the practicum. Write it down before continuing.
 :::
 
-## Exercise
-Try the following Ubuntu commands, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.
+### Exercise
+
+Try the commands listed in @tbl-linuxcommand, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.
 
 | # | Command | # | Command | # | Command | # | Command |
 |---|---------|---|---------|---|---------|---|---------|
@@ -151,4 +154,4 @@ Try the following Ubuntu commands, explain their functions, and provide screensh
 | 20 | `df` | 41 | `ssh` | 62 | `at` | 83 | `chage` |
 | 21 | `chown` | 42 | `fd` | 63 | `fdisk` | 84 | `ffmpeg` |
 
-: Linux syntax {#tbl-linux}
+: Essential Linux Commands {#tbl-linuxcommand}
