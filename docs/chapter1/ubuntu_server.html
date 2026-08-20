@@ -56,7 +56,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -65,6 +85,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../chapter2/samba_server.html" rel="next">
 <link href="../index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -78,9 +99,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-56f9e9253584690dc8f13389554a7e78.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-8d7fc64db196fce8387b5befbb050dac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-56f9e9253584690dc8f13389554a7e78.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-2c51d9f0f001aa5464c190c6ab1b9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-285c053f26b22ae7cffb8c7e797122d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-2c51d9f0f001aa5464c190c6ab1b9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -283,7 +304,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapter1/ubuntuserver_installation.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ubuntu Server Installation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapter1/ubuntu_server.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ubuntu Server Installation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -325,8 +346,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapter1/ubuntuserver_installation.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapter1/ubuntu_server.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ubuntu Server Installation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter2/samba_server.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Samba Server</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
@@ -341,7 +374,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#practical-objectives" id="toc-practical-objectives" class="nav-link active" data-scroll-target="#practical-objectives"><span class="header-section-number">1.1</span> Practical Objectives</a></li>
   <li><a href="#theoretical-background-of-ubuntu-server" id="toc-theoretical-background-of-ubuntu-server" class="nav-link" data-scroll-target="#theoretical-background-of-ubuntu-server"><span class="header-section-number">1.2</span> Theoretical Background of Ubuntu Server</a></li>
-  <li><a href="#sec-steps" id="toc-sec-steps" class="nav-link" data-scroll-target="#sec-steps"><span class="header-section-number">1.3</span> Ubuntu Server Practicum Steps</a>
+  <li><a href="#sec-steps-ubuntu" id="toc-sec-steps-ubuntu" class="nav-link" data-scroll-target="#sec-steps-ubuntu"><span class="header-section-number">1.3</span> Ubuntu Server Practicum Steps</a>
   <ul class="collapse">
   <li><a href="#installing-ubuntu-server-in-virtualbox" id="toc-installing-ubuntu-server-in-virtualbox" class="nav-link" data-scroll-target="#installing-ubuntu-server-in-virtualbox"><span class="header-section-number">1.3.1</span> Installing Ubuntu Server in VirtualBox</a></li>
   <li><a href="#configuring-the-network-adapter-for-external-access" id="toc-configuring-the-network-adapter-for-external-access" class="nav-link" data-scroll-target="#configuring-the-network-adapter-for-external-access"><span class="header-section-number">1.3.2</span> Configuring the Network Adapter for External Access</a></li>
@@ -356,7 +389,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ubuntu Server Installation</span></h1>
+<h1 class="title"><span id="sec-ubuntuserver" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ubuntu Server Installation</span></span></h1>
 </div>
 
 
@@ -375,14 +408,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="practical-objectives" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="practical-objectives"><span class="header-section-number">1.1</span> Practical Objectives</h2>
-<ol type="1">
+<ol type="a">
 <li><p>Students are able to install Ubuntu Server.</p></li>
 <li><p>Students understand and are able to practice basic commands in the Ubuntu Server environment.</p></li>
 </ol>
 </section>
 <section id="theoretical-background-of-ubuntu-server" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="theoretical-background-of-ubuntu-server"><span class="header-section-number">1.2</span> Theoretical Background of Ubuntu Server</h2>
-<p>Ubuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd.&nbsp;Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for server-related tasks.</p>
+<p>Ubuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd.&nbsp;Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for for server-related tasks <span class="citation" data-cites="ubuntu_server"><a href="../references.html#ref-ubuntu_server" role="doc-biblioref">[1]</a></span>.</p>
 <p>The following are some important points about Ubuntu Server:</p>
 <ol type="1">
 <li><p>Open Source: Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.</p></li>
@@ -394,10 +427,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Access to Ubuntu Repositories: Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.</p></li>
 <li><p>Documentation and Community Support: Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd.&nbsp;for business and enterprise users.</p></li>
 </ol>
-<p>Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently. The hands-on steps for installing and configuring it are covered in <a href="#sec-steps" class="quarto-xref"><span>Section 1.3</span></a>.</p>
+<p>Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently <span class="citation" data-cites="phoenixnap_linux_server"><a href="../references.html#ref-phoenixnap_linux_server" role="doc-biblioref">[2]</a></span>. The hands-on steps for installing and configuring it are covered in <a href="#sec-steps-ubuntu" class="quarto-xref"><span>Section 1.3</span></a>.</p>
 </section>
-<section id="sec-steps" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="sec-steps"><span class="header-section-number">1.3</span> Ubuntu Server Practicum Steps</h2>
+<section id="sec-steps-ubuntu" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="sec-steps-ubuntu"><span class="header-section-number">1.3</span> Ubuntu Server Practicum Steps</h2>
 <p>This guide walks through installing Ubuntu Server in VirtualBox and configuring its network adapter so the machine can be reached from outside VirtualBox.</p>
 <section id="installing-ubuntu-server-in-virtualbox" class="level3" data-number="1.3.1">
 <h3 data-number="1.3.1" class="anchored" data-anchor-id="installing-ubuntu-server-in-virtualbox"><span class="header-section-number">1.3.1</span> Installing Ubuntu Server in VirtualBox</h3>
@@ -429,6 +462,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-body-container callout-body">
 <table class="caption-top table">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 45%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Setting</th>
@@ -468,13 +505,13 @@ Figure&nbsp;1.1: Setting on VMWare via Adapter 2
 </figcaption>
 </figure>
 </div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Before you start">
+<div class="callout callout-style-default callout-important callout-titled" title="Before you start">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Before you start
+<span class="screen-reader-only">Important</span>Before you start
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -488,7 +525,7 @@ Figure&nbsp;1.1: Setting on VMWare via Adapter 2
 <li>Set <strong>Attached to:</strong> → <code>Host-only Adapter</code></li>
 <li>Set <strong>Promiscuous Mode:</strong> → <code>Allow All</code></li>
 </ul></li>
-<li><p><strong>Power the VM back on</strong> and edit the Netplan configuration.</p>
+<li><p><strong>Power the VM back on</strong> and edit the Netplan configuration <span class="citation" data-cites="netplan_docs"><a href="../references.html#ref-netplan_docs" role="doc-biblioref">[3]</a></span>.</p>
 <p>Create a configuration file with:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> nano /etc/netplan/01-netconf.yaml</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Add the following content to the file:</p>
@@ -552,13 +589,23 @@ Figure&nbsp;1.2: Ubuntu Server
 <section id="exercise" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="exercise"><span class="header-section-number">1.4</span> Exercise</h2>
 <p>Try the commands listed in <a href="#tbl-linuxcommand" class="quarto-xref">Table&nbsp;<span>1.1</span></a>, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.</p>
-<div id="tbl-linuxcommand" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-linuxcommand" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[5,20,5,20,5,20,5,20]">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linuxcommand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1.1: Essential Linux Commands
 </figcaption>
 <div aria-describedby="tbl-linuxcommand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>#</th>
@@ -789,6 +836,17 @@ Table&nbsp;1.1: Essential Linux Commands
 </div>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-ubuntu_server" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">Canonical Ltd., <span>“Ubuntu server — for scale out workloads.”</span> Canonical, 2024. Accessed: Aug. 16, 2026. [Online]. Available: <a href="https://ubuntu.com/server">https://ubuntu.com/server</a></div>
+</div>
+<div id="ref-phoenixnap_linux_server" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">phoenixNAP, <span>“Linux server guide: Installation and configuration.”</span> phoenixNAP, 2024. Accessed: Aug. 16, 2026. [Online]. Available: <a href="https://phoenixnap.com/kb/linux-server">https://phoenixnap.com/kb/linux-server</a></div>
+</div>
+<div id="ref-netplan_docs" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">Canonical Ltd., <span>“Canonical netplan.”</span> Canonical, 2024. Accessed: Aug. 16, 2026. [Online]. Available: <a href="https://netplan.io/">https://netplan.io/</a></div>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -1212,13 +1270,16 @@ Table&nbsp;1.1: Essential Linux Commands
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../chapter2/samba_server.html" class="pagination-link" aria-label="Samba Server">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Samba Server</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© <script>document.write(new Date().getFullYear());</script>, D4 Internet Engineering Technology, Universitas Gadjah Mada</p>
+<p>© <script>document.write(new Date().getFullYear());</script>, Internet Engineering Technology, Universitas Gadjah Mada</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

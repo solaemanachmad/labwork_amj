@@ -222,22 +222,82 @@ table thead th {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
 }
 
+/* ===== Footer ===== */
+.nav-footer {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
+/* ===== Tombol copy pada code block — mode gelap ===== */
+/* Teks "Copied!" muncul hitam karena Bootstrap tooltip default terang.
+   Dipaksa jadi teks putih / emas di latar navy. */
+.code-copy-button {
+  color: $body-color !important;
+}
+
+.code-copy-button:hover {
+  color: $ugm-gold !important;
+  background-color: $ugm-gold-100 !important;
+}
+
+/* Bootstrap tooltip (hover: "Copy to Clipboard" & klik: "Copied!") */
+.tooltip .tooltip-inner {
+  background-color: $ugm-navy-panel !important;
+  color: $body-color !important;
+  border: 1px solid $light;
+}
+
+.tooltip .tooltip-arrow::before,
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+  border-top-color: $ugm-navy-panel !important;
+}
+
 /* ===== Table of Contents kanan (doc-toc) — kontras mode gelap ===== */
+nav[role="doc-toc"],
+nav[role="doc-toc"] * {
+  opacity: 1 !important;
+}
+
 nav[role="doc-toc"] a,
-#quarto-toc a {
-  color: #b0c4de !important; /* biru-abu terang, cukup kontras di latar navy */
+nav[role="doc-toc"] .nav-link,
+#quarto-toc a,
+#quarto-margin-sidebar a,
+#quarto-margin-sidebar .nav-link {
+  color: #ffffff !important;
+  opacity: 1 !important;
 }
 
 nav[role="doc-toc"] a:hover,
-#quarto-toc a:hover {
+nav[role="doc-toc"] .nav-link:hover,
+#quarto-toc a:hover,
+#quarto-margin-sidebar a:hover,
+#quarto-margin-sidebar .nav-link:hover {
   color: $ugm-gold !important;
 }
 
 nav[role="doc-toc"] a.active,
-#quarto-toc a.active {
+nav[role="doc-toc"] .nav-link.active,
+#quarto-toc a.active,
+#quarto-margin-sidebar a.active,
+#quarto-margin-sidebar .nav-link.active {
   color: $ugm-gold !important;
   border-left: 2px solid $ugm-gold;
   padding-left: 0.4em;
+}
+
+/* ===== Code block tanpa bahasa (plain ```) — pastikan teks terlihat di dark mode ===== */
+pre:not(.sourceCode) code,
+pre:not(.sourceCode) {
+  color: $body-color !important;
+  background-color: $ugm-navy-input !important;
+}
+
+/* ===== Code annotation — geser anchor agar tidak tumpang tindih copy button ===== */
+div.sourceCode {
+  pre > code .code-annotation-anchor {
+    margin-right: 2rem;
+  }
 }
 
 /* ===== Language Toggle (ID | EN) — capsule, mode gelap ===== */

@@ -340,6 +340,62 @@ a.lab-card {
   }
 }
 
+/* ===== Footer ===== */
+.nav-footer {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
+.nav-footer,
+.nav-footer a,
+.nav-footer .nav-link,
+footer.footer,
+footer.footer a {
+  color: #f2f2f2 !important;
+}
+
+.nav-footer a:hover,
+footer.footer a:hover {
+  color: $ugm-gold !important;
+}
+
+/* ===== Table of Contents kanan (doc-toc) — light mode ===== */
+nav[role="doc-toc"],
+nav[role="doc-toc"] * {
+  opacity: 1 !important;
+}
+
+nav[role="doc-toc"] a,
+nav[role="doc-toc"] .nav-link,
+#quarto-margin-sidebar a,
+#quarto-margin-sidebar .nav-link {
+  color: $ugm-ink !important;
+  opacity: 1 !important;
+}
+
+nav[role="doc-toc"] a:hover,
+nav[role="doc-toc"] .nav-link:hover,
+#quarto-margin-sidebar a:hover,
+#quarto-margin-sidebar .nav-link:hover {
+  color: $ugm-gold-600 !important;
+}
+
+nav[role="doc-toc"] a.active,
+nav[role="doc-toc"] .nav-link.active,
+#quarto-margin-sidebar a.active,
+#quarto-margin-sidebar .nav-link.active {
+  color: $ugm-gold-600 !important;
+  border-left: 2px solid $ugm-gold;
+  padding-left: 0.4em;
+}
+
+/* ===== Code annotation — geser anchor agar tidak tumpang tindih copy button ===== */
+div.sourceCode {
+  pre > code .code-annotation-anchor {
+    margin-right: 2rem;
+  }
+}
+
 /* ===== Language Toggle (ID | EN) — capsule ===== */
 #lang-toggle {
   display: inline-flex;

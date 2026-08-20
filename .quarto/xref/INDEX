@@ -7,5 +7,14 @@
   },
   "404.qmd": {
     "404.html": "8656c68e"
+  },
+  "chapter2/samba_server.qmd": {
+    "samba_server.html": "bd40537b"
+  },
+  "chapter1/ubuntu_server.qmd": {
+    "ubuntu_server.html": "a415f1d3"
+  },
+  "references.qmd": {
+    "references.html": "cf7b53cf"
   }
 }

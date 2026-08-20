@@ -1,14 +1,14 @@
-# Ubuntu Server Installation
+# Ubuntu Server Installation {#sec-ubuntuserver}
 
 ## Practical Objectives
 
-1.  Students are able to install Ubuntu Server.
+a.  Students are able to install Ubuntu Server.
 
-2.  Students understand and are able to practice basic commands in the Ubuntu Server environment.
+b.  Students understand and are able to practice basic commands in the Ubuntu Server environment.
 
 ## Theoretical Background of Ubuntu Server
 
-Ubuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd. Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for server-related tasks.
+Ubuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd. Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for for server-related tasks [@ubuntu_server].
 
 The following are some important points about Ubuntu Server:
 
@@ -28,9 +28,9 @@ The following are some important points about Ubuntu Server:
 
 8.  Documentation and Community Support: Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd. for business and enterprise users.
 
-Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently. The hands-on steps for installing and configuring it are covered in @sec-steps.
+Ubuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently [@phoenixnap_linux_server]. The hands-on steps for installing and configuring it are covered in @sec-steps-ubuntu.
 
-## Ubuntu Server Practicum Steps {#sec-steps}
+## Ubuntu Server Practicum Steps {#sec-steps-ubuntu}
 
 This guide walks through installing Ubuntu Server in VirtualBox and configuring its network adapter so the machine can be reached from outside VirtualBox.
 
@@ -53,6 +53,8 @@ An internet connection is required during installation, since packages are fetch
     | Processors    | 2                 |
     | Storage (VDI) | 30 GB             |
 
+    : {tbl-colwidths="[55,45]"}
+
     Use a **different drive** from the one hosting your host operating system to store the VM folder!
     :::
 
@@ -62,7 +64,7 @@ The default network adapter in VirtualBox is isolated from the outside world. Ad
 
 ![Setting on VMWare via Adapter 2](images/vmware_adapter_ii.png){#fig-vmware_ii fig-align="center" width="80%"}
 
-::: {.callout-tip title="Before you start"}
+::: {.callout-important title="Before you start"}
 Power off the Ubuntu Server VM you just installed before changing its network settings.
 :::
 
@@ -73,7 +75,7 @@ Power off the Ubuntu Server VM you just installed before changing its network se
     -   Set **Attached to:** → `Host-only Adapter`
     -   Set **Promiscuous Mode:** → `Allow All`
 
-2.  **Power the VM back on** and edit the Netplan configuration.
+2.  **Power the VM back on** and edit the Netplan configuration [@netplan_docs].
 
     Create a configuration file with:
 
@@ -154,4 +156,4 @@ Try the commands listed in @tbl-linuxcommand, explain their functions, and provi
 | 20 | `df` | 41 | `ssh` | 62 | `at` | 83 | `chage` |
 | 21 | `chown` | 42 | `fd` | 63 | `fdisk` | 84 | `ffmpeg` |
 
-: Essential Linux Commands {#tbl-linuxcommand}
+: Essential Linux Commands {#tbl-linuxcommand tbl-colwidths="[5,20,5,20,5,20,5,20]"}
