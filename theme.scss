@@ -342,8 +342,29 @@ a.lab-card {
 
 /* ===== Footer ===== */
 .nav-footer {
-  padding-top: 0.4rem !important;
-  padding-bottom: 0.4rem !important;
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  align-items: center !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav-footer {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 .nav-footer,
@@ -371,6 +392,7 @@ nav[role="doc-toc"] .nav-link,
 #quarto-margin-sidebar .nav-link {
   color: $ugm-ink !important;
   opacity: 1 !important;
+  transition: color 0.15s ease, box-shadow 0.15s ease;
 }
 
 nav[role="doc-toc"] a:hover,
@@ -385,8 +407,8 @@ nav[role="doc-toc"] .nav-link.active,
 #quarto-margin-sidebar a.active,
 #quarto-margin-sidebar .nav-link.active {
   color: $ugm-gold-600 !important;
-  border-left: 2px solid $ugm-gold;
-  padding-left: 0.4em;
+  /* inset box-shadow = garis kiri tanpa mengubah layout/posisi */
+  box-shadow: inset 2px 0 0 $ugm-gold;
 }
 
 /* ===== Code annotation — geser anchor agar tidak tumpang tindih copy button ===== */

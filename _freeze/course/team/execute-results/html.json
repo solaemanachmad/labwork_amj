@@ -1,0 +1,15 @@
+{
+  "hash": "34fa47ceec579c28ea11bd8d66430484",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nnumber-sections: false\nprefer-html: true\n---\n\n# Team {.unnumbered}\n\n## Lecturers\n\n:::: {.content-visible when-format=\"html\"}\n::: {style=\"text-align: center;\"}\n![](images/team/alam.png){.img-circle style=\"float:right;\" fig-alt=\"Headshot of Sahirul Alam\" width=\"100\"}\n:::\n::::\n\n[**Dr. Ir. Sahirul Alam, S.T., M.Eng.**](https://acadstaff.ugm.ac.id/sahirulalam) (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada (UGM) in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics (Departemen Teknik Elektro dan Informatika - DTEDI) within the Vocational College (Sekolah Vokasi) at UGM. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor (Sarjana Terapan) in Internet Engineering Technology (Teknologi Rekayasa Internet) study program.\n\nDr. Alam's research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems (including Femtocell networks), RADAR signal processing, optimization methodologies, and the Internet of Things (IoT)..\n\n------------------------------------------------------------------------\n\n:::: {.content-visible when-format=\"html\"}\n::: {style=\"text-align: center;\"}\n![](images/team/solaeman.jpg){.img-circle style=\"float:right;\" fig-alt=\"Headshot of Achmad Solaeman\" width=\"100\"}\n:::\n::::\n\n[**Achmad Solaeman, S.Tr.T., M.Eng.**](https://acadstaff.ugm.ac.id/achmadsolaeman) (he/his) is an academic and lecturer in the Internet Engineering Technology program at the Vocational College, UGM. His expertise lies in Distributed Artificial Intelligence and Network Security, with active research in deep learning applications. He is dedicated to driving technological innovation and shaping future professionals in the networking and AI domains.\n\n## Lab assistants\n\n\n```{=html}\n\n<table class=\"tabel-team\" style=\"width:100%;border-collapse:collapse;\">\n  <colgroup>\n    <col style=\"width:7%;\">\n    <col style=\"width:10%;\">\n    <col style=\"width:14%;\">\n    <col style=\"width:22%;\">\n    <col>\n  </colgroup>\n  <thead>\n    <tr>\n      <th style=\"text-align:center;padding:6px 12px;\">Class</th>\n      <th style=\"text-align:center;padding:6px 12px;\"></th>\n      <th style=\"text-align:center;padding:6px 12px;\">NIU</th>\n      <th style=\"padding:6px 12px;\">Name</th>\n      <th style=\"padding:6px 12px;\">Email</th>\n    </tr>\n  </thead>\n  <tbody>\n\n  </tbody>\n</table>\n\n```\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

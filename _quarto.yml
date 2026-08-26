@@ -48,9 +48,23 @@ book:
         text: "Print / PDF"
 
   chapters:
-    - index.qmd
-    - chapter1/ubuntu_server.qmd
-    - chapter2/samba_server.qmd
+    - part : "Course Information"
+      chapters:
+      - index.qmd
+      - course/syllabus.qmd
+      - course/team.qmd
+    - part: "Weekly materials"
+      chapters:
+      - materials/chapter1/ubuntu_server.qmd
+      - materials/chapter2/samba_server.qmd
+      - materials/chapter3/ftp_ubuntu.qmd
+      - materials/chapter4/ftp_windows.qmd
+      - materials/chapter5/webserver.qmd
+      - materials/chapter6/dnsserver.qmd
+      - materials/chapter7/proxy_server.qmd
+      - materials/chapter8/sarg.qmd
+      - materials/chapter9/mail_server.qmd
+      - materials/chapter10/webmin.qmd
     - references.qmd
 
       # chapters:

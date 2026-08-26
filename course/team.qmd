@@ -1,0 +1,190 @@
+---
+number-sections: false
+prefer-html: true
+---
+
+# Team {.unnumbered}
+
+## Lecturers
+
+:::: {.content-visible when-format="html"}
+::: {style="text-align: center;"}
+![](images/team/alam.png){.img-circle style="float:right;" fig-alt="Headshot of Sahirul Alam" width="100"}
+:::
+::::
+
+[**Dr. Ir. Sahirul Alam, S.T., M.Eng.**](https://acadstaff.ugm.ac.id/sahirulalam) (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada (UGM) in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics (Departemen Teknik Elektro dan Informatika - DTEDI) within the Vocational College (Sekolah Vokasi) at UGM. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor (Sarjana Terapan) in Internet Engineering Technology (Teknologi Rekayasa Internet) study program.
+
+Dr. Alam's research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems (including Femtocell networks), RADAR signal processing, optimization methodologies, and the Internet of Things (IoT)..
+
+------------------------------------------------------------------------
+
+:::: {.content-visible when-format="html"}
+::: {style="text-align: center;"}
+![](images/team/solaeman.jpg){.img-circle style="float:right;" fig-alt="Headshot of Achmad Solaeman" width="100"}
+:::
+::::
+
+[**Achmad Solaeman, S.Tr.T., M.Eng.**](https://acadstaff.ugm.ac.id/achmadsolaeman) (he/his) is an academic and lecturer in the Internet Engineering Technology program at the Vocational College, UGM. His expertise lies in Distributed Artificial Intelligence and Network Security, with active research in deep learning applications. He is dedicated to driving technological innovation and shaping future professionals in the networking and AI domains.
+
+## Lab assistants
+
+```{r}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+#| eval: !expr knitr::is_html_output()
+ 
+library(readr)
+library(htmltools)
+ 
+# Read team data
+team <- read_csv(
+  "data/team.csv",
+  show_col_types = FALSE
+)
+ 
+# Image directory — path relative to rendered HTML output
+# course/team.html → ../images/team/ resolves to images/team/ at site root
+image_path <- "images/team/"
+ 
+# Define class order
+class_order <- c("RI5B1", "RI5B2", "RI5A1", "RI5A2")
+ 
+# Inline styles for circle photo
+# min-width/min-height prevent squishing to oval on narrow mobile screens
+img_style <- paste0(
+  "width:72px;height:72px;",
+  "min-width:72px;min-height:72px;",
+  "border-radius:50%;",
+  "object-fit:cover;",
+  "object-position:center top;",
+  "display:block;margin:auto;"
+)
+ 
+td_photo_style  <- "text-align:center;padding:6px 10px;vertical-align:middle;min-width:84px;"
+td_class_style  <- "text-align:center;font-weight:600;vertical-align:middle;padding:6px 12px;"
+td_niu_style    <- "text-align:center;vertical-align:middle;padding:6px 12px;font-family:monospace;font-size:0.88em;"
+td_name_style   <- "vertical-align:middle;padding:6px 12px;"
+td_email_style  <- "vertical-align:middle;padding:6px 12px;font-size:0.85em;font-family:monospace;word-break:break-all;"
+ 
+# Start table
+html <- '
+<table class="tabel-team" style="width:100%;border-collapse:collapse;">
+  <colgroup>
+    <col style="width:7%;">
+    <col style="width:10%;">
+    <col style="width:14%;">
+    <col style="width:22%;">
+    <col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align:center;padding:6px 12px;">Class</th>
+      <th style="text-align:center;padding:6px 12px;"></th>
+      <th style="text-align:center;padding:6px 12px;">NIU</th>
+      <th style="padding:6px 12px;">Name</th>
+      <th style="padding:6px 12px;">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+'
+ 
+for (class_name in class_order) {
+ 
+  members <- team[team$class == class_name, ]
+  if (nrow(members) == 0) next
+ 
+  for (i in seq_len(nrow(members))) {
+ 
+    html <- paste0(html, "<tr>")
+ 
+    # Class cell: rowspan for all members in this class
+    if (i == 1) {
+      html <- paste0(
+        html,
+        '<td rowspan="', nrow(members), '" style="', td_class_style, '">',
+        class_name,
+        '</td>'
+      )
+    }
+ 
+    # Photo cell
+    html <- paste0(
+      html,
+      '<td style="', td_photo_style, '">',
+      '<img src="', image_path, members$photo[i], '"',
+      ' alt="', members$name[i], '"',
+      ' style="', img_style, '"',
+      ' onerror="this.style.display=\'none\'">',
+      '</td>'
+    )
+ 
+    # NIU cell
+    html <- paste0(
+      html,
+      '<td style="', td_niu_style, '">',
+      members$id[i],
+      '</td>'
+    )
+ 
+    # Name cell
+    html <- paste0(
+      html,
+      '<td style="', td_name_style, '">',
+      members$name[i],
+      '</td>'
+    )
+ 
+    # Email cell
+    email_val <- if (!is.null(members$email) && !is.na(members$email[i])) members$email[i] else ""
+    html <- paste0(
+      html,
+      '<td style="', td_email_style, '">',
+      '<a href="mailto:', email_val, '">', email_val, '</a>',
+      '</td>'
+    )
+ 
+    html <- paste0(html, "</tr>")
+  }
+}
+ 
+html <- paste0(html, '\n  </tbody>\n</table>\n')
+ 
+HTML(html)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| eval: !expr knitr::is_latex_output()
+ 
+library(readr)
+library(knitr)
+library(kableExtra)
+ 
+team <- read_csv("data/team.csv", show_col_types = FALSE)
+ 
+class_order <- c("RI5B1", "RI5B2", "RI5A1", "RI5A2")
+team$class  <- factor(team$class, levels = class_order)
+team        <- team[order(team$class), ]
+ 
+team_pdf <- data.frame(
+  Class = as.character(team$class),
+  NIU   = team$id,
+  Name  = team$name,
+  Email = team$email
+)
+ 
+kable(team_pdf,
+      format     = "latex",
+      col.names  = c("Class", "NIU", "Name", "Email"),
+      align      = c("c", "c", "l", "l"),
+      escape     = TRUE,
+      booktabs   = TRUE) |>
+  kable_styling(latex_options = c("scale_down", "hold_position"),
+                font_size = 9) |>
+  column_spec(4, width = "5.5cm")
+```

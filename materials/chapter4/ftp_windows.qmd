@@ -1,0 +1,200 @@
+# FTP Server on Windows
+ 
+## Practical Objectives
+ 
+a.  Students are able to install an FTP Server on Windows.
+b.  Students are able to modify the FTP configuration to manage user access rights and shared resources.
+c.  Students are able to practice file sharing and file transfer using FTP.
+ 
+## Theoretical Background of FTP Server {#sec-theory-ftp-win}
+ 
+The first specification for FTP was published as RFC 114 on 16 April 1971, written by Abhay Bhushan, then a student at the Massachusetts Institute of Technology. The original idea behind FTP was to enable file transfers over ARPANET, the precursor to the modern internet.
+ 
+As the modern internet took shape, the FTP specification went through several revisions to align with evolving network standards, including TCP/IP. In 1980, a new version of FTP was defined in RFC 765 by Jon Postel, a research scientist at the Information Sciences Institute at the University of Southern California. Five years later, FTP was redefined in RFC 959, which introduced new management capabilities — including the ability to create and delete file directories [@postel_ftp_1985]. In 1997, RFC 959 was updated with additional security capabilities specified in RFC 2228, and two years later, RFC 2428 added support for the IPv6 protocol.
+ 
+::: {.callout-note title="Common Use Cases for FTP" icon=false}
+-   **Backup** — FTP can be used by backup services or individual users to copy data from one location to a secure backup server running an FTP service.
+-   **Replication** — similar to backup, replication duplicates data across systems to provide higher availability and resilience; FTP can facilitate this process.
+-   **Data access and upload** — FTP is widely used to access shared web hosting and cloud services as a mechanism for loading data to remote systems.
+:::
+ 
+FTP is a client-server protocol that relies on two communication channels between the client and server: a **command channel** for controlling the conversation, and a **data channel** for transmitting file content. A typical FTP transfer works as follows:
+ 
+1.  A user logs in to the FTP server (some servers allow anonymous access without credentials).
+2.  The client initiates a conversation with the server when the user requests a file download.
+3.  Using FTP, the client can upload, download, delete, rename, move, and copy files on the server.
+ 
+## FTP Server Installation {#sec-steps-ftp-win}
+ 
+Windows includes a built-in FTP service through Internet Information Services (IIS). No additional software is needed — the service only needs to be enabled and configured [@huculak_ftp_windows]. The steps below apply to **Windows 10 and Windows 11**.
+ 
+::: {.panel-tabset}
+ 
+## 1.   Enabling IIS Features
+ 
+**Step 1 — Create the FTP root folder**
+ 
+Create a new folder on your **D:** drive. This folder will serve as the root directory for the FTP site.
+ 
+**Step 2 — Open Windows Features**
+ 
+Navigate to **Control Panel** → **Programs and Features**, then click **Turn Windows features on or off**.
+ 
+**Step 3 — Enable FTP and IIS components**
+ 
+Expand **Internet Information Services** and check the following three items:
+ 
+-   **FTP Extensibility**
+-   **FTP Service**
+-   **IIS Management Console**
+ 
+Click **OK** and wait for the installation to complete.
+
+
+<!-- , as shown in @fig-iis-features.  -->
+<!-- ![Enabling FTP and IIS components in Windows Features](images/iis_features.png){#fig-iis-features .lightbox fig-align="center" width="70%"} -->
+ 
+## 2.   Configuring IIS
+ 
+**Step 4 — Open IIS Manager**
+ 
+::: {.callout-note title="Opening IIS Manager" icon=false}
+-   **Windows 10:** **Control Panel** → **Administrative Tools** → **Internet Information Services (IIS) Manager**
+-   **Windows 11:** **Control Panel** → **Windows Tools** → **Internet Information Services (IIS) Manager**
+:::
+ 
+**Step 5 — Add a new FTP site**
+ 
+In the IIS Manager window, right-click on the server name (e.g. `DESKTOP-XXXXXX`) and select **Add FTP Site…**.
+<!-- , as shown in @fig-iis-add. -->
+
+<!-- ![Adding a new FTP site in IIS Manager](images/iis_add_ftp.png){#fig-iis-add .lightbox fig-align="center" width="80%"} -->
+ 
+**Step 6 — Site Information**
+ 
+In the **Add FTP Site — Site Information** window:
+ 
+-   **FTP site name:** enter a name, e.g. `FTP_coba`
+-   **Physical path:** select the folder you created in Step 1
+ 
+**Step 7 — Binding and SSL Settings**
+ 
+In the **Add FTP Site — Binding and SSL Settings** window:
+ 
+-   **IP Address:** enter the IP address of this computer
+-   **SSL:** select **No SSL**
+ 
+**Step 8 — Authentication and Authorization**
+ 
+In the **Add FTP Site — Authentication and Authorization Information** window:
+ 
+-   Under **Authentication**, check **Basic**
+-   Click **Finish**
+ 
+## 3.   Testing
+ 
+**Step 9 — Test FTP access from another computer**
+ 
+Find the IP address of the server. Then, from another computer acting as the client, open **File Explorer** and type the FTP address in the address bar:
+ 
+```
+ftp://192.168.x.x
+```
+ 
+<!-- If a login prompt appears, as shown in @fig-ftp-win-auth, the FTP server has been set up successfully. -->
+ 
+<!-- ![FTP login prompt in Windows File Explorer](images/ftp_win_auth.png){#fig-ftp-win-auth .lightbox fig-align="center" width="70%"} -->
+ 
+:::
+ 
+## Exercise {#sec-exercise-ftp-win}
+ 
+::: {.panel-tabset}
+ 
+### 1. Adding an FTP User
+ 
+**a. Create a new Windows user account**
+ 
+::: {.callout-note title="Steps differ by Windows version" icon=false}
+**Windows 10:** **Start** → **Settings** → **Family & other users** → **Add someone else to this PC**
+ 
+**Windows 11:** Search for **Computer Management** → **Local Users and Groups** → **Users** → right-click → **New User…**
+:::
+ 
+**b. Set a username and password**
+ 
+Enter a username and password for the FTP client account.
+ 
+::: {.callout-important title="Windows 11 only"}
+Uncheck **User must change password at next logon** before clicking **Create**.
+:::
+ 
+**c. Open FTP Authorization Rules**
+ 
+In **IIS Manager**, double-click **FTP Authorization Rules**, then click **Add Allow Rule…**
+ 
+**d. Authorize the new user**
+ 
+In the **Add Allow Authorization Rule** window:
+ 
+-   Select **Specified users** and enter the username created in step b.
+-   Under **Permissions**, check **Read**.
+-   Click **OK**.
+ 
+**e. Test login from the client computer**
+ 
+From the client computer, open **File Explorer** and navigate to `ftp://192.168.x.x`. Log in with the credentials created in step b and confirm the login succeeds.
+ 
+### 2. Setting FTP User Permissions
+ 
+**a. Create test files on the server**
+ 
+From the **server** computer, create a new folder and a new file inside the FTP root folder created in Step C.1.
+ 
+**b. Refresh the client view**
+ 
+Refresh **File Explorer** on the client computer so the newly created folder and file appear.
+ 
+**c–e. Test current permissions from the client**
+ 
+Attempt each of the following from the **client** computer and note whether each succeeds or fails:
+ 
+| Action | Expected result |
+|---|---|
+| Copy a file from the FTP server to local storage | ✓ Should succeed (Read is allowed) |
+| Copy a file from local storage to the FTP server | ✗ Should fail (Write not yet allowed) |
+| Delete a file on the FTP server | ✗ Should fail (Write not yet allowed) |
+ 
+**f. Grant write permission**
+ 
+From the **server**, open **FTP Authorization Rules** in IIS Manager. Right-click the FTP client username and select **Edit**. Check both **Read** and **Write** under Permissions, then click **OK**.
+ 
+**g. Retest write operations**
+ 
+Repeat the copy-to-server and delete tests from step e. Both operations should now succeed. Explain why the behaviour changed after updating the authorization rule.
+ 
+### 3. Removing the FTP Server
+ 
+Complete the following steps to fully remove the FTP server and restore the system to its original state.
+ 
+**a. Remove the FTP site**
+ 
+In **IIS Manager**, right-click the FTP site created in Step C.6 and select **Remove** → **Yes**.
+ 
+**b. Delete the FTP user account**
+ 
+::: {.callout-note title="Steps differ by Windows version" icon=false}
+**Windows 10:** **Start** → **Settings** → **Family & other users** → click the account name → **Remove** → **Delete account and data**
+ 
+**Windows 11:** **Computer Management** → **Local Users and Groups** → **Users** → right-click the user → **Delete**
+:::
+ 
+**c. Disable IIS**
+ 
+Navigate to **Control Panel** → **Programs and Features** → **Turn Windows features on or off**. Uncheck **Internet Information Services** entirely and click **OK**.
+ 
+**d. Restart the server**
+ 
+Restart the computer to complete the removal.
+ 
+:::

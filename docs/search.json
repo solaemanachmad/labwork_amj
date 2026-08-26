@@ -6,107 +6,701 @@
     "section": "",
     "text": "Homepage\nThis page contains an outline of the content of this book. You can click on the links to navigate to the corresponding sections.",
     "crumbs": [
+      "Course Information",
       "Homepage"
     ]
   },
   {
-    "objectID": "chapter1/ubuntu_server.html",
-    "href": "chapter1/ubuntu_server.html",
+    "objectID": "course/syllabus.html",
+    "href": "course/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course info\nClick here to download a PDF copy of the syllabus.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#course-info",
+    "href": "course/syllabus.html#course-info",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Class\nDay\nTime\nLocation\n\n\n\n\nLectures\nRI5B1\nTuesday\n12:15 pm - 3:55 pm\nLab HS104\n\n\nLectures\nRI5B2\nWednesday\n12:15 pm - 3:55 pm\nLab HS104",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#learning-objectives",
+    "href": "course/syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of the semester, you will be able to…\n\ninstall and configure an Operating System (Ubuntu Server).\ninstall and configure web-related server services such as DNS Server and Web Server.\nintegrate the installation of network service technologies within a simple to medium network topology.\ninstall and configure email-related server services such as Mail Server and Mail Client.\ninstall and demonstrate Webmin features for network administration and management needs.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#textbooks",
+    "href": "course/syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#lectures-and-labs",
+    "href": "course/syllabus.html#lectures-and-labs",
+    "title": "Syllabus",
+    "section": "Lectures and labs",
+    "text": "Lectures and labs",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#teams",
+    "href": "course/syllabus.html#teams",
+    "title": "Syllabus",
+    "section": "Teams",
+    "text": "Teams",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#assessment",
+    "href": "course/syllabus.html#assessment",
+    "title": "Syllabus",
+    "section": "Assessment",
+    "text": "Assessment\nAssessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.\n\nApplication exercises\n\n\nLabs\n\n\nHomework\n\n\nExams\n\n\nProject",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#grading",
+    "href": "course/syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#course-policies",
+    "href": "course/syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course policies",
+    "text": "Course policies\n\nAcademic integrityLate work policyAttendance policy\n\n\nTL;DR: Don’t cheat!\nAll students must adhere to the Universitas Gadjah Mada (UGM) Code of Ethics. As a student of the Internet Engineering Technology (Teknologi Rekayasa Internet) program, you commit to upholding a culture of honesty, fairness, and accountability by pledging:\n\nI will not lie, cheat, plagiarize, or steal in my academic endeavors.\nI will conduct myself honorably.\nI will act if this standard is compromised.\n\nYour Responsibilities Regardless of the class format, you must follow all UGM academic policies. This means:\n\nSubmitting your own original work (including programming code).\nProperly citing all sources.\nStrictly following guidelines for group projects.\n\nIgnoring these requirements is a serious violation. If you have any questions about these policies, please contact your Academic Advisor (DPA) or the Head of the Internet Engineering Technology Program (Sekolah Vokasi UGM).\n\n\n\n\n\n\nImportant\n\n\n\nTipSen is a form of academic dishonesty. Students who submit TP will receive a zero for the assignment and may face further disciplinary action.\n\n\n\n\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.\n\nThere is no late weekly report accepted for application exercises, since these are designed to help you prepare for labs and homework.\nThe late work policy for exams will be provided with the exam instructions.\nThe late work policy for the project will be provided with the project instructions.\n\n\n\nMaximum attendance is 75% of the total number of classes. Students who do not meet this requirement will receive a failing grade for the course.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#important-dates",
+    "href": "course/syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\n\n18 August - 2 October 2026: Lecture 1\n5 October - 16 October 2026: Mid Exam\n19 October - 4 December 2026: Lecture 2\n7 December - 18 December 2026: Final Exam",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/syllabus.html#five-tips-for-success",
+    "href": "course/syllabus.html#five-tips-for-success",
+    "title": "Syllabus",
+    "section": "Five tips for success",
+    "text": "Five tips for success\nYour success on this course depends very much on you and the effort you put into it. The course has been organized so that the burden of learning is on you. Your LAs and I will help you be providing you with materials and answering questions and setting a pace, but for this to work you must do the following:\n\nComplete all the preparation work before class.\nAsk questions. As often as you can. In class, out of class. Ask me, ask the LAs, ask your friends, ask the person sitting next to you. This will help you more than anything else. If you get a question wrong on an assessment, ask us why. If you’re not sure about the homework, ask. If you hear something on the news that sounds related to what we discussed, ask. If the reading is confusing, ask.\nDo the readings.\nDo the homework and lab. The earlier you start, the better. It’s not enough to just mechanically plow through the exercises. You should ask yourself how these exercises relate to earlier material, and imagine how they might be changed (to make questions for an exam, for example.)\nDon’t procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won’t know where to begin asking questions. Don’t let the week end with unanswered questions. But if you find yourself falling behind and not knowing where to begin asking, come to office hours, and let me help you identify a good (re)starting point.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course/team.html",
+    "href": "course/team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Lecturers\nDr. Ir. Sahirul Alam, S.T., M.Eng. (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada (UGM) in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics (Departemen Teknik Elektro dan Informatika - DTEDI) within the Vocational College (Sekolah Vokasi) at UGM. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor (Sarjana Terapan) in Internet Engineering Technology (Teknologi Rekayasa Internet) study program.\nDr. Alam’s research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems (including Femtocell networks), RADAR signal processing, optimization methodologies, and the Internet of Things (IoT)..\nAchmad Solaeman, S.Tr.T., M.Eng. (he/his) is an academic and lecturer in the Internet Engineering Technology program at the Vocational College, UGM. His expertise lies in Distributed Artificial Intelligence and Network Security, with active research in deep learning applications. He is dedicated to driving technological innovation and shaping future professionals in the networking and AI domains.",
+    "crumbs": [
+      "Course Information",
+      "Team"
+    ]
+  },
+  {
+    "objectID": "course/team.html#lab-assistants",
+    "href": "course/team.html#lab-assistants",
+    "title": "Team",
+    "section": "Lab assistants",
+    "text": "Lab assistants\n\n\n\n\n\n\n\n\n\n\nClass\n\nNIU\nName\nEmail",
+    "crumbs": [
+      "Course Information",
+      "Team"
+    ]
+  },
+  {
+    "objectID": "materials/chapter1/ubuntu_server.html",
+    "href": "materials/chapter1/ubuntu_server.html",
     "title": "1  Ubuntu Server Installation",
     "section": "",
     "text": "1.1 Practical Objectives",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ubuntu Server Installation</span>"
     ]
   },
   {
-    "objectID": "chapter1/ubuntu_server.html#practical-objectives",
-    "href": "chapter1/ubuntu_server.html#practical-objectives",
+    "objectID": "materials/chapter1/ubuntu_server.html#practical-objectives",
+    "href": "materials/chapter1/ubuntu_server.html#practical-objectives",
     "title": "1  Ubuntu Server Installation",
     "section": "",
     "text": "Students are able to install Ubuntu Server.\nStudents understand and are able to practice basic commands in the Ubuntu Server environment.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ubuntu Server Installation</span>"
     ]
   },
   {
-    "objectID": "chapter1/ubuntu_server.html#theoretical-background-of-ubuntu-server",
-    "href": "chapter1/ubuntu_server.html#theoretical-background-of-ubuntu-server",
+    "objectID": "materials/chapter1/ubuntu_server.html#theoretical-background-of-ubuntu-server",
+    "href": "materials/chapter1/ubuntu_server.html#theoretical-background-of-ubuntu-server",
     "title": "1  Ubuntu Server Installation",
     "section": "1.2 Theoretical Background of Ubuntu Server",
     "text": "1.2 Theoretical Background of Ubuntu Server\nUbuntu Server is a Linux-based server operating system based on the Ubuntu distribution, developed by Canonical Ltd. Ubuntu Server is specifically designed for use in server environments and network infrastructure. Ubuntu Server is the version of the Ubuntu operating system without a graphical user interface (headless), with a primary focus on performance and efficiency for for server-related tasks [1].\nThe following are some important points about Ubuntu Server:\n\nOpen Source: Ubuntu Server is open-source, meaning that its source code can be freely accessed, used, modified, and distributed by anyone. As a result, many communities and organizations can contribute to the development and improvement of the operating system.\nStability and Security: Ubuntu Server is supported by a large and active community and is reviewed by security experts. Stable versions are released regularly with Long-Term Support (LTS), providing security updates and bug fixes for an extended period, typically up to five years after release.\nAPT Package Management: Like other Linux operating systems, Ubuntu Server uses the Advanced Package Tool (APT) as its package management system. This allows administrators to easily install, remove, and manage software and additional packages required by the server system.\nCommand-Line Interface (CLI): Ubuntu Server operates through a CLI, allowing administrators to manage the system remotely or through Secure Shell (SSH). The absence of a graphical interface helps reduce resource usage and improve security.\nCloud Support: Ubuntu Server is well known for its support for cloud computing environments. This server version is widely used by cloud service providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.\nVirtualization Support: Ubuntu Server supports virtualization technologies such as Kernel-based Virtual Machine (KVM) and Docker containers. This allows users to create and manage virtual machines and containers easily and efficiently.\nAccess to Ubuntu Repositories: Ubuntu Server provides access to extensive Ubuntu repositories for downloading and installing various server software, including web applications, databases, email servers, and many others.\nDocumentation and Community Support: Ubuntu has a large and active community that can provide assistance through forums, discussion groups, and other online resources. In addition, paid support options are available from Canonical Ltd. for business and enterprise users.\n\nUbuntu Server has become a popular choice for building and managing server infrastructure due to its stability, security, and support for modern technologies such as cloud computing and virtualization. It provides powerful tools for operating servers reliably and efficiently [2]. The hands-on steps for installing and configuring it are covered in Section 1.3.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ubuntu Server Installation</span>"
     ]
   },
   {
-    "objectID": "chapter1/ubuntu_server.html#sec-steps-ubuntu",
-    "href": "chapter1/ubuntu_server.html#sec-steps-ubuntu",
+    "objectID": "materials/chapter1/ubuntu_server.html#sec-steps-ubuntu",
+    "href": "materials/chapter1/ubuntu_server.html#sec-steps-ubuntu",
     "title": "1  Ubuntu Server Installation",
     "section": "1.3 Ubuntu Server Practicum Steps",
     "text": "1.3 Ubuntu Server Practicum Steps\nThis guide walks through installing Ubuntu Server in VirtualBox and configuring its network adapter so the machine can be reached from outside VirtualBox.\n\n1.3.1 Installing Ubuntu Server in VirtualBox\n\n\n\n\n\n\nNoteWhat you’ll need\n\n\n\nAn internet connection is required during installation, since packages are fetched while Ubuntu Server sets itself up.\n\n\n\nDownload the Ubuntu Server installer image from ubuntu.com/download/server.\nChoose the version that matches your computer’s specifications. Ubuntu Server 24 is the recommended version for this practicum.\nInstall Ubuntu Server through VirtualBox.\n\n\n\n\n\n\nImportantRecommended virtual machine specifications\n\n\n\n\n\n\n\n\n\n\nSetting\nRecommended value\n\n\n\n\nBase Memory\n8 GB\n\n\nProcessors\n2\n\n\nStorage (VDI)\n30 GB\n\n\n\nUse a different drive from the one hosting your host operating system to store the VM folder!\n\n\n\n\n\n1.3.2 Configuring the Network Adapter for External Access\nThe default network adapter in VirtualBox is isolated from the outside world. Adding a second, host-only adapter lets you reach the Ubuntu Server VM from your host machine, configured as shown in Figure 1.1.\n\n\n\n\n\n\nFigure 1.1: Setting on VMWare via Adapter 2\n\n\n\n\n\n\n\n\n\nImportantBefore you start\n\n\n\nPower off the Ubuntu Server VM you just installed before changing its network settings.\n\n\n\nEnable a host-only adapter.\nIn the VM’s Settings, open the Network menu and select the Adapter 2 tab. Then:\n\nSet Attached to: → Host-only Adapter\nSet Promiscuous Mode: → Allow All\n\nPower the VM back on and edit the Netplan configuration [3].\nCreate a configuration file with:\nsudo nano /etc/netplan/01-netconf.yaml\nAdd the following content to the file:\nnetwork:\n  version: 2\n  renderer: networkd\n  ethernets:\n    enp0s8:\n      dhcp4: yes\nSave and exit the editor by pressing Ctrl+X, then Y, then Enter.\nApply the new network configuration.\nIn the Ubuntu Server terminal, run:\nsudo netplan apply\nVerify the IP address.\nCheck that Ubuntu Server has received an IP address on the enp0s8 adapter. You can confirm this with:\nip a\n\n\n\n\n\n\nNoteExample result\n\n\n\nIn the example used for this guide, the Ubuntu Server IP address to be used in the next parts of the practicum is:\n\n192.168.56.104\n\n\n\nFigure 1.2 shows an example of this output in the Ubuntu Server terminal.\n\n\n\n\n\n\nFigure 1.2: Ubuntu Server\n\n\n\n\n\n\n\n\n\n\n\nWarningKeep this address handy\n\n\n\nThe IP address obtained on the enp0s8 adapter (e.g. 192.168.56.104) will be used to access this Ubuntu Server instance in later steps of the practicum. Write it down before continuing.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ubuntu Server Installation</span>"
     ]
   },
   {
-    "objectID": "chapter1/ubuntu_server.html#exercise",
-    "href": "chapter1/ubuntu_server.html#exercise",
+    "objectID": "materials/chapter1/ubuntu_server.html#exercise",
+    "href": "materials/chapter1/ubuntu_server.html#exercise",
     "title": "1  Ubuntu Server Installation",
     "section": "1.4 Exercise",
     "text": "1.4 Exercise\nTry the commands listed in Table 1.1, explain their functions, and provide screenshots of your results. Complete a total of 15 commands.\n\n\n\nTable 1.1: Essential Linux Commands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\nCommand\n#\nCommand\n#\nCommand\n#\nCommand\n\n\n\n\n1\nls\n22\nifconfig\n43\nlsof\n64\nparted\n\n\n2\npwd\n23\nip\n44\ndig\n65\nwc\n\n\n3\ncd\n24\nwget\n45\nnslookup\n66\nls\n\n\n4\nclear\n25\ncurl\n46\ndu\n67\nnmap\n\n\n5\nmkdir\n26\napt\n47\ntree\n68\ndmesg\n\n\n6\nmv\n27\napt-get\n48\nss\n69\nchattr\n\n\n7\ncp\n28\nyum\n49\npartx\n70\nusermod\n\n\n8\nrmdir\n29\ndnf\n50\nuptime\n71\nfree\n\n\n9\ntouch\n30\nrpm\n51\ntr\n72\ncron\n\n\n10\ncat\n31\nalias\n52\nping\n73\nmysql\n\n\n11\necho\n32\ndd\n53\nzcat\n74\nsdiff\n\n\n12\nless\n33\ntop\n54\nxargs\n75\nhistory\n\n\n13\ntar\n34\nuseradd\n55\nrm\n76\nnetstat\n\n\n14\ngrep\n35\nsleep\n56\nstat\n77\nsftp\n\n\n15\nhead\n36\nscreen\n57\nwho\n78\ntcpdump\n\n\n16\ntail\n37\npv\n58\nlocate\n79\nscp\n\n\n17\nsort\n38\nfgrep\n59\nhost\n80\nrsync\n\n\n18\nps\n39\ndir\n60\nfind\n81\nfsck\n\n\n19\nkill\n40\negrep\n61\nfuser\n82\nbc\n\n\n20\ndf\n41\nssh\n62\nat\n83\nchage\n\n\n21\nchown\n42\nfd\n63\nfdisk\n84\nffmpeg\n\n\n\n\n\n\n\n\n\n\n[1] Canonical Ltd., “Ubuntu server — for scale out workloads.” Canonical, 2024. Accessed: Aug. 16, 2026. [Online]. Available: https://ubuntu.com/server\n\n\n[2] phoenixNAP, “Linux server guide: Installation and configuration.” phoenixNAP, 2024. Accessed: Aug. 16, 2026. [Online]. Available: https://phoenixnap.com/kb/linux-server\n\n\n[3] Canonical Ltd., “Canonical netplan.” Canonical, 2024. Accessed: Aug. 16, 2026. [Online]. Available: https://netplan.io/",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ubuntu Server Installation</span>"
     ]
   },
   {
-    "objectID": "chapter2/samba_server.html",
-    "href": "chapter2/samba_server.html",
+    "objectID": "materials/chapter2/samba_server.html",
+    "href": "materials/chapter2/samba_server.html",
     "title": "2  Samba Server",
     "section": "",
     "text": "2.1 Practical Objectives",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Samba Server</span>"
     ]
   },
   {
-    "objectID": "chapter2/samba_server.html#practical-objectives",
-    "href": "chapter2/samba_server.html#practical-objectives",
+    "objectID": "materials/chapter2/samba_server.html#practical-objectives",
+    "href": "materials/chapter2/samba_server.html#practical-objectives",
     "title": "2  Samba Server",
     "section": "",
     "text": "Students are able to install Samba Server.\nStudents are able to modify Samba configuration to manage user access rights and shared resources.\nStudents are able to practice file sharing between Ubuntu and Windows using Samba.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Samba Server</span>"
     ]
   },
   {
-    "objectID": "chapter2/samba_server.html#sec-samba_theory",
-    "href": "chapter2/samba_server.html#sec-samba_theory",
+    "objectID": "materials/chapter2/samba_server.html#sec-samba_theory",
+    "href": "materials/chapter2/samba_server.html#sec-samba_theory",
     "title": "2  Samba Server",
     "section": "2.2 Theoretical Background of Samba Server",
-    "text": "2.2 Theoretical Background of Samba Server\nSamba is a free and open-source software that provides an implementation of the SMB/CIFS protocol for non-Windows operating systems such as Linux, Unix, and macOS [1]. A Samba server allows these operating systems to function as a file and print server in a Windows network environment, enabling Windows users to share and access files and printers from computers running non-Windows operating systems, as illustrated in Figure 2.1. Samba provides features such as authentication, authorization, encryption, and access rights management to ensure the security and privacy of shared data. It can also be integrated with directory services such as Active Directory to simplify user management in large network environments [2].\n\n\n\n\n\n\nFigure 2.1: Illustration of Samba’s ability to share resources across operating systems\n\n\n\nSamba operates using Server Message Block (SMB) protocol — a network protocol used to share files, printers, and other network resources between Windows or Unix computers [3]. SMB was originally developed by Microsoft as part of LAN Manager in the 1980s and has since become the de facto standard for file and printer sharing in Windows networks. SMB is a client-server protocol: the client sends requests to the server, and the server responds by delivering data or performing the requested operation, as illustrated in Figure 2.2. Data exchange is secured using encryption, authentication, and authorization.\n\n\n\n\n\n\nFigure 2.2: Illustration of the client-server protocol\n\n\n\nSamba consists of two programs running in the background:\n\nSMBD — the file server; spawns a new process for each active client.\nNMBD — converts NetBIOS computer names to IP addresses and monitors shared resources on the network.\n\nSMBD behavior is controlled through /etc/samba/smb.conf [4]. Samba can be configured as a file server, print server, or domain controller.\n\n\n\n\n\n\n\nNoteUses of Samba Server\n\n\n\n\nShare one or more directory trees across the network.\nCentrally manage printers, print settings, and drivers for Windows clients.\nAssist clients with network browsing.\nAuthenticate clients logging in to a Windows domain.\n\n\n\n\n\n\n\n\n\nNoteAdvantages of Samba\n\n\n\n\nFree and open-source — no licensing cost.\nAvailable on multiple platforms for file sharing services.\nEasy to configure and administer.\nConnects directly to the network with minimal issues.\nHighly reliable — errors are uncommon unless the server has hardware problems.\n\n\n\n\n\n\n\n\n\nNoteKey Features of Samba\n\n\n\n\nUser Authentication — Users must log in before accessing Samba services. Samba accounts are managed with smbpasswd.\nWrite Access Control — Write permissions can be set per-share using read only or writable directives.\nNetwork Access Control — Access can be restricted by allowing or blocking specific IP addresses.",
+    "text": "2.2 Theoretical Background of Samba Server\nSamba is a free and open-source software that provides an implementation of the SMB/CIFS protocol for non-Windows operating systems such as Linux, Unix, and macOS [1]. A Samba server allows these operating systems to function as a file and print server in a Windows network environment, enabling Windows users to share and access files and printers from computers running non-Windows operating systems, as illustrated in Figure 2.1. Samba provides features such as authentication, authorization, encryption, and access rights management to ensure the security and privacy of shared data. It can also be integrated with directory services such as Active Directory to simplify user management in large network environments [2].\n\n\n\n\n\n\nFigure 2.1: Illustration of Samba’s ability to share resources across operating systems\n\n\n\nSamba operates using Server Message Block (SMB) protocol — a network protocol used to share files, printers, and other network resources between Windows or Unix computers [3]. SMB was originally developed by Microsoft as part of LAN Manager in the 1980s and has since become the de facto standard for file and printer sharing in Windows networks. SMB is a client-server protocol: the client sends requests to the server, and the server responds by delivering data or performing the requested operation, as illustrated in Figure 3.1. Data exchange is secured using encryption, authentication, and authorization.\n\n\n\n\n\n\nFigure 2.2: Illustration of the client-server protocol\n\n\n\nSamba consists of two programs running in the background:\n\nSMBD — the file server; spawns a new process for each active client.\nNMBD — converts NetBIOS computer names to IP addresses and monitors shared resources on the network.\n\nSMBD behavior is controlled through /etc/samba/smb.conf [4]. Samba can be configured as a file server, print server, or domain controller.\n\n\n\n\n\n\n\nNoteUses of Samba Server\n\n\n\n\nShare one or more directory trees across the network.\nCentrally manage printers, print settings, and drivers for Windows clients.\nAssist clients with network browsing.\nAuthenticate clients logging in to a Windows domain.\n\n\n\n\n\n\n\n\n\nNoteAdvantages of Samba\n\n\n\n\nFree and open-source — no licensing cost.\nAvailable on multiple platforms for file sharing services.\nEasy to configure and administer.\nConnects directly to the network with minimal issues.\nHighly reliable — errors are uncommon unless the server has hardware problems.\n\n\n\n\n\n\n\n\n\nNoteKey Features of Samba\n\n\n\n\nUser Authentication — Users must log in before accessing Samba services. Samba accounts are managed with smbpasswd.\nWrite Access Control — Write permissions can be set per-share using read only or writable directives.\nNetwork Access Control — Access can be restricted by allowing or blocking specific IP addresses.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Samba Server</span>"
     ]
   },
   {
-    "objectID": "chapter2/samba_server.html#sec-steps",
-    "href": "chapter2/samba_server.html#sec-steps",
+    "objectID": "materials/chapter2/samba_server.html#sec-steps",
+    "href": "materials/chapter2/samba_server.html#sec-steps",
     "title": "2  Samba Server",
     "section": "2.3 Samba Server Installation",
     "text": "2.3 Samba Server Installation\n\n\n\n\n\n\nImportantBefore you begin\n\n\n\nThese steps assume Ubuntu Server is already installed and running. If not, complete the Ubuntu Server installation on Chapter 1.\n\n\n\n1. Installation2. Firewall Setup\n\n\nStep 1 — Log in as root\nLog in to your Ubuntu Server terminal as root (or prefix each command with sudo).\nStep 2 — Update the package list\napt update\nStep 3 — Install Samba\n1apt install samba\n\n1\n\nAn active internet connection is required — packages are downloaded during installation.\n\n\nContinue the installation until complete.\nStep 4 — Verify the installation\n1systemctl status smbd\n\n1\n\nsmbd is the main Samba file-server daemon. A status of active (running) confirms a successful install.\n\n\nIf successful, the output will show active (running), as shown in Figure 2.3.\n\n\n\n\n\n\nFigure 2.3: Samba running successfully\n\n\n\nIf the status shows inactive (dead) (Figure 2.4), try starting Samba manually:\nservice smbd start\nIf it still does not start, reinstall Samba.\n\n\n\n\n\n\nFigure 2.4: Samba inactive — installation may have failed\n\n\n\n\n\nStep 5 — Check firewall status\nufw status\nIf the firewall is not active, enable it first:\nufw enable\nAllow Samba traffic through the firewall\n1ufw allow Samba\n\n1\n\nThis opens UDP ports 137–138 and TCP ports 139 and 445, which Samba needs to communicate with Windows clients.\n\n\n\n\n\n\n\n\nWarningDo not skip this step\n\n\n\nWithout allowing Samba through the firewall, Windows clients will not be able to connect to the shared folders.",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Samba Server</span>"
     ]
   },
   {
-    "objectID": "chapter2/samba_server.html#sec-exercise",
-    "href": "chapter2/samba_server.html#sec-exercise",
+    "objectID": "materials/chapter2/samba_server.html#sec-exercise",
+    "href": "materials/chapter2/samba_server.html#sec-exercise",
     "title": "2  Samba Server",
     "section": "2.4 Exercise",
-    "text": "2.4 Exercise\n\n2.4.1 Setting Up File Sharing\nStep 1 — Create the shared directories\n1mkdir /home/share1\nmkdir /home/share2\n\n1\n\nBoth directories will be the root of each Samba share.\n\n\nCreate an empty test file inside each directory:\ntouch /home/share1/testfile1.txt\ntouch /home/share2/testfile2.txt\nStep 2 — Set directory permissions\n1chmod 777 /home/share1\nchmod 777 /home/share2\n\n1\n\n777 grants read, write, and execute permission to all users. For production use, more restrictive permissions are recommended.\n\n\nStep 3 — Create Samba users\n1useradd user1\nuseradd user2\n\n1\n\nThis creates a Linux system user. A separate Samba password is still required in the next step. Step 4 — Set Samba passwords\n\n\n1smbpasswd -a user1\n\n1\n\nThe -a flag adds a new Samba user. Enter the password twice when prompted.\n\n\nRepeat for user2:\nsmbpasswd -a user2\nStep 5 — Configure access rights in smb.conf\nOpen the Samba configuration file:\nnano /etc/samba/smb.conf\nScroll to the bottom and add the following blocks:\n[share1]\n1path = /home/share1\n2valid users = user1, user2\n3read list = user2\n4write list = user1\nbrowseable = yes\n\n[share2]\npath = /home/share2\nvalid users = user1, user2\nread list = user1\nwrite list = user2\nbrowseable = yes\n\n1\n\nThe directory on the server that will be shared.\n\n2\n\nOnly these users may connect to this share.\n\n3\n\nuser2 can only read files in share1.\n\n4\n\nuser1 can read and write files in share1.\n\n\nSave and exit by pressing Ctrl+X, then Y, then Enter.\n\n\n\nFolder\nuser1\nuser2\n\n\n\n\nshare1\nRead + Write\nRead only\n\n\nshare2\nRead only\nRead + Write\n\n\n\nStep 6 — Restart Samba\n1systemctl restart smbd\n\n1\n\nConfiguration changes only take effect after a restart.\n\n\n\n\n2.4.2 Testing File Sharing from Windows\nStep 1 — Find the Ubuntu Server IP address\n1ip a\n\n1\n\nLook for the IP address on the enp0s8 adapter (the host-only adapter configured earlier).\n\n\nNote the IP address (e.g., 192.168.56.101).\nStep 2 — Open the shares in File Explorer\nOn your Windows machine, open File Explorer and type the following in the address bar:\n\\\\192.168.56.101\nConfirm that both share1 and share2 are visible, as shown in Figure 2.5.\n\n\n\n\n\n\nFigure 2.5: Samba shares visible in Windows File Explorer\n\n\n\nStep 3 — Test access as user1\nClick share1 and log in as user1 when prompted. Check each of the following:\n\nCan you view the contents of share1?\nCan you create a new file inside share1?\nCan you copy a file from share1 to local Windows storage?\n\nThen navigate to share2 (still logged in as user1) and repeat the same checks.\n\n\n\n\n\n\nTipExpected result for user1\n\n\n\n\n\n\nshare1 → can view, create, and copy files ✓\nshare2 → can view and copy files, but cannot create or modify files ✗\n\n\n\n\nStep 4 — Disconnect and switch to user2\nOpen Command Prompt on Windows and check the active connection:\nnet use\nDisconnect it (replace \\\\name with the connection name shown above):\n1net use \\\\name /delete\n\n1\n\nDisconnecting is necessary — Windows caches credentials, so the old session must be cleared before logging in as a different user.\n\n\nStep 5 — Test access as user2\nConnect again to \\\\192.168.56.101, log in as user2, and check both share1 and share2.\n\n\n\n\n\n\nTipExpected result for user2\n\n\n\n\n\n\nshare1 → can view and copy files, but cannot create or modify files ✗\nshare2 → can view, create, and copy files ✓\n\n\n\n\n\n\n\n\n[1] Samba Team, “What is samba?” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/what_is_samba.html\n\n\n[2] Samba Team, “Samba: An introduction.” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/docs/SambaIntro.html\n\n\n[3] Microsoft Corporation, “Microsoft SMB protocol and CIFS protocol overview.” Microsoft Learn, 2023. Accessed: Aug. 19, 2026. [Online]. Available: https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview\n\n\n[4] Samba Team, “Smb.conf — the configuration file for the samba suite.” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html",
+    "text": "2.4 Exercise\n\n2.4.1 Setting Up File Sharing\nStep 1 — Create the shared directories\n1mkdir /home/share1\nmkdir /home/share2\n\n1\n\nBoth directories will be the root of each Samba share.\n\n\nCreate an empty test file inside each directory:\ntouch /home/share1/testfile1.txt\ntouch /home/share2/testfile2.txt\nStep 2 — Set directory permissions\n1chmod 777 /home/share1\nchmod 777 /home/share2\n\n1\n\n777 grants read, write, and execute permission to all users. For production use, more restrictive permissions are recommended.\n\n\nStep 3 — Create Samba users\n1useradd user1\nuseradd user2\n\n1\n\nThis creates a Linux system user. A separate Samba password is still required in the next step. Step 4 — Set Samba passwords\n\n\n1smbpasswd -a user1\n\n1\n\nThe -a flag adds a new Samba user. Enter the password twice when prompted.\n\n\nRepeat for user2:\nsmbpasswd -a user2\nStep 5 — Configure access rights in smb.conf\nOpen the Samba configuration file:\nnano /etc/samba/smb.conf\nScroll to the bottom and add the following blocks:\n[share1]\n1path = /home/share1\n2valid users = user1, user2\n3read list = user2\n4write list = user1\nbrowseable = yes\n\n[share2]\npath = /home/share2\nvalid users = user1, user2\nread list = user1\nwrite list = user2\nbrowseable = yes\n\n1\n\nThe directory on the server that will be shared.\n\n2\n\nOnly these users may connect to this share.\n\n3\n\nuser2 can only read files in share1.\n\n4\n\nuser1 can read and write files in share1.\n\n\nSave and exit by pressing Ctrl+X, then Y, then Enter.\n\n\n\n\n\n\n\n\nFolder\nuser1\nuser2\n\n\n\n\nshare1\nRead + Write\nRead only\n\n\nshare2\nRead only\nRead + Write\n\n\n\nStep 6 — Restart Samba\n1systemctl restart smbd\n\n1\n\nConfiguration changes only take effect after a restart.\n\n\n\n\n2.4.2 Testing File Sharing from Windows\nStep 1 — Find the Ubuntu Server IP address\n1ip a\n\n1\n\nLook for the IP address on the enp0s8 adapter (the host-only adapter configured earlier).\n\n\nNote the IP address (e.g., 192.168.56.101).\nStep 2 — Open the shares in File Explorer\nOn your Windows machine, open File Explorer and type the following in the address bar:\n\\\\192.168.56.101\nConfirm that both share1 and share2 are visible, as shown in Figure 2.5.\n\n\n\n\n\n\nFigure 2.5: Samba shares visible in Windows File Explorer\n\n\n\nStep 3 — Test access as user1\nClick share1 and log in as user1 when prompted. Check each of the following:\n\nCan you view the contents of share1?\nCan you create a new file inside share1?\nCan you copy a file from share1 to local Windows storage?\n\nThen navigate to share2 (still logged in as user1) and repeat the same checks.\n\n\n\n\n\n\nTipExpected result for user1\n\n\n\n\n\n\nshare1 → can view, create, and copy files ✓\nshare2 → can view and copy files, but cannot create or modify files ✗\n\n\n\n\nStep 4 — Disconnect and switch to user2\nOpen Command Prompt on Windows and check the active connection:\nnet use\nDisconnect it (replace \\\\name with the connection name shown above):\n1net use \\\\name /delete\n\n1\n\nDisconnecting is necessary — Windows caches credentials, so the old session must be cleared before logging in as a different user.\n\n\nStep 5 — Test access as user2\nConnect again to \\\\192.168.56.101, log in as user2, and check both share1 and share2.\n\n\n\n\n\n\nTipExpected result for user2\n\n\n\n\n\n\nshare1 → can view and copy files, but cannot create or modify files ✗\nshare2 → can view, create, and copy files ✓\n\n\n\n\n\n\n\n\n[1] Samba Team, “What is samba?” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/what_is_samba.html\n\n\n[2] Samba Team, “Samba: An introduction.” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/docs/SambaIntro.html\n\n\n[3] Microsoft Corporation, “Microsoft SMB protocol and CIFS protocol overview.” Microsoft Learn, 2023. Accessed: Aug. 19, 2026. [Online]. Available: https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview\n\n\n[4] Samba Team, “Smb.conf — the configuration file for the samba suite.” Samba Project, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html",
     "crumbs": [
+      "Weekly materials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Samba Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter3/ftp_ubuntu.html",
+    "href": "materials/chapter3/ftp_ubuntu.html",
+    "title": "3  FTP Server",
+    "section": "",
+    "text": "3.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>FTP Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter3/ftp_ubuntu.html#practical-objectives",
+    "href": "materials/chapter3/ftp_ubuntu.html#practical-objectives",
+    "title": "3  FTP Server",
+    "section": "",
+    "text": "Students are able to install an FTP Server on Ubuntu.\nStudents are able to modify the FTP configuration to manage user access rights and shared resources.\nStudents are able to practice file sharing and file transfer using FTP.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>FTP Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter3/ftp_ubuntu.html#sec-theory-ftp",
+    "href": "materials/chapter3/ftp_ubuntu.html#sec-theory-ftp",
+    "title": "3  FTP Server",
+    "section": "3.2 Theoretical Background of FTP Server",
+    "text": "3.2 Theoretical Background of FTP Server\nFTP (File Transfer Protocol) is a standard communication protocol used to transfer files between a server and a client [1]. FTP consists of two main components:\n\nFTP Server — a program running on the server that provides access to the files stored on it.\nFTP Client — a program running on the client computer, used to access files on the FTP server.\n\nFTP uses a connection-based model, meaning a connection must be established before any data transfer can begin, as illustrated in Figure 3.1.\n\n\n\n\n\n\nFigure 3.1: FTP connection modes\n\n\n\nThere are two types of connection modes used in FTP:\n\nActive mode — the FTP server opens a data connection to the client.\nPassive mode — the client opens a data connection to the server. This mode is generally preferred when the client is behind a firewall or NAT.\n\n\n\n\n\n\n\nNoteFTP Variants\n\n\n\n\nFTPS — standard FTP extended with encryption, supporting Transport Layer Security (TLS) and Secure Sockets Layer (SSL).\nSFTP — uses Secure Shell (SSH) as the underlying transport; not related to standard FTP despite the name.\nTrivial FTP (TFTP) — the simplest variant, designed for lightweight file transfers to/from a remote server without authentication.\nSimple FTP — complexity between TFTP and standard FTP; rarely used and largely obsolete.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>FTP Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter3/ftp_ubuntu.html#sec-steps-ftp",
+    "href": "materials/chapter3/ftp_ubuntu.html#sec-steps-ftp",
+    "title": "3  FTP Server",
+    "section": "3.3 FTP Server Installation",
+    "text": "3.3 FTP Server Installation\n\n\n\n\n\n\nImportantBefore you begin\n\n\n\nThese steps assume Ubuntu Server is already installed and running. If not, complete the Ubuntu Server installation practicum first.\n\n\n\nInstallationFirewall SetupTesting\n\n\nStep 1 — Log in as root\nLog in to your Ubuntu Server terminal as root (or prefix each command with sudo).\nStep 2 — Update the package list\napt update\nStep 3 — Install vsftpd\n1apt install vsftpd\n\n1\n\nvsftpd (Very Secure FTP Daemon) is the FTP server package used in this practicum [2]. Continue until the installation is complete.\n\n\nStep 4 — Verify the installation\n1systemctl status vsftpd\n\n1\n\nA status of active (running) confirms a successful installation.\n\n\nIf successful, the output will show active (running).\n\n\nStep 5 — Check the firewall status\nufw status\nIf the firewall is not active, enable it first:\nufw enable\nAllow FTP traffic through the firewall\n1ufw allow ftp\n\n1\n\nThis opens TCP port 21, which FTP uses for its control connection.\n\n\n\n\n\n\n\n\nWarningDo not skip this step\n\n\n\nWithout allowing FTP through the firewall, Windows clients will not be able to connect to the FTP server.\n\n\n\n\nStep 6 — Test FTP access from Windows\nOn your Windows machine, open File Explorer and type the server’s IP address in the address bar, prefixed with ftp://:\nftp://192.168.56.101\nAn FTP authentication window should appear, as shown in Figure 3.2.\n\n\n\n\n\n\nFigure 3.2: FTP authentication window in Windows File Explorer",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>FTP Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter3/ftp_ubuntu.html#sec-exercise-ftp",
+    "href": "materials/chapter3/ftp_ubuntu.html#sec-exercise-ftp",
+    "title": "3  FTP Server",
+    "section": "3.4 Exercise",
+    "text": "3.4 Exercise\n\n1. Creating an FTP User2. Creating an FTP Folder3. Blocking Users4. Granting Access\n\n\na. Add a new FTP user\nAn FTP user owns the home directory that will be used as the FTP shared folder. Create the user before setting up the folder:\n1adduser alamftp\n\n1\n\nReplace alamftp with any username you prefer.\n\n\nEnter a password when prompted. For the subsequent fields (Room Number, etc.), press Enter to skip them.\nb. Restart the FTP service\nsystemctl restart vsftpd\nc. Test login from Windows\nOpen File Explorer on Windows and navigate to ftp://192.168.56.101. Log in with the FTP user credentials you just created and confirm that the login succeeds.\n\n\n\n\n\n\nImportantLogin fails?\n\n\n\n\n\nIf login is denied, the firewall may be blocking the connection. Temporarily disable it and try again:\nufw disable\n\n\n\n\n\na. Verify the user’s home directory\nConfirm that a home folder for the FTP user was automatically created under /home:\n1cd /home\nls\n\n1\n\nThe FTP user’s folder (e.g. alamftp) should appear in the listing on Figure 3.3.\n\n\n\n\n\n\n\n\nFigure 3.3: FTP user’s home directory\n\n\n\nb. Create a folder and a test file\n1mkdir /home/alamftp/folder_baru\n2touch /home/alamftp/file_baru\n\n1\n\nCreates a new sub-folder inside the FTP user’s home directory.\n\n2\n\nCreates an empty test file for file transfer simulation.\n\n\nc. Verify in Windows File Explorer\nRefresh File Explorer on Windows and confirm that folder_baru and file_baru are now visible in the FTP share.\n\n\nFTP users can be blocked from accessing the server by adding their username to the FTP deny list.\na. Open the FTP user block list\n1nano /etc/ftpusers\n\n1\n\nAny username listed in this file is denied FTP access.\n\n\nb. Add the username to block\nScroll to the bottom of the file and add the username on a new line (e.g. alamftp). Save and exit by pressing Ctrl+X, then Y, then Enter.\nc. Test the blocked account\nClose and reopen File Explorer on Windows, then attempt to log in with the blocked user. Access should now be denied.\nd. Remove the block before continuing\nOpen /etc/ftpusers again, delete the username you added, and save the file. The user must be unblocked before proceeding to the next exercise.\n\n\na. Confirm that write access is not yet enabled\nIn Windows File Explorer, try to copy a file into the FTP folder or delete an existing file. Confirm that the operation fails — write access is disabled in the default vsftpd configuration.\nb. Back up the configuration file\n1cp /etc/vsftpd.conf /etc/vsftpd.conf.backup\n\n1\n\nAlways back up configuration files before editing them.\n\n\nc. Enable write access\nOpen the configuration file:\nnano /etc/vsftpd.conf --linenumbers\nFind line 31 and uncomment it by removing the leading #:\nwrite_enable=YES\nSave and exit.\nd. Restart the FTP server\n1systemctl restart vsftpd.service\n\n1\n\nConfiguration changes only take effect after a restart.\n\n\ne. Verify write access from Windows\nIn File Explorer, copy a file from your local computer into the FTP folder, and try deleting a file from the FTP folder. Both operations should now succeed.\n\n\n\n\n\n\n\n[1] J. Postel and J. Reynolds, “File transfer protocol,” Internet Engineering Task Force, Request for Comments RFC 959, 1985. Accessed: Aug. 19, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc959\n\n\n[2] C. Evans, “Vsftpd — secure, fast FTP server for UNIX-like systems.” Security.AppSpot, 2021. Accessed: Aug. 19, 2026. [Online]. Available: https://security.appspot.com/vsftpd.html",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>FTP Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter4/ftp_windows.html",
+    "href": "materials/chapter4/ftp_windows.html",
+    "title": "4  FTP Server on Windows",
+    "section": "",
+    "text": "4.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>FTP Server on Windows</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter4/ftp_windows.html#practical-objectives",
+    "href": "materials/chapter4/ftp_windows.html#practical-objectives",
+    "title": "4  FTP Server on Windows",
+    "section": "",
+    "text": "Students are able to install an FTP Server on Windows.\nStudents are able to modify the FTP configuration to manage user access rights and shared resources.\nStudents are able to practice file sharing and file transfer using FTP.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>FTP Server on Windows</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter4/ftp_windows.html#sec-theory-ftp-win",
+    "href": "materials/chapter4/ftp_windows.html#sec-theory-ftp-win",
+    "title": "4  FTP Server on Windows",
+    "section": "4.2 Theoretical Background of FTP Server",
+    "text": "4.2 Theoretical Background of FTP Server\nThe first specification for FTP was published as RFC 114 on 16 April 1971, written by Abhay Bhushan, then a student at the Massachusetts Institute of Technology. The original idea behind FTP was to enable file transfers over ARPANET, the precursor to the modern internet.\nAs the modern internet took shape, the FTP specification went through several revisions to align with evolving network standards, including TCP/IP. In 1980, a new version of FTP was defined in RFC 765 by Jon Postel, a research scientist at the Information Sciences Institute at the University of Southern California. Five years later, FTP was redefined in RFC 959, which introduced new management capabilities — including the ability to create and delete file directories [1]. In 1997, RFC 959 was updated with additional security capabilities specified in RFC 2228, and two years later, RFC 2428 added support for the IPv6 protocol.\n\n\n\n\n\n\nNoteCommon Use Cases for FTP\n\n\n\n\nBackup — FTP can be used by backup services or individual users to copy data from one location to a secure backup server running an FTP service.\nReplication — similar to backup, replication duplicates data across systems to provide higher availability and resilience; FTP can facilitate this process.\nData access and upload — FTP is widely used to access shared web hosting and cloud services as a mechanism for loading data to remote systems.\n\n\n\nFTP is a client-server protocol that relies on two communication channels between the client and server: a command channel for controlling the conversation, and a data channel for transmitting file content. A typical FTP transfer works as follows:\n\nA user logs in to the FTP server (some servers allow anonymous access without credentials).\nThe client initiates a conversation with the server when the user requests a file download.\nUsing FTP, the client can upload, download, delete, rename, move, and copy files on the server.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>FTP Server on Windows</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter4/ftp_windows.html#sec-steps-ftp-win",
+    "href": "materials/chapter4/ftp_windows.html#sec-steps-ftp-win",
+    "title": "4  FTP Server on Windows",
+    "section": "4.3 FTP Server Installation",
+    "text": "4.3 FTP Server Installation\nWindows includes a built-in FTP service through Internet Information Services (IIS). No additional software is needed — the service only needs to be enabled and configured [2]. The steps below apply to Windows 10 and Windows 11.\n\n1. Enabling IIS Features2. Configuring IIS3. Testing\n\n\nStep 1 — Create the FTP root folder\nCreate a new folder on your D: drive. This folder will serve as the root directory for the FTP site.\nStep 2 — Open Windows Features\nNavigate to Control Panel → Programs and Features, then click Turn Windows features on or off.\nStep 3 — Enable FTP and IIS components\nExpand Internet Information Services and check the following three items:\n\nFTP Extensibility\nFTP Service\nIIS Management Console\n\nClick OK and wait for the installation to complete.\n\n\n\n\nStep 4 — Open IIS Manager\n\n\n\n\n\n\nNoteOpening IIS Manager\n\n\n\n\nWindows 10: Control Panel → Administrative Tools → Internet Information Services (IIS) Manager\nWindows 11: Control Panel → Windows Tools → Internet Information Services (IIS) Manager\n\n\n\nStep 5 — Add a new FTP site\nIn the IIS Manager window, right-click on the server name (e.g. DESKTOP-XXXXXX) and select Add FTP Site…. \n\nStep 6 — Site Information\nIn the Add FTP Site — Site Information window:\n\nFTP site name: enter a name, e.g. FTP_coba\nPhysical path: select the folder you created in Step 1\n\nStep 7 — Binding and SSL Settings\nIn the Add FTP Site — Binding and SSL Settings window:\n\nIP Address: enter the IP address of this computer\nSSL: select No SSL\n\nStep 8 — Authentication and Authorization\nIn the Add FTP Site — Authentication and Authorization Information window:\n\nUnder Authentication, check Basic\nClick Finish\n\n\n\nStep 9 — Test FTP access from another computer\nFind the IP address of the server. Then, from another computer acting as the client, open File Explorer and type the FTP address in the address bar:\nftp://192.168.x.x",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>FTP Server on Windows</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter4/ftp_windows.html#sec-exercise-ftp-win",
+    "href": "materials/chapter4/ftp_windows.html#sec-exercise-ftp-win",
+    "title": "4  FTP Server on Windows",
+    "section": "4.4 Exercise",
+    "text": "4.4 Exercise\n\n1. Adding an FTP User2. Setting FTP User Permissions3. Removing the FTP Server\n\n\na. Create a new Windows user account\n\n\n\n\n\n\nNoteSteps differ by Windows version\n\n\n\nWindows 10: Start → Settings → Family & other users → Add someone else to this PC\nWindows 11: Search for Computer Management → Local Users and Groups → Users → right-click → New User…\n\n\nb. Set a username and password\nEnter a username and password for the FTP client account.\n\n\n\n\n\n\nImportantWindows 11 only\n\n\n\nUncheck User must change password at next logon before clicking Create.\n\n\nc. Open FTP Authorization Rules\nIn IIS Manager, double-click FTP Authorization Rules, then click Add Allow Rule…\nd. Authorize the new user\nIn the Add Allow Authorization Rule window:\n\nSelect Specified users and enter the username created in step b.\nUnder Permissions, check Read.\nClick OK.\n\ne. Test login from the client computer\nFrom the client computer, open File Explorer and navigate to ftp://192.168.x.x. Log in with the credentials created in step b and confirm the login succeeds.\n\n\na. Create test files on the server\nFrom the server computer, create a new folder and a new file inside the FTP root folder created in Step C.1.\nb. Refresh the client view\nRefresh File Explorer on the client computer so the newly created folder and file appear.\nc–e. Test current permissions from the client\nAttempt each of the following from the client computer and note whether each succeeds or fails:\n\n\n\n\n\n\n\nAction\nExpected result\n\n\n\n\nCopy a file from the FTP server to local storage\n✓ Should succeed (Read is allowed)\n\n\nCopy a file from local storage to the FTP server\n✗ Should fail (Write not yet allowed)\n\n\nDelete a file on the FTP server\n✗ Should fail (Write not yet allowed)\n\n\n\nf. Grant write permission\nFrom the server, open FTP Authorization Rules in IIS Manager. Right-click the FTP client username and select Edit. Check both Read and Write under Permissions, then click OK.\ng. Retest write operations\nRepeat the copy-to-server and delete tests from step e. Both operations should now succeed. Explain why the behaviour changed after updating the authorization rule.\n\n\nComplete the following steps to fully remove the FTP server and restore the system to its original state.\na. Remove the FTP site\nIn IIS Manager, right-click the FTP site created in Step C.6 and select Remove → Yes.\nb. Delete the FTP user account\n\n\n\n\n\n\nNoteSteps differ by Windows version\n\n\n\nWindows 10: Start → Settings → Family & other users → click the account name → Remove → Delete account and data\nWindows 11: Computer Management → Local Users and Groups → Users → right-click the user → Delete\n\n\nc. Disable IIS\nNavigate to Control Panel → Programs and Features → Turn Windows features on or off. Uncheck Internet Information Services entirely and click OK.\nd. Restart the server\nRestart the computer to complete the removal.\n\n\n\n\n\n\n\n[1] J. Postel and J. Reynolds, “File transfer protocol,” Internet Engineering Task Force, Request for Comments RFC 959, 1985. Accessed: Aug. 19, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc959\n\n\n[2] M. Huculak, “How to set up and manage an FTP server on Windows 10.” Windows Central, 2016. Accessed: Aug. 19, 2026. [Online]. Available: https://www.windowscentral.com/how-set-and-manage-ftp-server-windows-10",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>FTP Server on Windows</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter5/webserver.html",
+    "href": "materials/chapter5/webserver.html",
+    "title": "5  Web Server",
+    "section": "",
+    "text": "5.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Web Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter5/webserver.html#practical-objectives",
+    "href": "materials/chapter5/webserver.html#practical-objectives",
+    "title": "5  Web Server",
+    "section": "",
+    "text": "Students are able to install a Web Server.\nStudents are able to configure the Web Server display using Virtual Hosting.\nStudents are able to create and manage web page sub-folders.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Web Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter5/webserver.html#sec-theory-web",
+    "href": "materials/chapter5/webserver.html#sec-theory-web",
+    "title": "5  Web Server",
+    "section": "5.2 Theoretical Background of Web Server",
+    "text": "5.2 Theoretical Background of Web Server\nA web server is a computer program that provides access to websites or web applications over the HTTP or HTTPS protocol [1]. The web server stores and delivers files such as HTML, CSS, and images to clients that request access through a web browser or web application.\nBeyond the web server itself, a web system consists of four main components: the web server, web client, web application, and database. The web client is the internet user accessing the web server’s services, and the web application provides the software layer that supports those services, as illustrated in Figure 5.1.\n\n\n\n\n\n\nFigure 5.1: Components of a web system\n\n\n\nHTTP (HyperText Transfer Protocol) is the network protocol used to transfer data between a web server and a web client such as a browser [2]. HTTP follows a client-server model: the web client sends an HTTP request to the server, and the server returns an HTTP response. An HTTP response contains:\n\nan HTTP status code, such as 200 OK or 404 Not Found,\nheaders carrying information about the server and the content,\nthe requested content, such as text or images.\n\n\n\n\n\n\n\nNoteHTTPS\n\n\n\nHTTPS is the secure version of HTTP, enhanced with SSL/TLS encryption to protect data in transit between the client and the server.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Web Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter5/webserver.html#sec-steps-web",
+    "href": "materials/chapter5/webserver.html#sec-steps-web",
+    "title": "5  Web Server",
+    "section": "5.3 Web Server Installation",
+    "text": "5.3 Web Server Installation\n\n\n\n\n\n\nImportantBefore you begin\n\n\n\nThese steps assume Ubuntu Server is already installed and running with network connectivity to a Windows host machine. If not, complete the Ubuntu Server installation practicum first.\n\n\n\n1. Pre-checks2. Apache Installation3. Verification\n\n\nRun the following checks before installing Apache to confirm that no web server is currently running.\nStep 1 — Update the package list\nLog in to Ubuntu Server as root, then run:\napt update\nStep 2 — Find the Ubuntu Server IP address\n1ip a\n\n1\n\nNote the IP address on the enp0s8 adapter (e.g. 192.168.56.103).\n\n\nStep 3 — Ping from Windows\nOn the Windows host, open Command Prompt and ping the Ubuntu Server IP address. A successful reply confirms network connectivity between the two machines.\nStep 4 — Confirm no web server is running (from Windows)\nIf the ping succeeds, open a web browser on Windows and navigate to:\nhttp://192.168.56.103\nThe expected result is an Unable to connect or Connection timed out message, confirming that no web server is currently active.\nStep 5 — Confirm no web server is running (from Ubuntu)\nIf the Windows ping fails, verify from within Ubuntu Server instead:\n1apt install w3m\nw3m -v http://192.168.56.103\n\n1\n\nw3m is a text-based web browser useful for testing web access directly from the terminal.\n\n\nThe expected output is: No such file or directory.\n\n\nStep 1 — Install Apache\n1apt install apache2\n\n1\n\nApache2 is one of the most widely used open-source web servers. An active internet connection is required during installation.\n\n\nStep 2 — Check Apache in the firewall app list\n1ufw app list\n\n1\n\nConfirm that Apache, Apache Full, and Apache Secure appear in the list.\n\n\nStep 3 — Enable the firewall if inactive\n1ufw status\n2ufw enable\n\n1\n\nCheck the current firewall status.\n\n2\n\nRun only if the status shows inactive.\n\n\nStep 4 — Allow Apache through the firewall\n1ufw allow 'Apache'\nufw status\n\n1\n\nGrants Apache permission to receive incoming HTTP traffic on port 80.\n\n\n\n\nStep 1 — Check that Apache is running\n1systemctl status apache2\n\n1\n\nThe output should show active (running) to confirm a successful installation.\n\n\nStep 2 — Access the Apache landing page\nFrom Windows, navigate to http://192.168.56.103 in a browser — the default Apache landing page should now appear. Alternatively, from the Ubuntu terminal:\nw3m -v http://192.168.56.103\nA page containing “Apache2 Default Page” content confirms the server is working correctly.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Web Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter5/webserver.html#sec-exercise-web",
+    "href": "materials/chapter5/webserver.html#sec-exercise-web",
+    "title": "5  Web Server",
+    "section": "5.4 Exercise",
+    "text": "5.4 Exercise\n\n1. Virtual Hosting2. Sub-folders\n\n\nVirtual Hosting allows you to serve a custom website from your own directory instead of Apache’s default root.\nStep 1 — Explore the default web root\n1cd /var/www\nls\n\n1\n\nApache’s default content lives in /var/www/html. You will create a sibling directory for your own site.\n\n\nStep 2 — Create a directory and a sample page\nmkdir /var/www/your_site_name\nnano /var/www/your_site_name/index.html\nStep 3 — Edit index.html\nType the following content into the editor:\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Welcome to Your Site Name!&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Success! Your Virtual Host is working.&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\nSave and exit with Ctrl+X, then Y, then Enter.\nStep 4 — Update the Apache configuration\nOpen the default virtual host configuration file:\nnano /etc/apache2/sites-available/000-default.conf\nFind the DocumentRoot line, comment it out, and add a new line pointing to your directory:\n# DocumentRoot /var/www/html\nDocumentRoot /var/www/your_site_name\nSave and exit.\nStep 5 — Restart Apache and verify\nsystemctl restart apache2\nRefresh the browser at http://192.168.56.103 (or re-run w3m -v http://192.168.56.103 from Ubuntu). Your custom page should now appear instead of the default Apache page.\n\n\nSub-folders let you serve additional pages under paths such as /about or /contact.\nStep 1 — Create a sub-directory and its index page\nmkdir /var/www/your_site_name/about\nnano /var/www/your_site_name/about/index.html\nStep 2 — Edit the sub-folder index.html\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;About - Your Site Name&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;This is the About page of Your Site Name.&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\nSave and exit.\nStep 3 — Verify the new page\nFrom the Windows browser:\nhttp://192.168.56.103/about\nOr from the Ubuntu terminal:\nw3m -v http://192.168.56.103/about\nThe About page content should be displayed. Note that Apache automatically serves index.html when a directory path is requested — no additional configuration is needed for basic sub-folders.\n\n\n\n\n\n\n\n[1] Apache Software Foundation, “Getting started — apache HTTP server version 2.4.” Apache Software Foundation, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://httpd.apache.org/docs/2.4/getting-started.html\n\n\n[2] MDN Web Docs, “Overview of HTTP.” Mozilla, 2026. Accessed: Aug. 19, 2026. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Web Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter6/dnsserver.html",
+    "href": "materials/chapter6/dnsserver.html",
+    "title": "6  DNS Server",
+    "section": "",
+    "text": "6.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>DNS Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter6/dnsserver.html#practical-objectives",
+    "href": "materials/chapter6/dnsserver.html#practical-objectives",
+    "title": "6  DNS Server",
+    "section": "",
+    "text": "Students are able to install a DNS Server.\nStudents are able to modify the DNS Server configuration so that a server’s IP address can be accessed using a custom domain name.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>DNS Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter6/dnsserver.html#sec-theory-dns",
+    "href": "materials/chapter6/dnsserver.html#sec-theory-dns",
+    "title": "6  DNS Server",
+    "section": "6.2 Theoretical Background of DNS Server",
+    "text": "6.2 Theoretical Background of DNS Server\nDNS (Domain Name System) is a distributed database system that maps host names, machine names, and domain names to IP addresses — and conversely maps IP addresses back to host names, a process known as reverse mapping [1].\nDNS acts as a bridge for two fundamental reasons:\n\nHumans find it easier to remember names than 32-bit IP addresses.\nComputers use IP addresses to communicate and interact over networks.\n\nHow DNS works:\n\nWhen a user types a URL or domain name into their browser, the browser queries the local DNS server connected to the network. If the local server does not have the answer, the request is forwarded up the DNS hierarchy.\nThe DNS server searches for the record matching the requested domain name and returns the corresponding IP address to the browser.\nThe browser uses that IP address to establish a connection to the target server.\n\n\n\n\n\n\n\nNoteTypes of DNS Servers as illustrated Figure 6.1\n\n\n\n\nDNS Resolver — the first point of contact; queries other servers on behalf of the client.\nRoot Name Server — the top of the DNS hierarchy; directs queries to the correct TLD server.\nTLD Name Server — handles top-level domains such as .com, .org, or .id.\nAuthoritative Name Server — holds the actual DNS records for a domain and provides the final answer.\n\n\n\n\n\n\n\n\n\nFigure 6.1: Types of DNS Servers",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>DNS Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter6/dnsserver.html#sec-steps-dns",
+    "href": "materials/chapter6/dnsserver.html#sec-steps-dns",
+    "title": "6  DNS Server",
+    "section": "6.3 DNS Server Installation",
+    "text": "6.3 DNS Server Installation\n\n\n\n\n\n\nImportantBefore you begin\n\n\n\nThese steps assume Ubuntu Server is already installed, running, and reachable from the Windows host machine. If not, complete the Ubuntu Server installation practicum first.\n\n\n\n1. Installation2. DNS Configuration3. Network Setup\n\n\nStep 1 — Find the Ubuntu Server IP address and test connectivity\nOn Ubuntu Server, check the IP address:\n1ip a\n\n1\n\nNote the IP address on the enp0s8 adapter (e.g. 192.168.56.103).\n\n\nThen from Windows Command Prompt, ping that address and confirm you receive replies:\nping 192.168.56.103\nStep 2 — Confirm the domain name does not yet resolve\nChoose a domain name to use throughout this practicum (e.g. yourdomain.com). From Windows Command Prompt, ping it:\nping yourdomain.com\nThe expected output is:\nPing request could not find host yourdomain.com.\nPlease check the name and try again.\nThis confirms no DNS record exists for the name yet.\nStep 3 — Install BIND9\nBack on Ubuntu Server, log in as root and update the package list:\napt update\nInstall the BIND9 DNS server:\n1apt-get install bind9\n\n1\n\nBIND9 (Berkeley Internet Name Domain) is the most widely used DNS server software on Linux.\n\n\nVerify the installation:\n1named -v\nsystemctl status named\n\n1\n\nDisplays the BIND9 version; confirms the binary is installed correctly.\n\n\nAllow BIND9 through the firewall:\nufw allow bind9\n\n\nStep 4 — Configure forwarders in named.conf.options\ncd /etc/bind/\nnano named.conf.options\nFind the forwarders block, remove the double slashes (//) to uncomment it, and enter your DNS forwarder address:\nforwarders {\n    8.8.8.8;\n};\nSave and exit, as shown in Figure 6.2.\n\n\n\n\n\n\nFigure 6.2: Forwarders configuration in named.conf.options\n\n\n\nStep 5 — Declare zones in named.conf.local\nnano named.conf.local\nAppend the following two zone declarations at the end of the file:\nzone \"yourdomain.com\" {\n    type master;\n    file \"/etc/bind/db.yourdomain1\";\n};\n \nzone \"56.168.192.in-addr.arpa\" {\n    type master;\n    file \"/etc/bind/db.yourdomain2\";\n};\nSave and exit.\nStep 6 — Copy the zone file templates\n1cp db.local db.yourdomain1\n2cp db.127  db.yourdomain2\n\n1\n\ndb.local is the template for a forward lookup zone.\n\n2\n\ndb.127 is the template for a reverse lookup zone.\n\n\nVerify both files were created:\nls\nStep 7 — Edit the forward zone file (db.yourdomain1)\nnano db.yourdomain1\nReplace the relevant portion of the file with the following:\n@    IN   SOA   yourdomain.com.  root.yourdomain.com. (\n                          2        ; Serial\n                     604800        ; Refresh\n                      86400        ; Retry\n                    2419200        ; Expire\n                     604800 )      ; Negative Cache TTL\n;\n@    IN   NS    yourdomain.com.\n@    IN   A     192.168.56.103\nwww  IN   A     192.168.56.103\nSave and exit.\nStep 8 — Edit the reverse zone file (db.yourdomain2)\nnano db.yourdomain2\nReplace the relevant portion of the file with the following:\n@    IN   SOA   yourdomain.com.  root.yourdomain.com. (\n                          1        ; Serial\n                     604800        ; Refresh\n                      86400        ; Retry\n                    2419200        ; Expire\n                     604800 )      ; Negative Cache TTL\n;\n@    IN   NS    yourdomain.com.\n103  IN   PTR   yourdomain.com.\nSave and exit.\n\n\nStep 9 — Validate the configuration\nCheck the BIND9 configuration syntax:\n1named-checkconf\n\n1\n\nNo output means no errors were found.\n\n\nValidate each zone file:\nnamed-checkzone yourdomain.com /etc/bind/db.yourdomain1\nnamed-checkzone 56.168.192.in-addr.arpa /etc/bind/db.yourdomain2\nIf no errors appear, the configuration is correct.\nStep 10 — Add the DNS server address to Netplan\nnano /etc/netplan/01-netconf.yaml\nUpdate the enp0s8 section to include nameservers:\nnetwork:\n  version: 2\n  renderer: networkd\n  ethernets:\n    enp0s8:\n      dhcp4: yes\n      nameservers:\n        addresses:\n          - 8.8.8.8\n1          - 192.168.56.103\n\n1\n\nThis tells the Ubuntu Server to use itself as the primary DNS resolver.\n\n\nApply the new network configuration:\nnetplan apply\nStep 11 — Restart BIND9\nservice bind9 restart\nStep 12 — Configure the Windows network adapter DNS\nOn Windows, open the network adapter settings for the VirtualBox Host-Only Ethernet Adapter that connects to your VM. Set the Preferred DNS server to the Ubuntu Server’s IP address (e.g. 192.168.56.103), as shown in Figure 6.3.\n\n\n\n\n\n\nFigure 6.3: DNS adapter settings on Windows",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>DNS Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter6/dnsserver.html#sec-exercise-dns",
+    "href": "materials/chapter6/dnsserver.html#sec-exercise-dns",
+    "title": "6  DNS Server",
+    "section": "6.4 Exercise",
+    "text": "6.4 Exercise\n\nRun the following commands from the Ubuntu Server terminal and observe the results:\n\nnslookup yourdomain.com\nnslookup 192.168.56.103\ndig yourdomain.com\nping yourdomain.com\n\n\nFrom the Windows machine, open a web browser and navigate to:\n\nhttp://yourdomain.com\nIf the Apache web server from the previous practicum is still running, the web page should load successfully — confirming that DNS resolution is working end-to-end.\n\nBased on your observations in Exercise 1, explain the function of each command:\n\n\nQ1: What information does nslookup return, and in what situations would you use it?\n\n\nQ2: What additional information does dig provide compared to nslookup?\n\n\n\n\n\n[1] P. Mockapetris, “Domain names — concepts and facilities,” Internet Engineering Task Force, Request for Comments RFC 1034, 1987. Accessed: Aug. 19, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc1034",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>DNS Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter7/proxy_server.html",
+    "href": "materials/chapter7/proxy_server.html",
+    "title": "7  Proxy Server",
+    "section": "",
+    "text": "7.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Proxy Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter7/proxy_server.html#practical-objectives",
+    "href": "materials/chapter7/proxy_server.html#practical-objectives",
+    "title": "7  Proxy Server",
+    "section": "",
+    "text": "Students are able to install a Proxy Server.\nStudents are able to configure Squid Proxy Server, set the proxy on the client side, and block specific sites or URLs through the Proxy Server.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Proxy Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter7/proxy_server.html#sec-theory-proxy",
+    "href": "materials/chapter7/proxy_server.html#sec-theory-proxy",
+    "title": "7  Proxy Server",
+    "section": "7.2 Theoretical Background",
+    "text": "7.2 Theoretical Background\nA proxy server acts as an intermediary between a user and the internet [1]. When a user wants to access a website or online service, the request is first sent to the proxy server, which forwards it to the destination. The response then travels back through the proxy before reaching the user.\nThis intermediary role provides several practical benefits:\nFaster internet access — By caching frequently requested content locally, a proxy server reduces the time needed to retrieve it from the internet on subsequent requests.\nImproved security — A proxy can filter traffic to block malicious content and network attacks. Some proxies also provide encryption to protect user privacy.\nBandwidth savings — Caching popular content reduces repeated transfers over the network, lowering bandwidth consumption and internet costs.\nAccess control — A proxy server can restrict or block access to specific websites. Conversely, it can also be used to reach sites that are otherwise inaccessible from the local network.\n\n\n\n\n\n\nNoteAbout Squid\n\n\n\nSquid is a widely used open-source proxy and caching server for Linux. It supports HTTP, HTTPS, and FTP, and is configurable through a single file: /etc/squid/squid.conf [2].",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Proxy Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter7/proxy_server.html#sec-steps-proxy",
+    "href": "materials/chapter7/proxy_server.html#sec-steps-proxy",
+    "title": "7  Proxy Server",
+    "section": "7.3 Squid Workflow",
+    "text": "7.3 Squid Workflow\n\n1. Installation2. Configuration\n\n\nStep 1 — Update the package list\napt-get update\nStep 2 — Install Squid\n1apt-get install squid\n\n1\n\nSquid is available in the Ubuntu package repository; no additional source is needed.\n\n\nStep 3 — Verify the installation\n1systemctl status squid\n\n1\n\nThe output should show active (running) to confirm a successful installation.\n\n\nStep 4 — Allow Squid through the firewall\n1ufw allow squid\n\n1\n\nOpens port 3128 (Squid’s default port) in the firewall so clients can connect.\n\n\n\n\nStep 1 — Navigate to the Squid directory\ncd /etc/squid\nls\nStep 2 — Back up the default configuration\n1cp squid.conf squid.conf.backup\n\n1\n\nAlways back up before editing so you can restore the original if needed.\n\n\nStep 3 — Open the configuration file and note the port\n1nano squid.conf --linenumbers\n\n1\n\nThe --linenumbers flag displays line numbers, making it easier to navigate the file. Use Ctrl+W to search. Find the http_port line (around line 2179 if unchanged) and note the port number — it is typically 3128.\n\n\nStep 4 — Allow all traffic\nStill in squid.conf, search for the comment your own rule. Find the line:\nhttp_access deny all\nChange it to:\nhttp_access allow all\nSave and exit with Ctrl+X, then Y, then Enter.\nStep 5 — Restart Squid\nservice squid restart",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Proxy Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter7/proxy_server.html#sec-exercise-proxy",
+    "href": "materials/chapter7/proxy_server.html#sec-exercise-proxy",
+    "title": "7  Proxy Server",
+    "section": "7.4 Exercise",
+    "text": "7.4 Exercise\n\n1. Client Proxy Setup2. Blocking Sites\n\n\nConfigure the Windows client machine to route its traffic through the Squid proxy.\nStep 1 — Open proxy settings\nOn the client machine, open a browser (e.g. Google Chrome) and navigate to the system proxy settings.\n\n\n\n\n\n\nNoteOpening proxy settings on Windows\n\n\n\nWindows 11: Settings → Network & internet → Proxy → under Manual proxy setup, click Edit next to Use a proxy server.\n\n\nStep 2 — Enable the proxy\nIn the Edit proxy server window:\n\nToggle Use a proxy server to On.\nEnter the Address: the Ubuntu Server’s IP address (e.g. 192.168.56.103).\nEnter the Port: the port number noted in Configuration Step 3 (typically 3128).\nClick Save.\n\nStep 3 — Test the connection\nOpen a browser on the client and navigate to a website, for example youtube.com. The page should load normally, confirming that traffic is being routed through the proxy.\n\n\nBlock specific domains by creating an access control list (ACL) file that Squid reads.\nStep 1 — Open squid.conf\nnano /etc/squid/squid.conf\nStep 2 — Add the ACL rules\nSearch for the your own rule comment. Directly below the line:\ninclude /etc/squid/conf.d/*\nAdd the following two lines:\nacl bad_url dstdomain \"/etc/squid/bad_url.acl\"\nhttp_access deny bad_url\nSave and exit.\nStep 3 — Create the blocklist file\n1nano /etc/squid/bad_url.acl\n\n1\n\nEach line in this file is a domain pattern that Squid will block. A leading dot (.) matches the domain and all its subdomains.\n\n\nAdd the domains to block, one per line:\n.yahoo.com\n.youtube.com\n.facebook.com\nSave and exit.\nStep 4 — Restart Squid and test\nservice squid restart\nFrom the client browser, try to access one of the blocked domains. The browser should display a connection error or Squid’s access denied page, confirming the block is active.\n\n\n\n\n\n\n\n[1] Canonical Ltd., “How to install a Squid server.” Canonical, 2024. Accessed: Aug. 21, 2026. [Online]. Available: https://ubuntu.com/server/docs/how-to/web-services/install-a-squid-server/\n\n\n[2] Squid Software Foundation, “Squid: Optimising web delivery.” Squid Software Foundation, 2024. Accessed: Aug. 21, 2026. [Online]. Available: http://www.squid-cache.org/",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Proxy Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter8/sarg.html",
+    "href": "materials/chapter8/sarg.html",
+    "title": "8  SARG",
+    "section": "",
+    "text": "8.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SARG</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter8/sarg.html#practical-objectives",
+    "href": "materials/chapter8/sarg.html#practical-objectives",
+    "title": "8  SARG",
+    "section": "",
+    "text": "Students are able to install SARG on Ubuntu Server.\nStudents are able to configure SARG to generate web access reports from Squid proxy logs.\nStudents are able to read and interpret SARG-generated reports via a web browser.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SARG</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter8/sarg.html#sec-theory-sarg",
+    "href": "materials/chapter8/sarg.html#sec-theory-sarg",
+    "title": "8  SARG",
+    "section": "8.2 Theoretical Background",
+    "text": "8.2 Theoretical Background\nSARG (Squid Analysis Report Generator) is an open-source tool that reads Squid proxy log files and produces detailed, human-readable HTML reports about network activity [1]. Rather than parsing raw logs manually, SARG automates the analysis and presents the data in an organised, browsable format.\n\nSARG report categories\n\n\n\n\n\n\nReport Category\nWhat It Shows\n\n\n\n\nTraffic Statistics\nVolume of requests and data transferred per user or site\n\n\nTop Sites\nMost frequently visited domains\n\n\nAccess Time Patterns\nWhen users are most active on the network\n\n\nBandwidth Usage\nData consumption per user, site, or time period\n\n\nError Reports\nBlocked requests, denied access events, and HTTP errors\n\n\n\nSquid records all proxy activity to a log file — by default /var/log/squid/access.log — in a fixed columnar format that includes timestamp, response time, client IP, HTTP status, bytes transferred, and the requested URL [2]. SARG reads this file and transforms it into the categorised reports above.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SARG</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter8/sarg.html#sec-workflow-sarg",
+    "href": "materials/chapter8/sarg.html#sec-workflow-sarg",
+    "title": "8  SARG",
+    "section": "8.3 Workflow SARG",
+    "text": "8.3 Workflow SARG\n\n8.3.1 SARG Installation\nLog in to Ubuntu Server as root and update the package list:\napt update\nInstall SARG:\n1apt install sarg\n\n1\n\nSARG is available in the Ubuntu package repository; no additional PPA is required.\n\n\n\n\n8.3.2 SARG Configuration\nAll SARG settings live in a single configuration file: /etc/sarg/sarg.conf. The steps below make three targeted edits to that file, then integrate SARG reports into Apache.\n\nPreparationEditing sarg.confApache Integration\n\n\nStep 1 — Navigate to the SARG configuration directory\ncd /etc/sarg/\nStep 2 — Back up the default configuration\n1cp sarg.conf sarg.conf.bak\n\n1\n\nAlways back up before editing so you can restore the original if needed.\n\n\n\n\nStep 3 — Open the configuration file\nnano sarg.conf\nMake the four edits in Table 8.1, then save and exit.\n\n\n\nTable 8.1: Key edits in sarg.conf\n\n\n\n\n\n\n\n\n\n\n\nLine\nAction\nBefore\nAfter\n\n\n\n\n120\nComment out\noutput_dir /var/www/html/squid-reports\n#output_dir /var/www/html/squid-reports\n\n\n121\nUncomment\n#output_dir /var/www/sarg\noutput_dir /var/www/sarg\n\n\n132\nSet to yes\nresolve_ip no\nresolve_ip yes\n\n\n377\nSet charset\n#charset UTF-8\ncharset UTF-8\n\n\n\n\n\n\n\n\n\n\n\n\nNoteWhat these settings do\n\n\n\n\nLines 120–121 redirect report output to /var/www/sarg, which Apache can serve directly.\nLine 132 (resolve_ip yes) attempts to resolve client IP addresses to hostnames in the report.\nLine 377 sets the HTML character encoding to UTF-8, ensuring correct rendering of non-ASCII characters.\n\n\n\n\n\nStep 4 — Create the report output directory\nmkdir /var/www/sarg\nStep 5 — Create the Apache configuration file for SARG\nnano /etc/apache2/conf-available/sarg.conf\nEnter the following content:\nAlias /squid-reports /var/www/sarg\n \n&lt;Directory /var/www/sarg&gt;\n    Options Indexes FollowSymLinks\n    AllowOverride None\n    Require all granted\n&lt;/Directory&gt;\nSave and exit.\nStep 6 — Enable the configuration and reload Apache\n1a2enconf sarg\nsystemctl reload apache2\n\n1\n\na2enconf creates a symlink from conf-enabled/sarg.conf to conf-available/sarg.conf, making the configuration active.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SARG</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter8/sarg.html#sec-exercise-sarg",
+    "href": "materials/chapter8/sarg.html#sec-exercise-sarg",
+    "title": "8  SARG",
+    "section": "8.4 Exercise",
+    "text": "8.4 Exercise\nComplete the following steps in order. Steps 1–2 generate proxy log entries on the client; steps 3–5 set permissions and run SARG; step 6–7 view and interpret the results.\nStep 1 — Connect the client to the proxy\nOn the client machine (Windows), configure the browser to use the Ubuntu Server IP address and port 3128 as the HTTP proxy (this is the Squid proxy configured in the previous practicum).\nStep 2 — Generate log entries\nBrowse to several different websites from the client. These requests will be recorded in Squid’s access log and will appear in the SARG report.\nStep 3 — Set permissions on the report directory\nBack on Ubuntu Server, grant write access to the SARG output directory:\n1chmod 775 /var/www/sarg\n\n1\n\nSARG writes the HTML report files here; it needs write permission to do so.\n\n\nStep 4 — Set permissions on the Squid log\n1chmod 775 /var/log/squid/access.log\n\n1\n\nSARG reads this file; it needs read permission on the log.\n\n\nStep 5 — Run SARG to generate the report\n1/usr/bin/sarg\n\n1\n\nSARG reads /var/log/squid/access.log, processes all entries, and writes the HTML report to /var/www/sarg.\n\n\nStep 6 — View the report in a browser\nFrom the Windows machine, open a browser and navigate to:\nhttp://192.168.56.101/squid-reports/\nA directory listing of report folders (organised by date) should appear, as shown in Figure 8.1.\n\n\n\n\n\n\nFigure 8.1: Directory listing of SARG reports\n\n\n\nStep 7 — Explore the report sections\nOpen the most recent report folder and browse through the report. Identify the following sections and note what each one shows:\n\nTOP — the most-visited websites during the report period\nUSERS — per-user activity breakdown\nSITES — all sites accessed, with request counts and bytes transferred\n\n\nQ: Write a brief description of what you observed in each section based on the browsing activity you generated in Step 2.\n\n\n\n\n\n[1] R. Saive, “SARG – Squid analysis report generator and internet bandwidth monitoring tool.” TecMint, 2014. Accessed: Aug. 21, 2026. [Online]. Available: https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/\n\n\n[2] Squid Project, “Squid log files.” Squid Cache Wiki, 2024. Accessed: Aug. 21, 2026. [Online]. Available: https://wiki.squid-cache.org/SquidFaq/SquidLogs",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SARG</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter9/mail_server.html",
+    "href": "materials/chapter9/mail_server.html",
+    "title": "9  Mail Server",
+    "section": "",
+    "text": "9.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Mail Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter9/mail_server.html#practical-objectives",
+    "href": "materials/chapter9/mail_server.html#practical-objectives",
+    "title": "9  Mail Server",
+    "section": "",
+    "text": "Students are able to install a Mail Server using Postfix and Dovecot.\nStudents are able to manage mail user accounts and demonstrate email delivery through the Mail Server.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Mail Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter9/mail_server.html#sec-theory-mail",
+    "href": "materials/chapter9/mail_server.html#sec-theory-mail",
+    "title": "9  Mail Server",
+    "section": "9.2 Theoretical Background",
+    "text": "9.2 Theoretical Background\nA mail server is a system responsible for receiving, storing, and sending email over a computer network. It acts as the central hub for email exchange between senders and recipients.\nHow email delivery works:\n\nThe user composes and sends a message using a mail client.\nThe message travels from the user’s host to the local mail server.\nThe local mail server relays the message to the destination mail server over the internet.\nThe destination mail server delivers the message to the recipient’s mailbox.\n\n\n9.2.1 Email Agents\nThree types of agents are involved in the email delivery process:\n\n\n\n\n\n\n\n\nAgent\nFull Name\nRole\n\n\n\n\nMUA\nMail User Agent\nThe mail client used by the user to compose and send email (e.g. Thunderbird, Outlook)\n\n\nMTA\nMail Transfer Agent\nThe mail server that uses SMTP to relay messages between servers (e.g. Postfix)\n\n\nMDA\nMail Delivery Agent\nRetrieves incoming messages from the MTA and delivers them to the user’s local mailbox\n\n\n\nFigure 9.1 is a diagram illustrating the three types of agents involved in the email delivery process.\n\n\n\n\n\n\nFigure 9.1: Email Delivery Process\n\n\n\n\n\n9.2.2 Protocols\nSMTP (Simple Mail Transfer Protocol) is the standard protocol for sending email between mail servers [1]. Key characteristics:\n\nUses port 25 by default; port 587 is commonly used for authenticated client submission.\nRequires username and password authentication to send mail through a relay server.\n\nPOP3 and IMAP are the two protocols used to retrieve email from a mail server:\n\n\n\n\n\n\n\n\nFeature\nPOP3\nIMAP\n\n\n\n\nStorage\nEmail downloaded to device; removed from server\nEmail stays on server\n\n\nMulti-device access\nNot ideal — email lives on one device\nYes — synced across all devices\n\n\nOffline access\nYes, after downloading\nLimited to cached content\n\n\nFolder synchronization\nNo\nYes\n\n\nDefault port\n110\n143\n\n\n\nPOP3 suits users who want to download email once and read it offline. IMAP suits users who need to access their mailbox from multiple devices with full synchronization.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Mail Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter9/mail_server.html#sec-steps-mail",
+    "href": "materials/chapter9/mail_server.html#sec-steps-mail",
+    "title": "9  Mail Server",
+    "section": "9.3 Mail Server Installation",
+    "text": "9.3 Mail Server Installation\n\n1. Preparation2. Postfix Setup3. Dovecot Setup\n\n\nStep 1 — Log in as root and update\napt-get update\nStep 2 — Check the current hostname\nhostnamectl status\nNote the existing hostname — you will need to replace it in /etc/hosts in Step 4.\nStep 3 — Set the mail server hostname\nhostnamectl set-hostname mail.example.com\nStep 4 — Update /etc/hosts\nnano /etc/hosts\nOn line 2, replace the old IP address and hostname with your Ubuntu Server’s IP address and the new hostname set in Step 3:\n192.168.56.103   mail.example.com\nSave and exit.\nStep 5 — Reboot\nreboot\n\n\nStep 1 — Install Postfix, Dovecot, and supporting packages\nAfter rebooting, log back in as root, then run:\n1apt -y install postfix sasl2-bin dovecot-core dovecot-pop3d dovecot-imapd mailutils\n\n1\n\nWhen the package configuration prompt appears, select No Configuration — Postfix will be configured manually in the next steps.\n\n\nStep 2 — Copy the Postfix configuration template\ncp /usr/share/postfix/main.cf.dist /etc/postfix/main.cf\nStep 3 — Edit main.cf\n1nano /etc/postfix/main.cf --linenumbers\n\n1\n\nThe --linenumbers flag displays line numbers in the editor. Use Ctrl+W to search for a line’s content.\n\n\nApply the edits in Table 9.1. Replace 192.168.56.103 with your actual Ubuntu Server IP address where applicable.\n\n\n\nTable 9.1: Edits to /etc/postfix/main.cf\n\n\n\n\n\n\n\n\n\n\nLine\nAction\nValue\n\n\n\n\n82\nUncomment\nmail_owner = postfix\n\n\n98\nUncomment & edit\nmyhostname = mail.example.com\n\n\n106\nUncomment & edit\nmydomain = example.com\n\n\n127\nUncomment\nmyorigin = $mydomain\n\n\n141\nUncomment\ninet_interfaces = all\n\n\n189\nUncomment\nmydestination = $myhostname, localhost.$mydomain, localhost, $mydomain\n\n\n232\nUncomment\nlocal_recipient_maps = unix:passwd.byname $alias_maps\n\n\n277\nUncomment\nmynetworks_style = subnet\n\n\n294\nAdd server IP\nmynetworks = 127.0.0.0/8, 192.168.56.103/24\n\n\n416\nUncomment\nalias_maps = hash:/etc/aliases\n\n\n427\nUncomment\nalias_database = hash:/etc/aliases\n\n\n449\nUncomment\nhome_mailbox = Maildir/\n\n\n585\nComment out\n#smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)\n\n\n586\nAdd below 585\nsmtpd_banner = $myhostname ESMTP\n\n\n659\nAdd\nsendmail_path = /usr/sbin/postfix\n\n\n664\nAdd\nnewaliases_path = /usr/bin/newaliases\n\n\n669\nAdd\nmailq_path = /usr/bin/mailq\n\n\n675\nAdd\nsetgid_group = postdrop\n\n\n679\nComment out\n#html_directory =\n\n\n683\nComment out\n#manpage_directory =\n\n\n688\nComment out\n#sample_directory =\n\n\n692\nComment out\n#readme_directory =\n\n\n693\nSet to ipv4\ninet_protocols = ipv4\n\n\n\n\n\n\nAt the end of the file, append the following block:\nmessage_size_limit = 10485760\nmailbox_size_limit = 1073741824\n \n# SMTP-Auth settings\nsmtpd_sasl_type = dovecot\nsmtpd_sasl_path = private/auth\nsmtpd_sasl_auth_enable = yes\nsmtpd_sasl_security_options = noanonymous\nsmtpd_sasl_local_domain = $myhostname\nsmtpd_recipient_restrictions = permit_mynetworks, permit_auth_destination, permit_sasl_authenticated, reject\nSave and exit.\nStep 4 — Rebuild the alias database\nnewaliases\n\n\nStep 5 — Edit dovecot.conf\nnano /etc/dovecot/dovecot.conf --linenumbers\nAt line 30, uncomment:\nlisten = *, ::\nSave and exit.\nStep 6 — Edit 10-auth.conf\nnano /etc/dovecot/conf.d/10-auth.conf --linenumbers\n\n\n\nLine\nChange\n\n\n\n\n10\nUncomment and set to no: disable_plaintext_auth = no\n\n\n100\nSet to: auth_mechanisms = plain login\n\n\n\nSave and exit.\nStep 7 — Edit 10-mail.conf\nnano /etc/dovecot/conf.d/10-mail.conf --linenumbers\nAt line 30, change to:\nmail_location = maildir:~/Maildir\nSave and exit.\nStep 8 — Edit 10-master.conf\nnano /etc/dovecot/conf.d/10-master.conf --linenumbers\nAt lines 109–112, uncomment the unix_listener block and add the user and group:\n# Postfix smtp-auth\nunix_listener /var/spool/postfix/private/auth {\n  mode = 0666\n  user = postfix\n  group = postfix\n}\nSave and exit.\nStep 9 — Restart services and verify\nsystemctl restart dovecot postfix\nsystemctl status dovecot postfix\nConfirm that Dovecot shows active (running) and Postfix shows active (exited).",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Mail Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter9/mail_server.html#sec-exercise-mail",
+    "href": "materials/chapter9/mail_server.html#sec-exercise-mail",
+    "title": "9  Mail Server",
+    "section": "9.4 Exercise",
+    "text": "9.4 Exercise\n\nAdd Mail UserSend Test Email\n\n\nStep 1 — Set the mail environment variable\n1echo 'export MAIL=$HOME/Maildir/' &gt;&gt; /etc/profile.d/mail.sh\n\n1\n\nThis ensures the mail command knows where to look for each user’s mailbox.\n\n\nStep 2 — Note the existing username\nRun the following to see the current user accounts on the system:\n1cat /etc/passwd | grep home\n\n1\n\nIdentify your primary Ubuntu user account (e.g. alam). This will be the email recipient in the next exercise.\n\n\nStep 3 — Add a new user\n1adduser ubuntu\n\n1\n\nFollow the prompts to set a password. Leave Full Name, Room Number, and other fields blank by pressing Enter.\n\n\nAfter the user is created, reboot the server:\nreboot\n\n\nStep 4 — Send an email from the new user\nAfter rebooting, switch to the new user account:\nsu ubuntu\nSend an email to the original user (e.g. alam):\nmail alam@localhost\nFollow the prompts:\n\nCc: press Enter to skip.\nSubject: type a subject, e.g. Test email 1, then press Enter.\nBody: type the email body, e.g.:\nThis is the first test email.\nThank you.\nPress Ctrl+D to finish and send.\n\nStep 5 — Switch back to the original user\n1exit\n\n1\n\nIf you are still in the root shell, type exit a second time to return to the original user account. A notification should appear indicating that new mail has arrived.\n\n\nStep 6 — Read the email\nOpen the mailbox:\nmail\nType the message number (e.g. 1) and press Enter to read it. Type q and press Enter to quit.\n\n\n\n\n\n\n\n[1] J. Klensin, “Simple mail transfer protocol,” Internet Engineering Task Force, Request for Comments RFC 5321, 2008. Accessed: Aug. 21, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc5321",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Mail Server</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter10/webmin.html",
+    "href": "materials/chapter10/webmin.html",
+    "title": "10  Webmin",
+    "section": "",
+    "text": "10.1 Practical Objectives",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Webmin</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter10/webmin.html#practical-objectives",
+    "href": "materials/chapter10/webmin.html#practical-objectives",
+    "title": "10  Webmin",
+    "section": "",
+    "text": "Students are able to install Webmin on Ubuntu Server.\nStudents are able to use Webmin features to perform system administration and network management tasks.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Webmin</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter10/webmin.html#sec-theory-webmin",
+    "href": "materials/chapter10/webmin.html#sec-theory-webmin",
+    "title": "10  Webmin",
+    "section": "10.2 Theoretical Background",
+    "text": "10.2 Theoretical Background\nWebmin is an open-source, web-based administration interface for Linux and Unix systems, developed by Jamie Cameron [1]. Rather than requiring administrators to memorise shell commands, Webmin provides a graphical interface accessible from any web browser — making system management more approachable for users who are not yet fluent with the Linux terminal.\n\n\n\n\n\n\nWarningA note on system administration\n\n\n\nWebmin makes powerful operations easy to trigger. Always make sure you understand what an action does before applying it — mistakes in system configuration can be difficult to reverse and may affect server stability.\n\n\nWebmin’s capabilities are organised into modules. The core modules cover the following areas:\n\nWebmin core module areas\n\n\n\n\n\n\nModule area\nWhat you can do\n\n\n\n\nUser & Group Management\nAdd, edit, and delete user accounts and groups; manage permissions and access rights\n\n\nService Management\nStart, stop, restart, and configure services such as Apache, MySQL, and SSH\n\n\nNetwork Configuration\nSet IP addresses, manage network interfaces, and adjust network settings\n\n\nPackage Management\nInstall, remove, and update software packages through a web interface\n\n\nDisk & File Management\nManage disk partitions, storage allocation, and file system operations\n\n\nSecurity Configuration\nSet file permissions, configure the firewall, and apply other security measures\n\n\n\nWebmin supports a wide range of Linux distributions and can be extended further through community-developed modules that add support for additional applications and configurations.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Webmin</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter10/webmin.html#sec-steps-webmin",
+    "href": "materials/chapter10/webmin.html#sec-steps-webmin",
+    "title": "10  Webmin",
+    "section": "10.3 Webmin Installation",
+    "text": "10.3 Webmin Installation\nLog in to Ubuntu Server as root, then follow the steps below.\nStep 1 — Download the repository setup script\ncurl -o webmin-setup-repo.sh https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh\nStep 2 — Run the script to add the repository and GPG key\n1sudo sh webmin-setup-repo.sh\n\n1\n\nThis adds the official Webmin package repository and its signing key to the system, so the package can be installed and updated through apt.\n\n\nStep 3 — Update the package list\napt-get update\nStep 4 — Install Webmin\n1apt install webmin --install-recommends -y\n\n1\n\nThe --install-recommends flag installs optional but recommended packages that enable additional Webmin features.\n\n\nStep 5 — Open port 10000 in the firewall\n1ufw allow 10000/tcp\n\n1\n\nWebmin listens on port 10000 over HTTPS. This rule allows incoming connections to that port.",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Webmin</span>"
+    ]
+  },
+  {
+    "objectID": "materials/chapter10/webmin.html#sec-exercise-webmin",
+    "href": "materials/chapter10/webmin.html#sec-exercise-webmin",
+    "title": "10  Webmin",
+    "section": "10.4 Exercise",
+    "text": "10.4 Exercise\n\nExplore WebminAdd Account\n\n\nStep 1 — Access the Webmin dashboard\nFrom the Windows host machine, open a browser and navigate to:\nhttps://192.168.56.103:10000\nReplace 192.168.56.103 with your Ubuntu Server’s IP address.\n\n\n\n\n\n\nNoteSecurity warning\n\n\n\nIf the browser displays a Potential Security Risk Ahead warning, click Advanced → Accept the Risk and Continue. This warning appears because Webmin uses a self-signed certificate, which browsers do not trust by default.\n\n\nStep 2 — Log in\nEnter your Ubuntu Server’s root username and password, then click Sign In as shown Figure 10.1.\n\n\n\n\n\n\nFigure 10.1: Webmin login screen\n\n\n\nStep 3 — Explore the dashboard\nOnce logged in, observe the information displayed on the Webmin dashboard. Answer the following question:\n\nQ: What system information is shown on the dashboard? List the categories and describe what each one tells you about the server.\n\nStep 4 — Explore one feature in depth\nNavigate through the Webmin menu and choose one feature that you consider important. Answer:\n\nQ: Which feature did you select, under which menu does it appear, and what does it allow an administrator to do?\n\nStep 5 — Explore four more features\nBrowse through the remaining menus and identify four additional features that you consider useful or interesting. For each one, state the feature name, its menu location, and its purpose.\nStep 6 — Test the reboot function\nNavigate to System → Bootup and Shutdown. Use the interface to reboot the Ubuntu Server. Confirm that the server comes back online and that Webmin is accessible again after the reboot.\n\n\nWebmin has its own user system, separate from Linux system accounts. A Webmin user can be granted access to specific modules without having a full Linux login.\nStep 1 — Open the Webmin Users module\nIn the Webmin menu, navigate to Webmin → Webmin Users.\nStep 2 — Create a new privileged user\nClick Create a new privileged user. Fill in the required fields:\n\nUsername — a login name for the new Webmin user\nPassword — set and confirm a password\nModules — select which Webmin modules this user can access\n\nClick Save to create the account.\nStep 3 — Verify the new account\nLog out of Webmin, then log back in using the new account’s credentials. Confirm that the user can only access the modules that were assigned.\n\n\n\n\n\n\n\n[1] J. Cameron, “Webmin.” Webmin Project, 2024. Accessed: Aug. 21, 2026. [Online]. Available: https://webmin.com/",
+    "crumbs": [
+      "Weekly materials",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Webmin</span>"
     ]
   },
   {
@@ -114,7 +708,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "[1] Canonical Ltd., “Ubuntu server — for\nscale out workloads.” Canonical, 2024. Accessed: Aug. 16, 2026.\n[Online]. Available: https://ubuntu.com/server\n\n\n[2] phoenixNAP, “Linux server guide:\nInstallation and configuration.” phoenixNAP, 2024. Accessed: Aug.\n16, 2026. [Online]. Available: https://phoenixnap.com/kb/linux-server\n\n\n[3] Canonical Ltd., “Canonical\nnetplan.” Canonical, 2024. Accessed: Aug. 16, 2026. [Online].\nAvailable: https://netplan.io/\n\n\n[4] Samba Team, “What is samba?” Samba\nProject, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/what_is_samba.html\n\n\n[5] Samba Team, “Samba: An\nintroduction.” Samba Project, 2024. Accessed: Aug. 19, 2026.\n[Online]. Available: https://www.samba.org/samba/docs/SambaIntro.html\n\n\n[6] Microsoft Corporation, “Microsoft SMB\nprotocol and CIFS protocol overview.” Microsoft Learn, 2023.\nAccessed: Aug. 19, 2026. [Online]. Available: https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview\n\n\n[7] Samba Team, “Smb.conf — the configuration\nfile for the samba suite.” Samba Project, 2024. Accessed: Aug.\n19, 2026. [Online]. Available: https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html",
+    "text": "[1] Canonical Ltd., “Ubuntu server — for\nscale out workloads.” Canonical, 2024. Accessed: Aug. 16, 2026.\n[Online]. Available: https://ubuntu.com/server\n\n\n[2] phoenixNAP, “Linux server guide:\nInstallation and configuration.” phoenixNAP, 2024. Accessed: Aug.\n16, 2026. [Online]. Available: https://phoenixnap.com/kb/linux-server\n\n\n[3] Canonical Ltd., “Canonical\nnetplan.” Canonical, 2024. Accessed: Aug. 16, 2026. [Online].\nAvailable: https://netplan.io/\n\n\n[4] Samba Team, “What is samba?” Samba\nProject, 2024. Accessed: Aug. 19, 2026. [Online]. Available: https://www.samba.org/samba/what_is_samba.html\n\n\n[5] Samba Team, “Samba: An\nintroduction.” Samba Project, 2024. Accessed: Aug. 19, 2026.\n[Online]. Available: https://www.samba.org/samba/docs/SambaIntro.html\n\n\n[6] Microsoft Corporation, “Microsoft SMB\nprotocol and CIFS protocol overview.” Microsoft Learn, 2023.\nAccessed: Aug. 19, 2026. [Online]. Available: https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview\n\n\n[7] Samba Team, “Smb.conf — the configuration\nfile for the samba suite.” Samba Project, 2024. Accessed: Aug.\n19, 2026. [Online]. Available: https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html\n\n\n[8] C.\nEvans, “Vsftpd — secure, fast FTP server for\nUNIX-like systems.” Security.AppSpot, 2021.\nAccessed: Aug. 19, 2026. [Online]. Available: https://security.appspot.com/vsftpd.html\n\n\n[9] J.\nPostel and J. Reynolds, “File transfer protocol,” Internet\nEngineering Task Force, Request for Comments RFC 959, 1985. Accessed:\nAug. 19, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc959\n\n\n[10] M.\nHuculak, “How to set up and manage an FTP server on\nWindows 10.” Windows Central, 2016. Accessed: Aug.\n19, 2026. [Online]. Available: https://www.windowscentral.com/how-set-and-manage-ftp-server-windows-10\n\n\n[11] Apache Software Foundation, “Getting\nstarted — apache HTTP server version 2.4.” Apache\nSoftware Foundation, 2024. Accessed: Aug. 19, 2026. [Online]. Available:\nhttps://httpd.apache.org/docs/2.4/getting-started.html\n\n\n[12] MDN Web Docs, “Overview of\nHTTP.” Mozilla, 2026. Accessed: Aug. 19, 2026.\n[Online]. Available: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview\n\n\n[13] P.\nMockapetris, “Domain names — concepts and facilities,”\nInternet Engineering Task Force, Request for Comments RFC 1034, 1987.\nAccessed: Aug. 19, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc1034\n\n\n[14] Canonical Ltd., “How to install a\nSquid server.” Canonical, 2024. Accessed: Aug. 21,\n2026. [Online]. Available: https://ubuntu.com/server/docs/how-to/web-services/install-a-squid-server/\n\n\n[15] Squid Software Foundation, “Squid:\nOptimising web delivery.” Squid Software Foundation, 2024.\nAccessed: Aug. 21, 2026. [Online]. Available: http://www.squid-cache.org/\n\n\n[16] R.\nSaive, “SARG – Squid analysis report\ngenerator and internet bandwidth monitoring tool.” TecMint, 2014.\nAccessed: Aug. 21, 2026. [Online]. Available: https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/\n\n\n[17] Squid Project, “Squid log files.”\nSquid Cache Wiki, 2024. Accessed: Aug. 21, 2026. [Online]. Available: https://wiki.squid-cache.org/SquidFaq/SquidLogs\n\n\n[18] J.\nKlensin, “Simple mail transfer protocol,” Internet\nEngineering Task Force, Request for Comments RFC 5321, 2008. Accessed:\nAug. 21, 2026. [Online]. Available: https://www.rfc-editor.org/rfc/rfc5321\n\n\n[19] J.\nCameron, “Webmin.” Webmin Project, 2024. Accessed: Aug. 21,\n2026. [Online]. Available: https://webmin.com/",
     "crumbs": [
       "References"
     ]

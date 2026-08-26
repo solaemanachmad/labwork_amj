@@ -16,5 +16,68 @@
   },
   "references.qmd": {
     "references.html": "cf7b53cf"
+  },
+  "chapter3/ftp_ubuntu.qmd": {
+    "ftp_ubuntu.html": "cb665ecd"
+  },
+  "chapter4/ftp_windows.qmd": {
+    "ftp_windows.html": "f6d9b05d"
+  },
+  "chapter5/webserver.qmd": {
+    "webserver.html": "28e10cb0"
+  },
+  "chapter6/dnsserver.qmd": {
+    "dnsserver.html": "0b05f2f0"
+  },
+  "chapter7/sarg.qmd": {
+    "sarg.html": "c030dafc"
+  },
+  "chapter7/proxy_server.qmd": {
+    "proxy_server.html": "78414525"
+  },
+  "chapter8/sarg.qmd": {
+    "sarg.html": "caaee1ba"
+  },
+  "chapter9/mail_server.qmd": {
+    "mail_server.html": "19c8537a"
+  },
+  "chapter10/webmin.qmd": {
+    "webmin.html": "13959c92"
+  },
+  "course/syllabus.qmd": {
+    "syllabus.html": "96367179"
+  },
+  "materials/chapter1/ubuntu_server.qmd": {
+    "ubuntu_server.html": "1e47bac9"
+  },
+  "materials/chapter2/samba_server.qmd": {
+    "samba_server.html": "17c4438b"
+  },
+  "materials/chapter3/ftp_ubuntu.qmd": {
+    "ftp_ubuntu.html": "ba79244e"
+  },
+  "materials/chapter4/ftp_windows.qmd": {
+    "ftp_windows.html": "3dfdd797"
+  },
+  "materials/chapter5/webserver.qmd": {
+    "webserver.html": "8d0992e0"
+  },
+  "materials/chapter6/dnsserver.qmd": {
+    "dnsserver.html": "cdf7d5ee"
+  },
+  "materials/chapter7/proxy_server.qmd": {
+    "proxy_server.html": "09ca5ef2"
+  },
+  "materials/chapter8/sarg.qmd": {
+    "sarg.html": "28e764a4"
+  },
+  "materials/chapter9/mail_server.qmd": {
+    "mail_server.html": "bd289ca3"
+  },
+  "materials/chapter10/webmin.qmd": {
+    "webmin.html": "7c4701cf"
+  },
+  "course/team.qmd": {
+    "team.html": "192fce52"
   }
 }

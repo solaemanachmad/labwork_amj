@@ -224,8 +224,29 @@ table thead th {
 
 /* ===== Footer ===== */
 .nav-footer {
-  padding-top: 0.4rem !important;
-  padding-bottom: 0.4rem !important;
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  align-items: center !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav-footer {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 /* ===== Tombol copy pada code block — mode gelap ===== */
@@ -266,6 +287,7 @@ nav[role="doc-toc"] .nav-link,
 #quarto-margin-sidebar .nav-link {
   color: #ffffff !important;
   opacity: 1 !important;
+  transition: color 0.15s ease, box-shadow 0.15s ease;
 }
 
 nav[role="doc-toc"] a:hover,
@@ -282,8 +304,8 @@ nav[role="doc-toc"] .nav-link.active,
 #quarto-margin-sidebar a.active,
 #quarto-margin-sidebar .nav-link.active {
   color: $ugm-gold !important;
-  border-left: 2px solid $ugm-gold;
-  padding-left: 0.4em;
+  /* inset box-shadow = garis kiri tanpa mengubah layout/posisi */
+  box-shadow: inset 2px 0 0 $ugm-gold;
 }
 
 /* ===== Code block tanpa bahasa (plain ```) — pastikan teks terlihat di dark mode ===== */
@@ -317,4 +339,59 @@ div.sourceCode {
 #lang-toggle button.active {
   background-color: $ugm-gold-600 !important;
   color: $ugm-navy-bg !important;
+}
+
+/* ===== gt tables — dark mode ===== */
+/* Body cell color & background dihandle oleh gt-dark.html
+   (include-after-body) agar posisinya setelah inline <style> gt.
+   Di sini hanya header & border yang bisa di-override dari luar. */
+
+div.gt_container {
+  --gt-body-bg-color:          #{$ugm-navy-panel};
+  --gt-table-bg-color:         #{$ugm-navy-panel};
+  --gt-table-font-color:       #{$body-color};
+  --gt-table-font-color-light: #{$body-color};
+  --gt-column-labels-bg:       #{$ugm-navy-bg};
+  --gt-column-labels-color:    #{$ugm-gold};
+  --gt-body-border-top:        2px solid #{$ugm-gold-600};
+  --gt-body-border-bottom:     1px solid #{$ugm-gold-600};
+  --gt-border-color:           #{$light};
+  color: $body-color;
+}
+
+[data-bs-theme="dark"] div.gt_container table.gt_table,
+.quarto-dark div.gt_container table.gt_table {
+  background-color: $ugm-navy-panel !important;
+  border-top:    2px solid $ugm-gold-600 !important;
+  border-bottom: 1px solid $ugm-gold-600 !important;
+}
+
+[data-bs-theme="dark"] div.gt_container .gt_col_heading,
+[data-bs-theme="dark"] div.gt_container .gt_column_spanner_outer,
+[data-bs-theme="dark"] div.gt_container .gt_column_spanner,
+.quarto-dark div.gt_container .gt_col_heading,
+.quarto-dark div.gt_container .gt_column_spanner_outer,
+.quarto-dark div.gt_container .gt_column_spanner {
+  background-color: $ugm-navy-bg !important;
+  color:            $ugm-gold !important;
+  border-color:     $light !important;
+}
+
+[data-bs-theme="dark"] div.gt_container .gt_col_heading_row,
+[data-bs-theme="dark"] div.gt_container .gt_col_headings,
+.quarto-dark div.gt_container .gt_col_heading_row,
+.quarto-dark div.gt_container .gt_col_headings {
+  border-top-color:    $ugm-gold-600 !important;
+  border-bottom-color: $light !important;
+}
+
+/* ===== Download / Print button — dark mode ===== */
+.btn-outline-secondary {
+  color:        $ugm-gold !important;
+  border-color: $ugm-gold-600 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: $ugm-gold-100 !important;
+  color:            $ugm-gold !important;
 }

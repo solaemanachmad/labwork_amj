@@ -1,0 +1,189 @@
+# Proxy Server
+
+## Practical Objectives
+
+a.  Students are able to install a Proxy Server.
+b.  Students are able to configure Squid Proxy Server, set the proxy on the client side, and block specific sites or URLs through the Proxy Server.
+
+## Theoretical Background {#sec-theory-proxy}
+
+A proxy server acts as an intermediary between a user and the internet [@canonical_squid]. When a user wants to access a website or online service, the request is first sent to the proxy server, which forwards it to the destination. The response then travels back through the proxy before reaching the user.
+
+This intermediary role provides several practical benefits:
+
+**Faster internet access** — By caching frequently requested content locally, a proxy server reduces the time needed to retrieve it from the internet on subsequent requests.
+
+**Improved security** — A proxy can filter traffic to block malicious content and network attacks. Some proxies also provide encryption to protect user privacy.
+
+**Bandwidth savings** — Caching popular content reduces repeated transfers over the network, lowering bandwidth consumption and internet costs.
+
+**Access control** — A proxy server can restrict or block access to specific websites. Conversely, it can also be used to reach sites that are otherwise inaccessible from the local network.
+
+::: {.callout-note title="About Squid" icon="false"}
+**Squid** is a widely used open-source proxy and caching server for Linux. It supports HTTP, HTTPS, and FTP, and is configurable through a single file: `/etc/squid/squid.conf` [@squid_cache].
+:::
+
+## Squid Workflow {#sec-steps-proxy}
+
+::: panel-tabset
+## 1. Installation
+
+**Step 1 — Update the package list**
+
+``` bash
+apt-get update
+```
+
+**Step 2 — Install Squid**
+
+``` bash
+apt-get install squid  # <1>
+```
+
+1.  Squid is available in the Ubuntu package repository; no additional source is needed.
+
+**Step 3 — Verify the installation**
+
+``` bash
+systemctl status squid  # <1>
+```
+
+1.  The output should show **`active (running)`** to confirm a successful installation.
+
+**Step 4 — Allow Squid through the firewall**
+
+``` bash
+ufw allow squid  # <1>
+```
+
+1.  Opens port **3128** (Squid's default port) in the firewall so clients can connect.
+
+## 2. Configuration
+
+**Step 1 — Navigate to the Squid directory**
+
+``` bash
+cd /etc/squid
+ls
+```
+
+**Step 2 — Back up the default configuration**
+
+``` bash
+cp squid.conf squid.conf.backup  # <1>
+```
+
+1.  Always back up before editing so you can restore the original if needed.
+
+**Step 3 — Open the configuration file and note the port**
+
+``` bash
+nano squid.conf --linenumbers  # <1>
+```
+
+1.  The `--linenumbers` flag displays line numbers, making it easier to navigate the file. Use <kbd>Ctrl</kbd>+<kbd>W</kbd> to search. Find the `http_port` line (around line 2179 if unchanged) and note the port number — it is typically **3128**.
+
+**Step 4 — Allow all traffic**
+
+Still in `squid.conf`, search for the comment `your own rule`. Find the line:
+
+``` squid
+http_access deny all
+```
+
+Change it to:
+
+``` squid
+http_access allow all
+```
+
+Save and exit with <kbd>Ctrl</kbd>+<kbd>X</kbd>, then <kbd>Y</kbd>, then <kbd>Enter</kbd>.
+
+**Step 5 — Restart Squid**
+
+``` bash
+service squid restart
+```
+:::
+
+## Exercise {#sec-exercise-proxy}
+
+:::: panel-tabset
+## 1. Client Proxy Setup
+
+Configure the Windows client machine to route its traffic through the Squid proxy.
+
+**Step 1 — Open proxy settings**
+
+On the client machine, open a browser (e.g. Google Chrome) and navigate to the system proxy settings.
+
+::: {.callout-note title="Opening proxy settings on Windows" icon="false"}
+**Windows 11:** **Settings** → **Network & internet** → **Proxy** → under *Manual proxy setup*, click **Edit** next to *Use a proxy server*.
+:::
+
+**Step 2 — Enable the proxy**
+
+In the **Edit proxy server** window:
+
+-   Toggle **Use a proxy server** to **On**.
+-   Enter the **Address**: the Ubuntu Server's IP address (e.g. `192.168.56.103`).
+-   Enter the **Port**: the port number noted in Configuration Step 3 (typically `3128`).
+-   Click **Save**.
+
+**Step 3 — Test the connection**
+
+Open a browser on the client and navigate to a website, for example `youtube.com`. The page should load normally, confirming that traffic is being routed through the proxy.
+
+## 2. Blocking Sites
+
+Block specific domains by creating an access control list (ACL) file that Squid reads.
+
+**Step 1 — Open `squid.conf`**
+
+``` bash
+nano /etc/squid/squid.conf
+```
+
+**Step 2 — Add the ACL rules**
+
+Search for the `your own rule` comment. Directly below the line:
+
+``` squid
+include /etc/squid/conf.d/*
+```
+
+Add the following two lines:
+
+``` squid
+acl bad_url dstdomain "/etc/squid/bad_url.acl"
+http_access deny bad_url
+```
+
+Save and exit.
+
+**Step 3 — Create the blocklist file**
+
+``` bash
+nano /etc/squid/bad_url.acl  # <1>
+```
+
+1.  Each line in this file is a domain pattern that Squid will block. A leading dot (`.`) matches the domain and all its subdomains.
+
+Add the domains to block, one per line:
+
+``` text
+.yahoo.com
+.youtube.com
+.facebook.com
+```
+
+Save and exit.
+
+**Step 4 — Restart Squid and test**
+
+``` bash
+service squid restart
+```
+
+From the client browser, try to access one of the blocked domains. The browser should display a connection error or Squid's access denied page, confirming the block is active.
+::::

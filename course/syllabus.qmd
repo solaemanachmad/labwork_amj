@@ -1,0 +1,114 @@
+---
+number-sections: false
+---
+
+[**Click here**](/documents/sta210-s22-syllabus.pdf "PDF of syllabus") **to download a PDF copy of the syllabus.**
+
+# Syllabus {.unnumbered}
+## Course info
+
+|           | Class     | Day           | Time              | Location        |
+|-----------|-----------|---------------|-------------------|-----------------|
+| Lectures  | RI5B1     | Tuesday       |12:15 pm - 3:55 pm | Lab HS104       |
+| Lectures  | RI5B2     | Wednesday     |12:15 pm - 3:55 pm | Lab HS104       |
+
+
+## Learning objectives
+
+By the end of the semester, you will be able to...
+
+- install and configure an Operating System (Ubuntu Server).
+- install and configure web-related server services such as DNS Server and Web Server.
+- integrate the installation of network service technologies within a simple to medium network topology.
+- install and configure email-related server services such as Mail Server and Mail Client.
+- install and demonstrate Webmin features for network administration and management needs.
+
+## Textbooks
+
+
+## Lectures and labs
+
+
+## Teams
+
+
+## Assessment
+
+Assessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.
+
+### Application exercises
+
+### Labs
+
+
+### Homework
+
+
+### Exams
+
+
+### Project
+
+
+## Grading
+
+## Course policies
+
+:::: panel-tabset
+### Academic integrity
+
+**TL;DR: Don't cheat!**
+
+All students must adhere to the Universitas Gadjah Mada (UGM) Code of Ethics. As a student of the Internet Engineering Technology (Teknologi Rekayasa Internet) program, you commit to upholding a culture of honesty, fairness, and accountability by pledging:
+
+-   I will not lie, cheat, plagiarize, or steal in my academic endeavors.
+
+-   I will conduct myself honorably.
+
+-   I will act if this standard is compromised.
+
+Your Responsibilities Regardless of the class format, you must follow all UGM academic policies. This means:
+
+-   Submitting your own original work (including programming code).
+
+-   Properly citing all sources.
+
+-   Strictly following guidelines for group projects.
+
+Ignoring these requirements is a serious violation. If you have any questions about these policies, please contact your Academic Advisor (DPA) or the Head of the Internet Engineering Technology Program (Sekolah Vokasi UGM).
+
+::: callout-important
+TipSen is a form of academic dishonesty. Students who submit TP will receive a zero for the assignment and may face further disciplinary action.
+:::
+
+### Late work policy
+
+The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.
+
+-   There is no late **weekly report** accepted for application exercises, since these are designed to help you prepare for labs and homework.
+
+-   The late work policy for exams will be provided with the exam instructions.
+
+-   The late work policy for the project will be provided with the project instructions.
+
+### Attendance policy
+
+Maximum attendance is 75% of the total number of classes. Students who do not meet this requirement will receive a failing grade for the course.
+::::
+
+## Important dates
+
+-   18 August - 2 October 2026: Lecture 1
+-   5 October - 16 October 2026: Mid Exam
+-   19 October - 4 December 2026: Lecture 2
+-   7 December - 18 December 2026: Final Exam
+
+## Five tips for success
+
+Your success on this course depends very much on you and the effort you put into it. The course has been organized so that the burden of learning is on you. Your LAs and I will help you be providing you with materials and answering questions and setting a pace, but for this to work you must do the following:
+
+1.  Complete all the preparation work before class.
+2.  Ask questions. As often as you can. In class, out of class. Ask me, ask the LAs, ask your friends, ask the person sitting next to you. This will help you more than anything else. If you get a question wrong on an assessment, ask us why. If you're not sure about the homework, ask. If you hear something on the news that sounds related to what we discussed, ask. If the reading is confusing, ask.
+3.  Do the readings.
+4.  Do the homework and lab. The earlier you start, the better. It's not enough to just mechanically plow through the exercises. You should ask yourself how these exercises relate to earlier material, and imagine how they might be changed (to make questions for an exam, for example.)
+5.  Don't procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won't know where to begin asking questions. Don't let the week end with unanswered questions. But if you find yourself falling behind and not knowing where to begin asking, come to office hours, and let me help you identify a good (re)starting point.
