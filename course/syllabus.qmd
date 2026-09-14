@@ -2,8 +2,6 @@
 number-sections: false
 ---
 
-[**Click here**](/documents/sta210-s22-syllabus.pdf "PDF of syllabus") **to download a PDF copy of the syllabus.**
-
 # Syllabus {.unnumbered}
 ## Course info
 
@@ -23,39 +21,56 @@ By the end of the semester, you will be able to...
 - install and configure email-related server services such as Mail Server and Mail Client.
 - install and demonstrate Webmin features for network administration and management needs.
 
-## Textbooks
-
 
 ## Lectures and labs
 
+### Lab Units
 
-## Teams
+1. Instalasi Ubuntu Server
+2. Samba Server
+3. FTP Server Ubuntu
+4. FTP Server Windows
+5. Web Server
+6. DNS Server
+7. Proxy Server
+8. SARG
+9. Mail Server
+10. Webmin
 
 
 ## Assessment
 
 Assessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.
 
-### Application exercises
-
 ### Labs
 
+Each lab unit requires a **Lab Report** submitted according to the rubric outlined in the [Grading](#grading) section below.
 
-### Homework
+## Grading {#grading}
 
+### Grading Criteria
 
-### Exams
+| Grade Component | Percentage |
+|------------------|:----------:|
+| Lab Reports      | 40%        |
+| Participation    | 10%        |
+| Midterm Exam     | 20%        |
+| Project          | 30%        |
 
+### Lab Report Grading Rubric
 
-### Project
-
-
-## Grading
+| No | Category | Max Score | Criteria |
+|----|----------|:---------:|----------|
+| 1 | Experiment Results | 40 | Completeness and appropriateness of screenshots for each stage. |
+| 2 | Discussion | 40 | Depth of discussion on the lab results. Explain the purpose or effect of each configuration. Explain any findings (problems and solutions) during the lab execution. If there are no specific findings, note important factors that require attention for the lab unit to be successful. |
+| 3 | Conclusion | 10 | Aligns with the lab objectives and is informative. |
+| 4 | Formatting | 10 | Neatness of the report, including font usage, indentation, paragraph alignment, and image clarity. |
+| **-** | **Total Score** | **100** | |
 
 ## Course policies
 
 :::: panel-tabset
-### Academic integrity
+### 1) Academic integrity
 
 **TL;DR: Don't cheat!**
 
@@ -81,7 +96,7 @@ Ignoring these requirements is a serious violation. If you have any questions ab
 TipSen is a form of academic dishonesty. Students who submit TP will receive a zero for the assignment and may face further disciplinary action.
 :::
 
-### Late work policy
+### 2) Late work policy
 
 The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.
 
@@ -91,7 +106,14 @@ The due dates for assignments are there to help you keep up with the course mate
 
 -   The late work policy for the project will be provided with the project instructions.
 
-### Attendance policy
+**Lab Report Submission — Late Penalty**
+
+| Lateness | Penalty |
+|----------|:-------:|
+| 1 hour – 1 day late | -10 points |
+| 1 day – 1 week late | -20 points |
+
+### 3) Attendance policy
 
 Maximum attendance is 75% of the total number of classes. Students who do not meet this requirement will receive a failing grade for the course.
 ::::

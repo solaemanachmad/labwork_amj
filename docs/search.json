@@ -15,7 +15,7 @@
     "href": "course/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course info\nClick here to download a PDF copy of the syllabus.",
+    "text": "Course info",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -59,7 +59,7 @@
     "href": "course/syllabus.html#lectures-and-labs",
     "title": "Syllabus",
     "section": "Lectures and labs",
-    "text": "Lectures and labs",
+    "text": "Lectures and labs\n\nLab Units\n\nInstalasi Ubuntu Server\nSamba Server\nFTP Server Ubuntu\nFTP Server Windows\nWeb Server\nDNS Server\nProxy Server\nSARG\nMail Server\nWebmin",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -81,7 +81,7 @@
     "href": "course/syllabus.html#assessment",
     "title": "Syllabus",
     "section": "Assessment",
-    "text": "Assessment\nAssessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.\n\nApplication exercises\n\n\nLabs\n\n\nHomework\n\n\nExams\n\n\nProject",
+    "text": "Assessment\nAssessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.\n\nLabs\nEach lab unit requires a Lab Report submitted according to the rubric outlined in the Grading section below.",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -92,7 +92,7 @@
     "href": "course/syllabus.html#grading",
     "title": "Syllabus",
     "section": "Grading",
-    "text": "Grading",
+    "text": "Grading\n\nGrading Criteria\n\n\n\nGrade Component\nPercentage\n\n\n\n\nLab Reports\n40%\n\n\nParticipation\n10%\n\n\nMidterm Exam\n20%\n\n\nProject\n30%\n\n\n\n\n\nLab Report Grading Rubric\n\n\n\n\n\n\n\n\n\nNo\nCategory\nMax Score\nCriteria\n\n\n\n\n1\nExperiment Results\n40\nCompleteness and appropriateness of screenshots for each stage.\n\n\n2\nDiscussion\n40\nDepth of discussion on the lab results. Explain the purpose or effect of each configuration. Explain any findings (problems and solutions) during the lab execution. If there are no specific findings, note important factors that require attention for the lab unit to be successful.\n\n\n3\nConclusion\n10\nAligns with the lab objectives and is informative.\n\n\n4\nFormatting\n10\nNeatness of the report, including font usage, indentation, paragraph alignment, and image clarity.\n\n\n-\nTotal Score\n100",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -103,7 +103,7 @@
     "href": "course/syllabus.html#course-policies",
     "title": "Syllabus",
     "section": "Course policies",
-    "text": "Course policies\n\nAcademic integrityLate work policyAttendance policy\n\n\nTL;DR: Don’t cheat!\nAll students must adhere to the Universitas Gadjah Mada (UGM) Code of Ethics. As a student of the Internet Engineering Technology (Teknologi Rekayasa Internet) program, you commit to upholding a culture of honesty, fairness, and accountability by pledging:\n\nI will not lie, cheat, plagiarize, or steal in my academic endeavors.\nI will conduct myself honorably.\nI will act if this standard is compromised.\n\nYour Responsibilities Regardless of the class format, you must follow all UGM academic policies. This means:\n\nSubmitting your own original work (including programming code).\nProperly citing all sources.\nStrictly following guidelines for group projects.\n\nIgnoring these requirements is a serious violation. If you have any questions about these policies, please contact your Academic Advisor (DPA) or the Head of the Internet Engineering Technology Program (Sekolah Vokasi UGM).\n\n\n\n\n\n\nImportant\n\n\n\nTipSen is a form of academic dishonesty. Students who submit TP will receive a zero for the assignment and may face further disciplinary action.\n\n\n\n\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.\n\nThere is no late weekly report accepted for application exercises, since these are designed to help you prepare for labs and homework.\nThe late work policy for exams will be provided with the exam instructions.\nThe late work policy for the project will be provided with the project instructions.\n\n\n\nMaximum attendance is 75% of the total number of classes. Students who do not meet this requirement will receive a failing grade for the course.",
+    "text": "Course policies\n\n1) Academic integrity2) Late work policy3) Attendance policy\n\n\nTL;DR: Don’t cheat!\nAll students must adhere to the Universitas Gadjah Mada (UGM) Code of Ethics. As a student of the Internet Engineering Technology (Teknologi Rekayasa Internet) program, you commit to upholding a culture of honesty, fairness, and accountability by pledging:\n\nI will not lie, cheat, plagiarize, or steal in my academic endeavors.\nI will conduct myself honorably.\nI will act if this standard is compromised.\n\nYour Responsibilities Regardless of the class format, you must follow all UGM academic policies. This means:\n\nSubmitting your own original work (including programming code).\nProperly citing all sources.\nStrictly following guidelines for group projects.\n\nIgnoring these requirements is a serious violation. If you have any questions about these policies, please contact your Academic Advisor (DPA) or the Head of the Internet Engineering Technology Program (Sekolah Vokasi UGM).\n\n\n\n\n\n\nImportant\n\n\n\nTipSen is a form of academic dishonesty. Students who submit TP will receive a zero for the assignment and may face further disciplinary action.\n\n\n\n\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.\n\nThere is no late weekly report accepted for application exercises, since these are designed to help you prepare for labs and homework.\nThe late work policy for exams will be provided with the exam instructions.\nThe late work policy for the project will be provided with the project instructions.\n\nLab Report Submission — Late Penalty\n\n\n\nLateness\nPenalty\n\n\n\n\n1 hour – 1 day late\n-10 points\n\n\n1 day – 1 week late\n-20 points\n\n\n\n\n\nMaximum attendance is 75% of the total number of classes. Students who do not meet this requirement will receive a failing grade for the course.",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -136,7 +136,7 @@
     "href": "course/team.html",
     "title": "Team",
     "section": "",
-    "text": "Lecturers\nDr. Ir. Sahirul Alam, S.T., M.Eng. (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada (UGM) in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics (Departemen Teknik Elektro dan Informatika - DTEDI) within the Vocational College (Sekolah Vokasi) at UGM. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor (Sarjana Terapan) in Internet Engineering Technology (Teknologi Rekayasa Internet) study program.\nDr. Alam’s research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems (including Femtocell networks), RADAR signal processing, optimization methodologies, and the Internet of Things (IoT)..\nAchmad Solaeman, S.Tr.T., M.Eng. (he/his) is an academic and lecturer in the Internet Engineering Technology program at the Vocational College, UGM. His expertise lies in Distributed Artificial Intelligence and Network Security, with active research in deep learning applications. He is dedicated to driving technological innovation and shaping future professionals in the networking and AI domains.",
+    "text": "Lecturers\nDr. Ir. Sahirul Alam, S.T., M.Eng. (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics within the Vocational College. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor in Internet Engineering Technology study program.\nDr. Alam’s research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems, RADAR signal processing, optimization methodologies, and Internet of Things (IoT).\nAchmad Solaeman, S.Tr.T., M.Eng. (he/his) is an academic and lecturer in the Internet Engineering Technology program at the Vocational College, UGM. His expertise lies in Distributed Artificial Intelligence and Network Security, with active research in deep learning applications. He is dedicated to driving technological innovation and shaping future professionals in the networking and AI domains.",
     "crumbs": [
       "Course Information",
       "Team"
@@ -147,7 +147,7 @@
     "href": "course/team.html#lab-assistants",
     "title": "Team",
     "section": "Lab assistants",
-    "text": "Lab assistants\n\n\n\n\n\n\n\n\n\n\nClass\n\nNIU\nName\nEmail",
+    "text": "Lab assistants\n\n\n\n\n\n\n\n\n\n\nClass\n\nNIU\nName\nEmail\n\n\n\n\nRI5B1\n\nXXXXXX\nRich\nas@mail.ugm.ac.id\n\n\n\nXXXXXX\nRich\nasd@mail.ugm.ac.id\n\n\nRI5B2\n\n535867\nAsisten1\nas@mail.ugm.ac.id\n\n\n\n539428\nAs\nasisten2@mail.ugm.ac.id\n\n\nRI5A1\n\n5\nAssistant Name 5\nassistant5@mail.ugm.ac.id\n\n\n\n6\nAssistant Name 6\nassistant6@mail.ugm.ac.id\n\n\nRI5A2\n\n556548\nMina\nasdw@mail.ugm.ac.id\n\n\n\n555596\nAditya\nasdw@mail.ugm.ac.id",
     "crumbs": [
       "Course Information",
       "Team"

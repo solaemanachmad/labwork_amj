@@ -79,5 +79,8 @@
   },
   "course/team.qmd": {
     "team.html": "192fce52"
+  },
+  "projects/final/one.qmd": {
+    "one.html": "f3960c8f"
   }
 }

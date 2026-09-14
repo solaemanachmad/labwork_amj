@@ -65,6 +65,9 @@ book:
       - materials/chapter8/sarg.qmd
       - materials/chapter9/mail_server.qmd
       - materials/chapter10/webmin.qmd
+    - part: "Projects"
+      chapters:
+      - projects/final/one.qmd
     - references.qmd
 
       # chapters:

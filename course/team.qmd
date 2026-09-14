@@ -13,9 +13,9 @@ prefer-html: true
 :::
 ::::
 
-[**Dr. Ir. Sahirul Alam, S.T., M.Eng.**](https://acadstaff.ugm.ac.id/sahirulalam) (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada (UGM) in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics (Departemen Teknik Elektro dan Informatika - DTEDI) within the Vocational College (Sekolah Vokasi) at UGM. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor (Sarjana Terapan) in Internet Engineering Technology (Teknologi Rekayasa Internet) study program.
+[**Dr. Ir. Sahirul Alam, S.T., M.Eng.**](https://acadstaff.ugm.ac.id/sahirulalam) (he/his) is an Indonesian academic, researcher, and lecturer at Universitas Gadjah Mada in Yogyakarta, Indonesia. He currently serves as a faculty member in the Department of Electrical Engineering and Informatics within the Vocational College. In addition to his teaching duties, he holds the management position of Secretary for the Applied Bachelor in Internet Engineering Technology study program.
 
-Dr. Alam's research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems (including Femtocell networks), RADAR signal processing, optimization methodologies, and the Internet of Things (IoT)..
+Dr. Alam's research interests lie at the intersection of advanced telecommunications, network optimization, and computational engineering. His academic work primarily focuses on wireless communication systems, RADAR signal processing, optimization methodologies, and Internet of Things (IoT).
 
 ------------------------------------------------------------------------
 
