@@ -44,33 +44,11 @@
     ]
   },
   {
-    "objectID": "course/syllabus.html#textbooks",
-    "href": "course/syllabus.html#textbooks",
-    "title": "Syllabus",
-    "section": "Textbooks",
-    "text": "Textbooks",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
     "objectID": "course/syllabus.html#lectures-and-labs",
     "href": "course/syllabus.html#lectures-and-labs",
     "title": "Syllabus",
     "section": "Lectures and labs",
     "text": "Lectures and labs\n\nLab Units\n\nInstalasi Ubuntu Server\nSamba Server\nFTP Server Ubuntu\nFTP Server Windows\nWeb Server\nDNS Server\nProxy Server\nSARG\nMail Server\nWebmin",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course/syllabus.html#teams",
-    "href": "course/syllabus.html#teams",
-    "title": "Syllabus",
-    "section": "Teams",
-    "text": "Teams",
     "crumbs": [
       "Course Information",
       "Syllabus"
